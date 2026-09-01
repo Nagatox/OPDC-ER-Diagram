@@ -1,0 +1,219 @@
+Table "b9936dce-5698-4ca7-b5cc-b5c33fb994c0" {
+  Note: 'กฎกระทรวงแบ่งส่วนราชการ'
+  "ชื่อกระทรวง" text 
+  "ชื่อกรม" text 
+  "รหัสกรม" text 
+  "กลุ่มภารกิจ" text 
+  "รหัสหน่วยงาน" text 
+  "คำนำหน้าหน่วยงาน" text 
+  "ชื่อหน่วยงาน" text 
+  "กฎกระทรวง" text 
+  "หมายเหตุ" text 
+  "วันที่ (dd/mm/yyyy)" timestamp  
+  "กฎกระทรวงฯ ปี" text 
+  "ลำดับ" text 
+  "ภารกิจ ภาพรวม" text 
+  "P" numeric 
+  "R" numeric 
+  "F" numeric 
+  "O" numeric 
+  "etc" numeric 
+ }
+
+Table "e3fb093b-1fbf-4f77-9439-6d54abd86f92" {
+  Note: 'รายงานผลการศึกษาการถ่ายโอนงานในต่างประเทศ'
+  "งาน" text 
+  "ประเทศ" text 
+  "ปัจจัยผลักดัน" text 
+  "รูปแบบก่อนพัฒนา (As Is)" text 
+  "แนวคิดการถ่ายโอน" text 
+  "รูปแบบหลังถ่ายโอน (To Be)" text 
+  "ผลลัพธ์" text 
+  "ปัจจัยความสำเร็จ" text 
+  "ปัญหาอุปสรรค" text 
+  "หมายเหตุ" text 
+ }
+
+Table "18c9884f-fa96-4b91-87af-0487b5bb60cc" {
+  Note: 'ข้อมูลทั่วไป'
+  "ชื่อกระทรวง" text 
+  "ชื่อกรม" text 
+  "รหัส" text 
+  "พรบ/พรฎ 0" text 
+  "พรบ/พรฎ 1" text 
+  "พรบ/พรฎ 2" text 
+  "พรบ/พรฎ 3" text 
+  "พรบ/พรฎ 4" text 
+  "พรบ/พรฎ 5" text 
+  "พรบ/พรฎ 6" text 
+  "พรบ/พรฎ 7" text 
+  "พรบ/พรฎ 8" text 
+  "พรบ/พรฎ 9" text 
+  "พรบ/พรฎ 10" text 
+  "พรบ/พรฎ 11" text 
+  "พรบ/พรฎ 12" text 
+  "พรบ/พรฎ 13" text 
+  "พรบ/พรฎ 14" text 
+  "พรบ/พรฎ 15" text 
+  "พรบ/พรฎ 16" text 
+  "พรบ/พรฎ 17" text 
+  "พรบ/พรฎ 18" text 
+  "พรบ/พรฎ 19" text 
+  "พรบ/พรฎ 20" text 
+  "พรบ/พรฎ 21" text 
+  "พรบ/พรฎ 22" text 
+  "พรบ/พรฎ 23" text 
+  "พรบ/พรฎ 24" text 
+  "พรบ/พรฎ 25" text 
+  "พรบ/พรฎ 26" text 
+  "Policy" text 
+  "Regulator" text 
+  "Operate" text 
+  "Facilitator" text 
+  "วิสัยทัศน์" text 
+  "พันธกิจ 1" text 
+  "พันธกิจ 2" text 
+  "พันธกิจ 3" text 
+  "พันธกิจ 4" text 
+  "พันธกิจ 5" text 
+  "พันธกิจ 6" text 
+  "พันธกิจ 7" text 
+  "พันธกิจ 8" text 
+  "พันธกิจ 9" text 
+  "พันธกิจ 10" text 
+  "ยุทธศาสตร์ 1" text 
+  "ยุทธศาสตร์ 2" text 
+  "ยุทธศาสตร์ 3" text 
+  "ยุทธศาสตร์ 4" text 
+  "ยุทธศาสตร์ 5" text 
+  "ยุทธศาสตร์ 6" text 
+  "ปีงบประมาณ" text 
+  "หน้าที่และอำนาจ 1" text 
+  "หน้าที่และอำนาจ 2" text 
+  "หน้าที่และอำนาจ 3" text 
+  "หน้าที่และอำนาจ 4" text 
+  "หน้าที่และอำนาจ 5" text 
+  "หน้าที่และอำนาจ 6" text 
+  "หน้าที่และอำนาจ 7" text 
+  "หน้าที่และอำนาจ 8" text 
+  "หน้าที่และอำนาจ 9" text 
+  "หน้าที่และอำนาจ 10" text 
+  "หน้าที่และอำนาจ 11" text 
+  "หน้าที่และอำนาจ 12" text 
+  "หน้าที่และอำนาจ 13" text 
+  "หน้าที่และอำนาจ 14" text 
+  "Policy %" numeric 
+  "Regulator %" numeric 
+  "Facilitator %" numeric 
+  "Operator %" numeric 
+  "งบบุคลากร" numeric 
+  "งบดำเนินงาน" text 
+  "งบลงทุน" text 
+  "งบอุดหนุน" text 
+  "งบรายจ่ายอื่น" text 
+  "SUM" text 
+  "เลขที่" text 
+  "อาคาร" text 
+  "ชั้น" text 
+  "ถนน" text 
+  "แขวง/ตำบล" text 
+  "เขต/อำเภอ" text 
+  "จังหวัด" text 
+  "รหัสไปรษณีย์" numeric 
+  "โทร" text 
+  "www" text 
+ }
+
+Table "cd552b1d-0387-4c11-b105-c6d0d24832a5" {
+  Note: 'ที่อยู่และช่องทางติดต่อของส่วนราชการ'
+  "m_name" text 
+  "d_name" text 
+  "d_address_no" text 
+  "d_address_building" text 
+  "d_address_floor" text 
+  "d_address_road" text 
+  "d_address_subdistrict" text 
+  "d_address_district" text 
+  "d_address_province" text 
+  "d_address_postcode" text 
+  "d_address_contact_phone" text 
+  "d_address_contact_website" text 
+  "d_address_contact_email" text 
+ }
+
+Table "ae464e5b-4d30-483d-b408-a0035a1f7022" {
+  Note: 'ที่อยู่และช่องทางติดต่อของส่วนราชการ'
+  "m_name" text 
+  "d_name" text 
+  "d_address_no" text 
+  "d_address_building" text 
+  "d_address_floor" text 
+  "d_address_road" text 
+  "d_address_subdistrict" text 
+  "d_address_district" text 
+  "d_address_province" text 
+  "d_address_postcode" text 
+  "d_address_contact_phone" text 
+  "d_address_contact_website" text 
+  "d_address_contact_email" text 
+ }
+
+Table "7129835a-4b09-4a4b-9f94-fd44596cbe74" {
+  Note: 'วิสัยทัศน์ และพันธกิจของส่วนราชการ'
+  "m_name" text 
+  "d_name" text 
+  "d_type_order" text 
+  "detail" text 
+ }
+
+Table "cfadf6b7-5526-4dd4-9f33-f44babaf1e67" {
+  Note: 'หน้าที่และอำนาจของส่วนราชการ'
+  "m_name" text 
+  "d_name" text 
+  "p_mission_group" text 
+  "p_name" text 
+  "mr_date" timestamp  
+  "mr_year" numeric 
+  "p_mission_order" text 
+  "p_mission_detail" text 
+ }
+
+Table "e632015b-0bae-4641-a01b-a135d9946c98" {
+  Note: 'หน้าที่และอำนาจของส่วนราชการ'
+  "m_name" text 
+  "d_name" text 
+  "p_mission_group" text 
+  "p_name" text 
+  "mr_date" timestamp  
+  "mr_year" numeric 
+  "p_mission_order" text 
+  "p_mission_detail" text 
+ }
+
+Ref: "b9936dce-5698-4ca7-b5cc-b5c33fb994c0"."หมายเหตุ" > "e3fb093b-1fbf-4f77-9439-6d54abd86f92"."หมายเหตุ"  
+
+Ref: "e3fb093b-1fbf-4f77-9439-6d54abd86f92"."หมายเหตุ" > "b9936dce-5698-4ca7-b5cc-b5c33fb994c0"."รหัสกรม" 
+Ref: "e3fb093b-1fbf-4f77-9439-6d54abd86f92"."หมายเหตุ" > "b9936dce-5698-4ca7-b5cc-b5c33fb994c0"."รหัสหน่วยงาน"  
+
+Ref: "18c9884f-fa96-4b91-87af-0487b5bb60cc"."ชื่อกระทรวง" > "b9936dce-5698-4ca7-b5cc-b5c33fb994c0"."ชื่อกระทรวง" 
+Ref: "18c9884f-fa96-4b91-87af-0487b5bb60cc"."ชื่อกรม" > "b9936dce-5698-4ca7-b5cc-b5c33fb994c0"."ชื่อกรม" 
+Ref: "18c9884f-fa96-4b91-87af-0487b5bb60cc"."รหัส" > "b9936dce-5698-4ca7-b5cc-b5c33fb994c0"."รหัสกรม" 
+Ref: "18c9884f-fa96-4b91-87af-0487b5bb60cc"."รหัส" > "b9936dce-5698-4ca7-b5cc-b5c33fb994c0"."รหัสหน่วยงาน"  
+
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."m_name" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."m_name" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_name" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_name" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_building" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_building" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_road" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_road" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_subdistrict" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_subdistrict" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_district" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_district" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_province" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_province" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_postcode" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_postcode" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_contact_website" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_contact_website" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_address_contact_email" > "ae464e5b-4d30-483d-b408-a0035a1f7022"."d_address_contact_email" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_name" > "7129835a-4b09-4a4b-9f94-fd44596cbe74"."d_name" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_name" > "cfadf6b7-5526-4dd4-9f33-f44babaf1e67"."d_name" 
+Ref: "cd552b1d-0387-4c11-b105-c6d0d24832a5"."d_name" > "e632015b-0bae-4641-a01b-a135d9946c98"."d_name"  
+
+Ref: "cfadf6b7-5526-4dd4-9f33-f44babaf1e67"."p_mission_group" > "e632015b-0bae-4641-a01b-a135d9946c98"."p_mission_group" 
+Ref: "cfadf6b7-5526-4dd4-9f33-f44babaf1e67"."mr_year" > "e632015b-0bae-4641-a01b-a135d9946c98"."mr_year"  
+

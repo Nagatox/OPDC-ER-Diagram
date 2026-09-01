@@ -1,0 +1,213 @@
+// กลุ่มพัฒนาระบบข้อมูลการบริหารจัดการภาครัฐ
+// gence-lab 
+// 13 ชุดข้อมูล
+
+Table "ผลการประเมินรายตัวชี้วัดของส่วนราชการและจังหวัด" {
+  Note: "073e1aa8-0f1a-4187-9ea3-cf0041fbdee3"
+
+  cycle_name	text		
+  id_ministry	numeric		
+  name_ministry	text		
+  id_department	numeric		
+  name_department	text		
+  kpi_no	text (override)		
+  name	text		
+  weight_x	numeric		
+  preview_score	numeric		
+  preview_score_weighted	numeric 
+}
+
+Table "ผลสำรวจงานบริการภาครัฐที่เป็นอิเล็กทรอนิกส์ (e-Service)" {
+  Note: "a61be931-2628-4c9f-9ffd-70f0d77acde8"
+
+  "ชื่อกระทรวง"	text		
+  "ชื่อหน่วยงาน"	text		
+  "ประเภทหน่วยงาน"	text		
+  "ชื่อระบบที่ให้บริการ"	text		
+  "URL เข้าถึงระบบ"	text		
+  "ชื่องานบริการรายกรณี"	text		
+  "ต้องใช้ ThaID ในระบบ"	numeric		
+  "ต้องใช้ DBD ในระบบ"	numeric  
+}
+
+Table "ข้อมูลสำหรับเชื่อมโยงผลการประเมินองค์การมหาชน (PO Portal)" {
+  Note: "213b7424-dd8f-47a9-8e37-726048b5b632"
+
+  "cycle_name" text
+  "year" numeric
+  "id_ministry" numeric
+  "name_ministry" text
+  "org_id" numeric
+  "name_department" text
+  "name_composition" text
+  "kpi_id" numeric
+  "number" text
+  "name" text
+  "weight_x" numeric
+  "preview_score" numeric
+  "preview_score_weighted" numeric	 
+}
+
+Table "บัญชีเรื่องเสนอเข้า ครม. ของสำนักงาน ก.พ.ร." {
+  Note: "a2ad72dc-d41f-42c8-8f8c-b0886341f5e6"
+
+  "เรื่อง"	text		
+  "ผู้รับผิดชอบ"	text		
+  "เลขที่หนังสือ"	text		
+  "ลงวันที่"	timestamp		
+  "วันที่มีมติครม."	timestamp		
+  "สรุปมติคณะรัฐมนตรี"	text		
+  "ลิงก์มติคณะรัฐมนตรี"	text
+}
+
+Table "บัญชีตอบความเห็น ครม. ของสำนักงาน ก.พ.ร." {
+  Note: "3d4e1da8-9e89-451f-b4f1-9e138a4fc371"
+
+  "เลขที่ส.ต้นเรื่อง"	text		
+  "ต้นเรื่องลวท."	timestamp		
+  "เรื่อง"	text		
+  "ผู้รับผิดชอบ"	text		
+  "เลขที่ส.ตอบความเห็น"	text		
+  "ส.ตอบความเห็นลวท."	timestamp		
+  "Link มติ ครม."	text
+}
+
+Table "ข้อมูลตัวชี้วัดขับเคลื่อนการบูรณาการร่วมกัน (Joint KPIs) for Dashboard" {
+  Note: "05ad195c-746e-40ad-a256-c3d153fa2f16"
+
+  "Agenda_no"	numeric		
+  "Agenda_name"	text		
+  "value_chain_factor_id"	text		
+  "kpi_name"	text		
+  "year"	numeric		
+  "department_name"	text		
+  "is_primary_vc"	numeric		
+  "is_primary"	numeric		
+  "id_kpi"	text		
+  "goal_type"	text		
+  "goal_department (comma)"	text		
+  "target"	text		
+  "ต่อเนื่อง"	numeric		
+  "monitor"	numeric		
+  "ปีประเมิน"	numeric		
+  "คำขยาย"	text		
+  "value"	text		
+  "หน่วยนับ"	text		
+  "อ้างอิง"	text		
+  "หมายเหตุ"	text		
+  "ผู้รายงานผล"	text		
+  "ช่วงเวลารายงานผล"	text
+}
+
+Table "ข้อมูลความเชื่อมโยงระหว่างยุทธศาสตร์ชาติและแผนแม่บทฯ" {
+  Note: "babd2efb-875a-4435-b22c-d30b99090298"
+
+  ns_id	text		
+  ns_name	text		
+  nm_id	numeric		
+  nm_name	text		
+  relationship	text
+}
+
+Table "ข้อมูลผลการขับเคลื่อนตัวชี้วัดเชิงยุทธศาสตร์สำคัญ (Strategic KPIs)" {
+  Note: "f825315d-12fe-4f94-8a70-90ef925121ee"
+
+  kpi_no	numeric		
+  year	numeric		
+  ministry_name	text		
+  department_name	text		
+  kpi_แผนNใหญ่	text		
+  kpi_name	text		
+  cascade	numeric		
+  remark	text		
+  kpi_map_236	text		
+  kpi_sub_no	numeric		
+  kpi_name_sub	text		
+  plan_under	text		
+  national_strategy	text		
+  plan_id	text		
+  เป้าหมาย	text		
+  เป้าหมายแผนแม่บท	text		
+  หมุดหมายที่	numeric		
+  เป้าหมายหมุดหมาย	text		
+  แผนปฏิรูป_no	numeric		
+  แผนปฏิรูป_name	text		
+  เป้าหมายแผนปฏิรูป	text		
+  ปีแผน	text		
+  ปีแผน_คำขยาย	text		
+  ปีแผน_value	text		
+  ปีแผน_หน่วยนับ	text		
+  ปีแผน_หมายเหตุ	text		
+  ปีประเมิน	numeric		
+  ปีประเมิน_คำขยาย	text		
+  ปีประเมิน_value	text		
+  ปีประเมิน_หน่วยนับ	text		
+  ปีประเมิน_อ้างอิง	text		
+  ปีประเมิน_หมายเหตุ	text		
+  ผู้รายงานผล	text		
+  source	text		
+  source_index	text		
+  ช่วงเวลารายงานผล	text
+}
+
+Table "ข้อมูลแผนแม่บทฯ ที่เชื่อมโยงกับตัวชี้วัดเชิงยุทธศาสตร์สำคัญ (Strategic KPIs)" {
+  Note: "fe445956-1348-46a5-b724-a45cf1fb3a33"
+
+  รหัส	numeric		
+  รหัสเป้าหมายตัวชี้วัด	numeric		
+  เป้าหมายตัวชี้วัดสกัด	text		
+  SKPI	text		
+  การประเมิน	text		
+  เป้าหมายตัวชี้วัด	text
+}
+
+Table "ข้อมูลแผนพัฒนาฯ 13 ที่เชื่อมโยงกับตัวชี้วัดเชิงยุทธศาสตร์สำคัญ (Strategic KPIs)" {
+  Note: "04eb8fcc-0b0d-4165-83ef-7b1c8737570d"
+
+  หมุดหมายที่	numeric		
+  รหัสเป้าหมายหมุดหมาย	text		
+  เป้าหมายหมุดหมาย	text		
+  รหัสตัวชี้วัดเป้าหมาย	text		
+  ตัวชี้วัดเป้าหมาย_new	text		
+  SKPI	text		
+  การประเมิน	text		
+  ตัวชี้วัดเป้าหมาย	text
+}
+
+Table "ข้อมูล Value Chain ที่เกี่ยวข้องกับตัวชี้วัดขับเคลื่อนการบูรณาการร่วมกัน (Joint KPIs)" {
+  Note: "d2e10f40-e13e-4a47-8fa7-54f7dd7e6041"
+
+  goal_id	numeric		
+  value_chain_id	text		
+  value_chain_name	text		
+  value_chain_factor_id	text		
+  value_chain_factor	text		
+  value_chain_long	text
+}
+
+Table "รายชื่อชุดข้อมูลเปิดตามการดำเนินงานตัวชี้วัด Open Data ของสำนักงาน ก.พ.ร." {
+  Note: "036010fe-5a2e-478d-9845-885919c4ef31"
+
+  ที่	numeric		
+  ปีที่ดำเนินการ	numeric		
+  ชื่อชุดข้อมูล	text		
+  กระบวนการทำงานหลัก	text		
+  หมวดหมู่	text		
+  กอง	text		
+  สถานะ	text		
+  remark	text
+}
+
+Table "World economic forum (WEF): The Global Competitiveness Index (GCI)" {
+  Note: "c133fd00-f28f-40ba-94ac-ee888ee578d6"
+
+  "Type Criteria"	text		
+  Year	numeric		
+  Score	numeric		
+  "Full Score"	numeric		
+  Rank	numeric		
+  Member	numeric
+}
+
+
+Ref: "ข้อมูลแผนแม่บทฯ ที่เชื่อมโยงกับตัวชี้วัดเชิงยุทธศาสตร์สำคัญ (Strategic KPIs)"."รหัส" ?<>? "ข้อมูลแผนพัฒนาฯ 13 ที่เชื่อมโยงกับตัวชี้วัดเชิงยุทธศาสตร์สำคัญ (Strategic KPIs)"."หมุดหมายที่"

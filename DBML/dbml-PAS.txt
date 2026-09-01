@@ -1,0 +1,1231 @@
+Table "hdfs_PAS_cabinet_resolutions" {
+  Note: 'PAS_cabinet_resolutions'
+  "cr_id" integer 
+  "cr_date_in" text 
+  "cr_ref" text 
+  "cr_name" text 
+  "cr_owner" text 
+  "cr_summary" text 
+  "cr_date_out" text 
+  "cr_responsible_team" text 
+  "cr_responsible_person1" text 
+  "cr_responsible_person2" text 
+  "cr_responsible_person3" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "m_id" integer 
+ }
+
+Table "hdfs_PAS_002_general" {
+  Note: 'PAS_002_general'
+  "m_name" text 
+  "d_name" text 
+  "d_code" integer 
+  "d_type_policy" text 
+  "d_type_regulator" text 
+  "d_type_operate" text 
+  "d_type_facilitator" text 
+  "d_vision" text 
+  "d_budget_year" text 
+  "d_budget_human" text 
+  "d_budget_operation" text 
+  "d_budget_investment" text 
+  "d_budget_support" text 
+  "d_budget_others" text 
+  "d_budget_sum" text 
+  "d_address_no" text 
+  "d_address_building" text 
+  "d_address_floor" text 
+  "d_address_road" text 
+  "d_address_subdistrict" text 
+  "d_address_district" text 
+  "d_address_province" text 
+  "d_address_postcode" text 
+  "d_address_contact_detail" text 
+  "d_website" text 
+  "d_decree_detail.name_0" text 
+  "d_decree_detail.detail_0" text 
+  "d_decree_detail.name_1" text 
+  "d_decree_detail.detail_1" text 
+  "d_decree_detail.name_2" text 
+  "d_decree_detail.detail_2" text 
+  "d_decree_detail.name_3" text 
+  "d_decree_detail.detail_3" text 
+  "d_decree_detail.name_4" text 
+  "d_decree_detail.detail_4" text 
+  "d_decree_detail.name_5" text 
+  "d_decree_detail.detail_5" text 
+  "d_decree_detail.name_6" text 
+  "d_decree_detail.detail_6" text 
+  "d_decree_detail.name_7" text 
+  "d_decree_detail.detail_7" text 
+  "d_decree_detail.name_8" text 
+  "d_decree_detail.detail_8" text 
+  "d_decree_detail.name_9" text 
+  "d_decree_detail.detail_9" text 
+  "d_decree_detail.name_10" text 
+  "d_decree_detail.detail_10" text 
+  "d_decree_detail.name_11" text 
+  "d_decree_detail.detail_11" text 
+  "d_decree_detail.name_12" text 
+  "d_decree_detail.detail_12" text 
+  "d_decree_detail.name_13" text 
+  "d_decree_detail.detail_13" text 
+  "d_decree_detail.name_14" text 
+  "d_decree_detail.detail_14" text 
+  "d_decree_detail.name_15" text 
+  "d_decree_detail.detail_15" text 
+  "d_decree_detail.name_16" text 
+  "d_decree_detail.detail_16" text 
+  "d_decree_detail.name_17" text 
+  "d_decree_detail.detail_17" text 
+  "d_decree_detail.name_18" text 
+  "d_decree_detail.detail_18" text 
+  "d_decree_detail.name_19" text 
+  "d_decree_detail.detail_19" text 
+  "d_decree_detail.name_20" text 
+  "d_decree_detail.detail_20" text 
+  "d_decree_detail.name_21" text 
+  "d_decree_detail.detail_21" text 
+  "d_decree_detail.name_22" text 
+  "d_decree_detail.detail_22" text 
+  "d_decree_detail.name_23" text 
+  "d_decree_detail.detail_23" text 
+  "d_decree_detail.name_24" text 
+  "d_decree_detail.detail_24" text 
+  "d_decree_detail.name_25" text 
+  "d_decree_detail.detail_25" text 
+  "d_decree_detail.name_26" text 
+  "d_decree_detail.detail_26" text 
+  "d_obligation_detail.name_1" text 
+  "d_obligation_detail.detail_1" text 
+  "d_obligation_detail.name_2" text 
+  "d_obligation_detail.detail_2" text 
+  "d_obligation_detail.name_3" text 
+  "d_obligation_detail.detail_3" text 
+  "d_obligation_detail.name_4" text 
+  "d_obligation_detail.detail_4" text 
+  "d_obligation_detail.name_5" text 
+  "d_obligation_detail.detail_5" text 
+  "d_obligation_detail.name_6" text 
+  "d_obligation_detail.detail_6" text 
+  "d_obligation_detail.name_7" text 
+  "d_obligation_detail.detail_7" text 
+  "d_obligation_detail.name_8" text 
+  "d_obligation_detail.detail_8" text 
+  "d_obligation_detail.name_9" text 
+  "d_obligation_detail.detail_9" text 
+  "d_obligation_detail.name_10" text 
+  "d_obligation_detail.detail_10" text 
+  "d_strategy_detail.name_1" text 
+  "d_strategy_detail.detail_1" text 
+  "d_strategy_detail.name_2" text 
+  "d_strategy_detail.detail_2" text 
+  "d_strategy_detail.name_3" text 
+  "d_strategy_detail.detail_3" text 
+  "d_strategy_detail.name_4" text 
+  "d_strategy_detail.detail_4" text 
+  "d_strategy_detail.name_5" text 
+  "d_strategy_detail.detail_5" text 
+  "d_strategy_detail.name_6" text 
+  "d_strategy_detail.detail_6" text 
+  "p_mission_detail.name_1" text 
+  "p_mission_detail.detail_1" text 
+  "p_mission_detail.name_2" text 
+  "p_mission_detail.detail_2" text 
+  "p_mission_detail.name_3" text 
+  "p_mission_detail.detail_3" text 
+  "p_mission_detail.name_4" text 
+  "p_mission_detail.detail_4" text 
+  "p_mission_detail.name_5" text 
+  "p_mission_detail.detail_5" text 
+  "p_mission_detail.name_6" text 
+  "p_mission_detail.detail_6" text 
+  "p_mission_detail.name_7" text 
+  "p_mission_detail.detail_7" text 
+  "p_mission_detail.name_8" text 
+  "p_mission_detail.detail_8" text 
+  "p_mission_detail.name_9" text 
+  "p_mission_detail.detail_9" text 
+  "p_mission_detail.name_10" text 
+  "p_mission_detail.detail_10" text 
+  "p_mission_detail.name_11" text 
+  "p_mission_detail.detail_11" text 
+  "p_mission_detail.name_12" text 
+  "p_mission_detail.detail_12" text 
+  "p_mission_detail.name_13" text 
+  "p_mission_detail.detail_13" text 
+  "p_mission_detail.name_14" text 
+  "p_mission_detail.detail_14" text 
+ }
+
+Table "hdfs_PAS_004_conclusion_cabinet" {
+  Note: 'PAS_004_conclusion_cabinet'
+  "cr_date_in" text 
+  "cr_ref" text 
+  "cr_name" text 
+  "cr_owner" text 
+  "cr_summary" text 
+  "cr_date_out" text 
+  "cr_responsible_team" text 
+  "cr_responsible_person1" text 
+  "cr_responsible_person2" text 
+  "cr_responsible_person3" text 
+ }
+
+Table "hdfs_PAS_ministerial_regulation_relationships" {
+  Note: 'PAS_ministerial_regulation_relationships'
+  "mrr_id" integer 
+  "mr_id" integer 
+  "m_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_ministries" {
+  Note: 'PAS_ministries'
+  "m_id" integer 
+  "m_code" integer 
+  "m_name" text 
+  "m_minister_pos" text 
+  "m_minister_name" text 
+  "m_leadhr_pos" text 
+  "m_leadhr_name" text 
+  "m_logo" text 
+  "y_id" integer 
+  "updated_date" text 
+  "updated_by" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_departments" {
+  Note: 'PAS_departments'
+  "d_id" integer 
+  "d_code" integer 
+  "d_name" text 
+  "d_vision" text 
+  "d_website" text 
+  "d_budget_human" text 
+  "d_budget_operation" text 
+  "d_budget_investment" text 
+  "d_budget_support" text 
+  "d_budget_others" text 
+  "d_budget_sum" text 
+  "d_minister_pos" text 
+  "d_minister_name" text 
+  "d_leadhr_pos" text 
+  "d_leadhr_name" text 
+  "d_logo" text 
+  "m_id" integer 
+  "updated_date" text 
+  "updated_by" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "d_budget_year" text 
+ }
+
+Table "hdfs_PAS_department_types" {
+  Note: 'PAS_department_types'
+  "d_type_id" integer 
+  "d_type_policy" text 
+  "d_type_regulator" text 
+  "d_type_operate" text 
+  "d_type_facilitator" text 
+  "d_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_address_contact_gov" {
+  Note: 'PAS_address_contact_gov'
+  "m_name" text 
+  "d_name" text 
+  "d_address_no" text 
+  "d_address_building" text 
+  "d_address_floor" text 
+  "d_address_road" text 
+  "d_address_subdistrict" text 
+  "d_address_district" text 
+  "d_address_province" text 
+  "d_address_postcode" text 
+  "d_address_contact_phone" text 
+  "d_address_contact_website" text 
+  "d_address_contact_email" text 
+ }
+
+Table "hdfs_PAS_kpi_list" {
+  Note: 'PAS_kpi_list'
+  "post_m_code" integer 
+  "post_m_name" text 
+  "paudit_d_code" integer 
+  "paudit_d_name" text 
+  "paudit_p_code" integer 
+  "paudit_p_name" text 
+  "tran_kpi_name" text 
+  "tran_kpi_description" text 
+  "tran_kpi_year" integer 
+  "kpi_category" text 
+  "kpi_type_property" text 
+  "kpi_unit_property" text 
+  "kpi_operation_property" text 
+  "tran_kpi_goal" text 
+  "tran_kpi_result" text 
+  "result" text 
+ }
+
+Table "hdfs_PAS_department_strategies" {
+  Note: 'PAS_department_strategies'
+  "d_strategy_id" integer 
+  "d_strategy_order" text 
+  "d_strategy_detail" text 
+  "d_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_ministerial_regulations" {
+  Note: 'PAS_ministerial_regulations'
+  "mr_id" integer 
+  "mr_name" text 
+  "mr_date" text 
+  "mr_year" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_post_audit" {
+  Note: 'PAS_post_audit'
+  "post_m_code" integer 
+  "post_m_name" text 
+  "paudit_d_code" integer 
+  "paudit_d_name" text 
+  "paudit_p_code" integer 
+  "paudit_p_name" text 
+  "post_special_day" integer 
+  "post_special_detail" text 
+  "post_status" text 
+  "post_approver" text 
+  "kpi" text 
+ }
+
+Table "hdfs_PAS_psd012" {
+  Note: 'PAS_psd012'
+  "id" integer 
+  "p_id" integer 
+  "book_number" text 
+  "book_date" text 
+  "conclusion" text 
+  "conclusion_date" text 
+  "keyword" text 
+  "subject" text 
+  "summary" text 
+  "status" text 
+  "detail" text 
+  "refer" text 
+  "note" text 
+  "p_name" text 
+  "d_name" text 
+  "m_name" text 
+  "document_url" text 
+ }
+
+Table "hdfs_PAS_part_government_missions" {
+  Note: 'PAS_part_government_missions'
+  "p_mission_id" integer 
+  "p_mission_order" text 
+  "p_mission_detail" text 
+  "p_mission_nonshow" text 
+  "mrr_id" integer 
+  "p_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_opdc_resolutions" {
+  Note: 'PAS_opdc_resolutions'
+  "opdcr_id" integer 
+  "opdcr_establish" text 
+  "opdcr_name" text 
+  "opdcr_type" text 
+  "opdcr_scope" text 
+  "opdcr_no" text 
+  "opdcr_date" text 
+  "opdcr_req" integer 
+  "opdcr_process" text 
+  "opdcr_reason" text 
+  "opdcr_oldname" text 
+  "opdcr_effect" text 
+  "p_name" text 
+  "m_name" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "p_id" integer 
+  "agenda_type" text 
+  "document_url" text 
+ }
+
+Table "hdfs_PAS_worklogs" {
+  Note: 'PAS_worklogs'
+  "post_m_code" integer 
+  "post_m_name" text 
+  "paudit_d_code" integer 
+  "paudit_d_name" text 
+  "order" integer 
+  "detail" text 
+  "file_link" text 
+  "last_upadate" text 
+ }
+
+Table "hdfs_PAS_psd009" {
+  Note: 'PAS_psd009'
+  "id" integer 
+  "job" text 
+  "country" text 
+  "driving_factor" text 
+  "pre_development" text 
+  "transfer_concept" text 
+  "format_after_transfer" text 
+  "result" text 
+  "success_factor" text 
+  "obstacles" text 
+  "note" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_001_psd" {
+  Note: 'PAS_001_psd'
+  "m_code" integer 
+  "m_name" text 
+  "d_code" integer 
+  "d_name" text 
+  "p_gov_type" text 
+  "p_mission_group" text 
+  "p_code" integer 
+  "p_prefix" text 
+  "p_name" text 
+  "p_level" text 
+  "p_type" text 
+  "p_mission" text 
+  "p_partof" text 
+  "p_postfix" text 
+  "p_area" text 
+  "mr_name" text 
+  "p_annouce" text 
+  "p_manpower_higher_mng" text 
+  "p_manpower_primary_mng" text 
+  "p_manpower_higher_director" text 
+  "part_government_manpowers" text 
+  "p_manpower_advisory_lvl" text 
+  "p_manpower_expert_lvl" text 
+  "p_manpower_senior_lvl" text 
+  "p_manpower_prosenior_lvl" text 
+  "p_manpower_pro_lvl" text 
+  "p_manpower_prac_lvl" text 
+  "p_manpower_pracseniorpro_lvl" text 
+  "p_manpower_highly_skilled" text 
+  "p_manpower_senior" text 
+  "p_manpower_exp" text 
+  "p_manpower_opexp" text 
+  "p_manpower_officer" text 
+  "p_manpower_emp" text 
+  "p_manpower_peremp" text 
+  "p_manpower_tempemp" text 
+  "update_power_date" text 
+  "p_updated_date" text 
+  "update_by" text 
+ }
+
+Table "hdfs_PAS_part_governments" {
+  Note: 'PAS_part_governments'
+  "p_id" integer 
+  "p_code" integer 
+  "p_mission_group" text 
+  "p_prefix" text 
+  "p_name" text 
+  "p_level" text 
+  "p_type" text 
+  "p_mission" text 
+  "p_partof" text 
+  "p_postfix" text 
+  "p_area" text 
+  "p_annouce" text 
+  "d_id" integer 
+  "updated_date" text 
+  "updated_by" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "p_gov_type" text 
+  "p_gov_type_id" integer 
+  "p_mr" text 
+ }
+
+Table "hdfs_PAS_part_gov_mission" {
+  Note: 'PAS_part_gov_mission'
+  "m_name" text 
+  "d_name" text 
+  "p_mission_group" text 
+  "p_name" text 
+  "mr_date" text 
+  "mr_year" integer 
+  "p_mission_order" text 
+  "p_mission_detail" text 
+ }
+
+Table "hdfs_PAS_government_manpowers" {
+  Note: 'PAS_government_manpowers'
+  "p_manpower_id" integer 
+  "p_manpower_higher_mng" text 
+  "p_manpower_primary_mng" text 
+  "p_manpower_higher_director" text 
+  "p_manpower_primary_director" text 
+  "p_manpower_advisory_lvl" text 
+  "p_manpower_expert_lvl" text 
+  "p_manpower_senior_lvl" text 
+  "p_manpower_prosenior_lvl" text 
+  "p_manpower_pro_lvl" text 
+  "p_manpower_prac_lvl" text 
+  "p_manpower_pracseniorpro_lvl" text 
+  "p_manpower_highly_skilled" text 
+  "p_manpower_senior" text 
+  "p_manpower_exp" text 
+  "p_manpower_opexp" text 
+  "p_manpower_officer" text 
+  "p_manpower_emp" text 
+  "p_manpower_peremp" text 
+  "p_manpower_tempemp" text 
+  "p_id" integer 
+  "p_updated_date" text 
+  "updated_by" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "update_power_date" text 
+ }
+
+Table "hdfs_PAS_department_addresses" {
+  Note: 'PAS_department_addresses'
+  "d_address_id" integer 
+  "d_address_no" text 
+  "d_address_building" text 
+  "d_address_floor" text 
+  "d_address_road" text 
+  "d_address_subdistrict" text 
+  "d_address_district" text 
+  "d_address_province" text 
+  "d_address_postcode" text 
+  "d_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_department_obligations" {
+  Note: 'PAS_department_obligations'
+  "d_obligation_id" integer 
+  "d_obligation_detail" text 
+  "d_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_vision_mission" {
+  Note: 'PAS_vision_mission'
+  "m_name" text 
+  "d_name" text 
+  "d_type_order" text 
+  "detail" text 
+ }
+
+Table "hdfs_PAS_department_address_contacts" {
+  Note: 'PAS_department_address_contacts'
+  "d_address_contact_id" integer 
+  "d_address_contact_detail" text 
+  "d_address_contact_type" text 
+  "d_address_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_011_rule_ministry" {
+  Note: 'PAS_011_rule_ministry'
+  "m_name" text 
+  "d_name" text 
+  "d_code" integer 
+  "p_mission_group" text 
+  "p_code" integer 
+  "p_prefix" text 
+  "p_name" text 
+  "mr_name" text 
+  "mr_date" text 
+  "mr_year" integer 
+  "p_mission_order" text 
+  "p_mission_detail" text 
+  "d_type_policy" text 
+  "d_type_regulator" text 
+  "d_type_operate" text 
+  "d_type_facilitator" text 
+ }
+
+Table "hdfs_PAS_department_decrees" {
+  Note: 'PAS_department_decrees'
+  "d_decree_id" integer 
+  "d_decree_name" text 
+  "d_decree_detail" text 
+  "d_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_PAS_listgov" {
+  Note: 'PAS_listgov'
+  "m_name" text 
+  "d_name" text 
+  "p_gov_type" text 
+  "p_mission_group" text 
+  "p_name" text 
+  "p_type" text 
+ }
+
+Table "hdfs_PAS_transfer_status" {
+  Note: 'PAS_transfer_status'
+  "tranfer_m_name" text 
+  "tranfer_d_name" text 
+  "tranfer_topic" text 
+  "tranfer_mission_type" text 
+  "tranfer_mr_name" text 
+  "tranfer_p_name" text 
+  "tranfer_gov_relate" text 
+  "tranfer_law" text 
+  "tranfer_year_date" integer 
+  "tranfer_intoduction" text 
+  "tranfer_opportunity_rate" text 
+  "tranfer_factor" text 
+  "tranfer_type" text 
+  "tranfer_objective" text 
+  "tranfer_style_as_is" text 
+  "tranfer_style_abroad" text 
+  "tranfer_scope" text 
+  "tranfer_concept" text 
+  "tranfer_status" text 
+  "tranfer_date_upadate" text 
+  "tranfer_gov_take" text 
+  "tranfer_result" text 
+  "tranfer_effect" text 
+  "tranfer_success" text 
+  "tranfer_obstacle" text 
+  "tranfer_future" text 
+  "tranfer_evaluation" text 
+  "tranfer_remark" text 
+ }
+
+Table "hdfs_PAS_transfer_surveytion" {
+  Note: 'PAS_transfer_surveytion'
+  "m_name" text 
+  "d_name" text 
+  "mission_topic" text 
+  "mr_name" text 
+  "gov_owner" text 
+  "job_type" text 
+  "transfer_type" text 
+  "transfer_detail" text 
+  "gov_take" text 
+  "transfer_issue" text 
+  "transfer_eservice" text 
+  "transfer_expain" text 
+  "remark" text 
+ }
+
+Ref: "hdfs_PAS_cabinet_resolutions"."cr_ref" > "hdfs_PAS_004_conclusion_cabinet"."cr_ref" 
+Ref: "hdfs_PAS_cabinet_resolutions"."cr_responsible_person1" > "hdfs_PAS_004_conclusion_cabinet"."cr_responsible_person3" 
+Ref: "hdfs_PAS_cabinet_resolutions"."cr_responsible_person2" > "hdfs_PAS_004_conclusion_cabinet"."cr_responsible_person2" 
+Ref: "hdfs_PAS_cabinet_resolutions"."cr_responsible_person2" > "hdfs_PAS_004_conclusion_cabinet"."cr_responsible_person3" 
+Ref: "hdfs_PAS_cabinet_resolutions"."cr_responsible_person3" > "hdfs_PAS_004_conclusion_cabinet"."cr_responsible_person3" 
+Ref: "hdfs_PAS_cabinet_resolutions"."cr_id" > "hdfs_PAS_opdc_resolutions"."opdcr_req"  
+
+Ref: "hdfs_PAS_002_general"."d_vision" > "hdfs_PAS_departments"."d_vision" 
+Ref: "hdfs_PAS_002_general"."d_budget_year" > "hdfs_PAS_departments"."d_budget_year" 
+Ref: "hdfs_PAS_002_general"."d_budget_human" > "hdfs_PAS_departments"."d_budget_human" 
+Ref: "hdfs_PAS_002_general"."d_budget_operation" > "hdfs_PAS_departments"."d_budget_operation" 
+Ref: "hdfs_PAS_002_general"."d_budget_investment" > "hdfs_PAS_departments"."d_budget_investment" 
+Ref: "hdfs_PAS_002_general"."d_budget_support" > "hdfs_PAS_departments"."d_budget_support" 
+Ref: "hdfs_PAS_002_general"."d_budget_others" > "hdfs_PAS_departments"."d_budget_others" 
+Ref: "hdfs_PAS_002_general"."d_budget_sum" > "hdfs_PAS_departments"."d_budget_sum" 
+Ref: "hdfs_PAS_002_general"."d_website" > "hdfs_PAS_departments"."d_website" 
+Ref: "hdfs_PAS_002_general"."d_type_policy" > "hdfs_PAS_department_types"."d_type_policy" 
+Ref: "hdfs_PAS_002_general"."d_type_regulator" > "hdfs_PAS_department_types"."d_type_regulator" 
+Ref: "hdfs_PAS_002_general"."d_type_operate" > "hdfs_PAS_department_types"."d_type_operate" 
+Ref: "hdfs_PAS_002_general"."d_type_facilitator" > "hdfs_PAS_department_types"."d_type_facilitator" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_address_contact_gov"."m_name" 
+Ref: "hdfs_PAS_002_general"."d_address_no" > "hdfs_PAS_address_contact_gov"."d_address_no" 
+Ref: "hdfs_PAS_002_general"."d_address_building" > "hdfs_PAS_address_contact_gov"."d_address_building" 
+Ref: "hdfs_PAS_002_general"."d_address_floor" > "hdfs_PAS_address_contact_gov"."d_address_floor" 
+Ref: "hdfs_PAS_002_general"."d_address_road" > "hdfs_PAS_address_contact_gov"."d_address_road" 
+Ref: "hdfs_PAS_002_general"."d_address_subdistrict" > "hdfs_PAS_address_contact_gov"."d_address_subdistrict" 
+Ref: "hdfs_PAS_002_general"."d_address_district" > "hdfs_PAS_address_contact_gov"."d_address_district" 
+Ref: "hdfs_PAS_002_general"."d_address_province" > "hdfs_PAS_address_contact_gov"."d_address_province" 
+Ref: "hdfs_PAS_002_general"."d_address_postcode" > "hdfs_PAS_address_contact_gov"."d_address_postcode" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_kpi_list"."post_m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_kpi_list"."paudit_d_name" 
+Ref: "hdfs_PAS_002_general"."d_code" > "hdfs_PAS_kpi_list"."paudit_d_code" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_post_audit"."post_m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_post_audit"."paudit_d_name" 
+Ref: "hdfs_PAS_002_general"."d_code" > "hdfs_PAS_post_audit"."paudit_d_code" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_psd012"."m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_psd012"."d_name" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_worklogs"."post_m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_worklogs"."paudit_d_name" 
+Ref: "hdfs_PAS_002_general"."d_code" > "hdfs_PAS_worklogs"."paudit_d_code" 
+Ref: "hdfs_PAS_002_general"."d_code" > "hdfs_PAS_worklogs"."order" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_part_gov_mission"."m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_part_gov_mission"."d_name" 
+Ref: "hdfs_PAS_002_general"."d_address_no" > "hdfs_PAS_department_addresses"."d_address_no" 
+Ref: "hdfs_PAS_002_general"."d_address_building" > "hdfs_PAS_department_addresses"."d_address_building" 
+Ref: "hdfs_PAS_002_general"."d_address_floor" > "hdfs_PAS_department_addresses"."d_address_floor" 
+Ref: "hdfs_PAS_002_general"."d_address_road" > "hdfs_PAS_department_addresses"."d_address_road" 
+Ref: "hdfs_PAS_002_general"."d_address_subdistrict" > "hdfs_PAS_department_addresses"."d_address_subdistrict" 
+Ref: "hdfs_PAS_002_general"."d_address_district" > "hdfs_PAS_department_addresses"."d_address_district" 
+Ref: "hdfs_PAS_002_general"."d_address_province" > "hdfs_PAS_department_addresses"."d_address_province" 
+Ref: "hdfs_PAS_002_general"."d_address_postcode" > "hdfs_PAS_department_addresses"."d_address_postcode" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_vision_mission"."m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_vision_mission"."d_name" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_011_rule_ministry"."m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_011_rule_ministry"."d_name" 
+Ref: "hdfs_PAS_002_general"."d_code" > "hdfs_PAS_011_rule_ministry"."d_code" 
+Ref: "hdfs_PAS_002_general"."d_type_policy" > "hdfs_PAS_011_rule_ministry"."d_type_policy" 
+Ref: "hdfs_PAS_002_general"."d_type_regulator" > "hdfs_PAS_011_rule_ministry"."d_type_regulator" 
+Ref: "hdfs_PAS_002_general"."d_type_operate" > "hdfs_PAS_011_rule_ministry"."d_type_operate" 
+Ref: "hdfs_PAS_002_general"."d_type_facilitator" > "hdfs_PAS_011_rule_ministry"."d_type_facilitator" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_transfer_status"."tranfer_m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_transfer_status"."tranfer_d_name" 
+Ref: "hdfs_PAS_002_general"."m_name" > "hdfs_PAS_transfer_surveytion"."m_name" 
+Ref: "hdfs_PAS_002_general"."d_name" > "hdfs_PAS_transfer_surveytion"."d_name"  
+
+Ref: "hdfs_PAS_004_conclusion_cabinet"."cr_name" > "hdfs_PAS_cabinet_resolutions"."cr_name" 
+Ref: "hdfs_PAS_004_conclusion_cabinet"."cr_summary" > "hdfs_PAS_cabinet_resolutions"."cr_summary" 
+Ref: "hdfs_PAS_004_conclusion_cabinet"."cr_responsible_team" > "hdfs_PAS_cabinet_resolutions"."cr_responsible_team"  
+
+Ref: "hdfs_PAS_ministerial_regulation_relationships"."mrr_id" > "hdfs_PAS_part_government_missions"."mrr_id"  
+
+Ref: "hdfs_PAS_ministries"."m_id" > "hdfs_PAS_cabinet_resolutions"."m_id" 
+Ref: "hdfs_PAS_ministries"."m_id" > "hdfs_PAS_ministerial_regulation_relationships"."m_id" 
+Ref: "hdfs_PAS_ministries"."m_id" > "hdfs_PAS_departments"."m_id" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_kpi_list"."post_m_code" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_kpi_list"."paudit_d_code" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_post_audit"."post_m_code" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_post_audit"."paudit_d_code" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_worklogs"."post_m_code" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_worklogs"."paudit_d_code" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_worklogs"."order" 
+Ref: "hdfs_PAS_ministries"."m_code" > "hdfs_PAS_001_psd"."m_code"  
+
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_departments"."d_vision" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_departments"."m_id" > "hdfs_PAS_ministries"."m_code" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_department_types"."d_id" 
+Ref: "hdfs_PAS_departments"."d_code" > "hdfs_PAS_kpi_list"."post_m_code" 
+Ref: "hdfs_PAS_departments"."d_code" > "hdfs_PAS_kpi_list"."tran_kpi_year" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_department_strategies"."d_strategy_id" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_department_strategies"."d_id" 
+Ref: "hdfs_PAS_departments"."d_code" > "hdfs_PAS_post_audit"."post_m_code" 
+Ref: "hdfs_PAS_departments"."d_code" > "hdfs_PAS_post_audit"."post_special_day" 
+Ref: "hdfs_PAS_departments"."d_code" > "hdfs_PAS_worklogs"."post_m_code" 
+Ref: "hdfs_PAS_departments"."d_code" > "hdfs_PAS_001_psd"."m_code" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_part_governments"."d_id" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_part_governments"."p_gov_type_id" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_department_addresses"."d_address_id" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_department_addresses"."d_id" 
+Ref: "hdfs_PAS_departments"."created_at" > "hdfs_PAS_department_addresses"."created_at" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_department_obligations"."d_id" 
+Ref: "hdfs_PAS_departments"."created_at" > "hdfs_PAS_department_address_contacts"."created_at" 
+Ref: "hdfs_PAS_departments"."d_code" > "hdfs_PAS_011_rule_ministry"."mr_year" 
+Ref: "hdfs_PAS_departments"."d_id" > "hdfs_PAS_department_decrees"."d_id"  
+
+Ref: "hdfs_PAS_department_types"."d_id" > "hdfs_PAS_departments"."m_id"  
+
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_no" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_building" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_floor" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_subdistrict" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_address_contact_gov"."d_address_postcode" > "hdfs_PAS_002_general"."d_decree_detail.detail_25"  
+
+Ref: "hdfs_PAS_kpi_list"."paudit_p_code" > "hdfs_PAS_post_audit"."paudit_p_code" 
+Ref: "hdfs_PAS_kpi_list"."paudit_p_name" > "hdfs_PAS_post_audit"."paudit_p_name" 
+Ref: "hdfs_PAS_kpi_list"."post_m_code" > "hdfs_PAS_worklogs"."order" 
+Ref: "hdfs_PAS_kpi_list"."paudit_d_code" > "hdfs_PAS_worklogs"."order"  
+
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_1" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_2" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_3" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_4" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_5" 
+Ref: "hdfs_PAS_department_strategies"."d_strategy_detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_6"  
+
+Ref: "hdfs_PAS_ministerial_regulations"."mr_id" > "hdfs_PAS_ministerial_regulation_relationships"."mrr_id" 
+Ref: "hdfs_PAS_ministerial_regulations"."mr_id" > "hdfs_PAS_ministerial_regulation_relationships"."mr_id" 
+Ref: "hdfs_PAS_ministerial_regulations"."mr_id" > "hdfs_PAS_ministerial_regulation_relationships"."m_id" 
+Ref: "hdfs_PAS_ministerial_regulations"."mr_name" > "hdfs_PAS_011_rule_ministry"."mr_name"  
+
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_cabinet_resolutions"."m_id" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_psd012"."detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_ministerial_regulation_relationships"."m_id" 
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_ministries"."m_id" 
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_ministries"."m_code" 
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_departments"."m_id" 
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_opdc_resolutions"."opdcr_req" 
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_psd009"."id" 
+Ref: "hdfs_PAS_psd012"."note" > "hdfs_PAS_psd009"."note" 
+Ref: "hdfs_PAS_psd012"."id" > "hdfs_PAS_part_governments"."p_gov_type_id"  
+
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_part_government_missions"."p_mission_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_25"  
+
+Ref: "hdfs_PAS_opdc_resolutions"."p_name" > "hdfs_PAS_psd012"."refer" 
+Ref: "hdfs_PAS_opdc_resolutions"."p_id" > "hdfs_PAS_psd012"."p_id" 
+Ref: "hdfs_PAS_opdc_resolutions"."document_url" > "hdfs_PAS_psd012"."refer" 
+Ref: "hdfs_PAS_opdc_resolutions"."p_name" > "hdfs_PAS_transfer_status"."tranfer_remark"  
+
+Ref: "hdfs_PAS_psd009"."note" > "hdfs_PAS_psd012"."refer"  
+
+Ref: "hdfs_PAS_001_psd"."d_code" > "hdfs_PAS_departments"."m_id" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_kpi_list"."post_m_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_kpi_list"."paudit_d_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_kpi_list"."paudit_p_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_post_audit"."post_m_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_post_audit"."paudit_d_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_post_audit"."paudit_p_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_post_audit"."post_special_day" 
+Ref: "hdfs_PAS_001_psd"."p_mission_group" > "hdfs_PAS_part_governments"."p_mission_group" 
+Ref: "hdfs_PAS_001_psd"."p_mission_group" > "hdfs_PAS_part_governments"."p_mission" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_part_governments"."p_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_part_governments"."p_gov_type_id" 
+Ref: "hdfs_PAS_001_psd"."p_prefix" > "hdfs_PAS_part_governments"."p_prefix" 
+Ref: "hdfs_PAS_001_psd"."p_prefix" > "hdfs_PAS_part_governments"."p_level" 
+Ref: "hdfs_PAS_001_psd"."p_level" > "hdfs_PAS_part_governments"."p_level" 
+Ref: "hdfs_PAS_001_psd"."p_type" > "hdfs_PAS_part_governments"."p_level" 
+Ref: "hdfs_PAS_001_psd"."p_type" > "hdfs_PAS_part_governments"."p_type" 
+Ref: "hdfs_PAS_001_psd"."p_mission" > "hdfs_PAS_part_governments"."p_mission" 
+Ref: "hdfs_PAS_001_psd"."p_partof" > "hdfs_PAS_part_governments"."p_partof" 
+Ref: "hdfs_PAS_001_psd"."p_postfix" > "hdfs_PAS_part_governments"."p_postfix" 
+Ref: "hdfs_PAS_001_psd"."p_area" > "hdfs_PAS_part_governments"."p_area" 
+Ref: "hdfs_PAS_001_psd"."p_annouce" > "hdfs_PAS_part_governments"."p_annouce" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_higher_mng" > "hdfs_PAS_government_manpowers"."p_manpower_higher_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_higher_mng" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_primary_mng" > "hdfs_PAS_government_manpowers"."p_manpower_primary_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_primary_mng" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_higher_director" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_advisory_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_advisory_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_expert_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_expert_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_expert_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_senior_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_senior_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_prosenior_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_prosenior_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_prosenior_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_pro_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_prac_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_prac_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_prac_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pracseniorpro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_higher_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pracseniorpro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_primary_director" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pracseniorpro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pracseniorpro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_prosenior_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pracseniorpro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_prac_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_pracseniorpro_lvl" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_highly_skilled" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_senior" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_senior" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_senior" > "hdfs_PAS_government_manpowers"."p_manpower_senior" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_exp" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_exp" > "hdfs_PAS_government_manpowers"."p_manpower_exp" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_opexp" > "hdfs_PAS_government_manpowers"."p_manpower_higher_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_opexp" > "hdfs_PAS_government_manpowers"."p_manpower_primary_director" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_opexp" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_opexp" > "hdfs_PAS_government_manpowers"."p_manpower_prosenior_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_opexp" > "hdfs_PAS_government_manpowers"."p_manpower_prac_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_opexp" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_opexp" > "hdfs_PAS_government_manpowers"."p_manpower_exp" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_officer" > "hdfs_PAS_government_manpowers"."p_manpower_higher_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_officer" > "hdfs_PAS_government_manpowers"."p_manpower_primary_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_officer" > "hdfs_PAS_government_manpowers"."p_manpower_primary_director" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_officer" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_officer" > "hdfs_PAS_government_manpowers"."p_manpower_prac_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_officer" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_officer" > "hdfs_PAS_government_manpowers"."p_manpower_exp" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_emp" > "hdfs_PAS_government_manpowers"."p_manpower_primary_director" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_emp" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_emp" > "hdfs_PAS_government_manpowers"."p_manpower_prosenior_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_emp" > "hdfs_PAS_government_manpowers"."p_manpower_prac_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_emp" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_emp" > "hdfs_PAS_government_manpowers"."p_manpower_exp" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_peremp" > "hdfs_PAS_government_manpowers"."p_manpower_primary_director" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_peremp" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_peremp" > "hdfs_PAS_government_manpowers"."p_manpower_prosenior_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_peremp" > "hdfs_PAS_government_manpowers"."p_manpower_prac_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_peremp" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_tempemp" > "hdfs_PAS_government_manpowers"."p_manpower_higher_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_tempemp" > "hdfs_PAS_government_manpowers"."p_manpower_primary_mng" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_tempemp" > "hdfs_PAS_government_manpowers"."p_manpower_advisory_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_tempemp" > "hdfs_PAS_government_manpowers"."p_manpower_prac_lvl" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_tempemp" > "hdfs_PAS_government_manpowers"."p_manpower_highly_skilled" 
+Ref: "hdfs_PAS_001_psd"."p_manpower_tempemp" > "hdfs_PAS_government_manpowers"."p_manpower_exp" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_011_rule_ministry"."d_code" 
+Ref: "hdfs_PAS_001_psd"."p_code" > "hdfs_PAS_011_rule_ministry"."p_code" 
+Ref: "hdfs_PAS_001_psd"."p_prefix" > "hdfs_PAS_011_rule_ministry"."p_prefix" 
+Ref: "hdfs_PAS_001_psd"."p_type" > "hdfs_PAS_listgov"."p_type"  
+
+Ref: "hdfs_PAS_part_governments"."p_id" > "hdfs_PAS_opdc_resolutions"."opdcr_req" 
+Ref: "hdfs_PAS_part_governments"."p_code" > "hdfs_PAS_001_psd"."m_code" 
+Ref: "hdfs_PAS_part_governments"."updated_by" > "hdfs_PAS_government_manpowers"."updated_by"  
+
+Ref: "hdfs_PAS_government_manpowers"."p_id" > "hdfs_PAS_psd012"."id" 
+Ref: "hdfs_PAS_government_manpowers"."p_id" > "hdfs_PAS_part_government_missions"."mrr_id" 
+Ref: "hdfs_PAS_government_manpowers"."p_manpower_pracseniorpro_lvl" > "hdfs_PAS_001_psd"."part_government_manpowers" 
+Ref: "hdfs_PAS_government_manpowers"."p_manpower_opexp" > "hdfs_PAS_001_psd"."part_government_manpowers" 
+Ref: "hdfs_PAS_government_manpowers"."p_manpower_officer" > "hdfs_PAS_001_psd"."p_manpower_higher_director" 
+Ref: "hdfs_PAS_government_manpowers"."p_manpower_officer" > "hdfs_PAS_001_psd"."part_government_manpowers" 
+Ref: "hdfs_PAS_government_manpowers"."p_manpower_emp" > "hdfs_PAS_001_psd"."part_government_manpowers" 
+Ref: "hdfs_PAS_government_manpowers"."p_manpower_peremp" > "hdfs_PAS_001_psd"."part_government_manpowers" 
+Ref: "hdfs_PAS_government_manpowers"."p_id" > "hdfs_PAS_part_governments"."d_id" 
+Ref: "hdfs_PAS_government_manpowers"."p_id" > "hdfs_PAS_part_governments"."p_gov_type_id"  
+
+Ref: "hdfs_PAS_department_addresses"."d_address_id" > "hdfs_PAS_department_address_contacts"."d_address_contact_id"  
+
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_25" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_1" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_2" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_3" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_4" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_5" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_6" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_7" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_8" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_9" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_10" 
+Ref: "hdfs_PAS_department_obligations"."d_obligation_detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_6"  
+
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_vision" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_1" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_2" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_3" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_4" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_5" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_6" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_7" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_8" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_9" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_obligation_detail.detail_10" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_002_general"."d_strategy_detail.detail_6" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_psd012"."refer" 
+Ref: "hdfs_PAS_vision_mission"."detail" > "hdfs_PAS_department_obligations"."d_obligation_detail"  
+
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_address_contact_detail" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_department_address_contacts"."d_address_contact_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_25"  
+
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_0" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_1" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_2" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_3" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_4" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_5" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_6" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_7" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_8" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_9" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_10" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_11" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_12" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_13" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_14" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_15" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_16" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_17" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_18" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_19" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_20" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_21" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_22" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_23" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_24" 
+Ref: "hdfs_PAS_department_decrees"."d_decree_detail" > "hdfs_PAS_002_general"."d_decree_detail.detail_25"  
+
+Ref: "hdfs_PAS_transfer_surveytion"."mr_name" > "hdfs_PAS_transfer_status"."tranfer_remark" 
+Ref: "hdfs_PAS_transfer_surveytion"."gov_take" > "hdfs_PAS_transfer_status"."tranfer_remark" 
+Ref: "hdfs_PAS_transfer_surveytion"."remark" > "hdfs_PAS_transfer_status"."tranfer_remark"  
+

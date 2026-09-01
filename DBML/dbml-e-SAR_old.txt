@@ -1,0 +1,283 @@
+Table "hdfs_4_013_kpis" {
+  Note: '4_013_kpis'
+  "unnamed:_0" integer 
+  "current_page" integer 
+  "first_page_url" text 
+  "from" integer 
+  "last_page" integer 
+  "last_page_url" text 
+  "next_page_url" text 
+  "path" text 
+  "per_page" integer 
+  "prev_page_url" text 
+  "to" integer 
+  "total" integer 
+  "code" text 
+  "description" text 
+  "id" integer 
+  "kpi_no" text 
+  "name" text 
+  "parent_id" text 
+  "type" text 
+  "weight" text 
+ }
+
+Table "hdfs_4_007_kpi_target" {
+  Note: '4_007_kpi_target'
+  "unnamed:_0" integer 
+  "code" text 
+  "kpi_description" text 
+  "id" integer 
+  "kpi_no" text 
+  "name" text 
+  "parent_id" text 
+  "kpi_type" text 
+  "weight" text 
+  "appeal_flag" text 
+  "appeal_reason" text 
+  "assessment_flag" text 
+  "evaluation_flag" text 
+  "target_id" text 
+  "kpi_id" text 
+  "type" text 
+  "target_boolean_unit" text 
+  "target_boolean_value" text 
+  "target_description" text 
+  "target_digit_decimal" text 
+  "detail_id" text 
+  "target_measurement_value" text 
+  "target_note" text 
+  "target_order" text 
+  "target_prorate" text 
+  "target_quantity_collect" text 
+  "target_quantity_method" text 
+  "target_sub_type" text 
+  "target_target_id" text 
+  "target_type" text 
+  "appeal_datetime" text 
+  "cycle_name" text 
+  "description" text 
+  "target_descriptions_id" text 
+  "level_name" text 
+  "organization_name" text 
+  "target" text 
+ }
+
+Table "hdfs_4_008_kpi_policy" {
+  Note: '4_008_kpi_policy'
+  "unnamed:_0" integer 
+  "id" integer 
+  "parent_id" text 
+  "code" text 
+  "kpi_no" text 
+  "name" text 
+  "type" text 
+  "description" text 
+  "weight" text 
+  "policy_id" text 
+  "label" text 
+ }
+
+Table "hdfs_4_006_kpi_assesment" {
+  Note: '4_006_kpi_assesment'
+  "unnamed:_0" integer 
+  "code" text 
+  "description" text 
+  "id" integer 
+  "kpi_no" text 
+  "name" text 
+  "parent_id" text 
+  "type" text 
+  "weight" text 
+  "cycle_name" text 
+  "explanation" text 
+  "failed_reason" text 
+  "framework_detail_id" text 
+  "assessments_id" text 
+  "kpi_id" text 
+  "organization_name" text 
+  "remarks" text 
+  "status" text 
+  "suggestion" text 
+  "trouble" text 
+  "workflow_status" text 
+  "detail_id" text 
+  "detail_remarks" text 
+  "target_detail_desciption" text 
+  "value" text 
+ }
+
+Table "hdfs_4_010_organization_score_detail" {
+  Note: '4_010_organization_score_detail'
+  "unnamed:_0" integer 
+  "cycle_id" integer 
+  "cycle_name" text 
+  "year" integer 
+  "average_score" text 
+  "id_ministry" integer 
+  "name_ministry" text 
+  "cycle_type" text 
+  "abbrv_name" text 
+  "id_department" integer 
+  "name_department" text 
+  "data_department_type" text 
+  "code" text 
+  "description" text 
+  "id_kpi" integer 
+  "kpi_no" text 
+  "name" text 
+  "parent_id_kpi" text 
+  "kpi_score" text 
+  "target_type" text 
+  "data_kpi_type" text 
+  "weight" text 
+  "assessment_explanation" text 
+  "assessment_failed_reason" text 
+  "assessment_id" text 
+  "assessment_kpi_id" text 
+  "assessment_remarks" text 
+  "assessment_trouble" text 
+  "detail_id" text 
+  "detail_remarks" text 
+  "detail_quantity_value" text 
+  "detail_id_target" text 
+  "detail_milestone_value" text 
+  "detail_boolean_value" text 
+  "detail_describe_score" text 
+  "id_composition" integer 
+  "name_composition" text 
+  "id_target" text 
+  "target_measurement_value" text 
+  "name_target" text 
+  "prorate" text 
+  "quantity_method" text 
+  "type_target" text 
+  "detail" text 
+  "level" text 
+  "measurement_value" text 
+  "target_level_score" integer 
+  "connect_national_strategy" text 
+  "id_connect_national_strategy" text 
+ }
+
+Table "hdfs_4_011_organization" {
+  Note: '4_011_organization'
+  "unnamed:_0" integer 
+  "current_page" integer 
+  "first_page_url" text 
+  "from" integer 
+  "last_page" integer 
+  "last_page_url" text 
+  "next_page_url" text 
+  "path" text 
+  "per_page" integer 
+  "prev_page_url" text 
+  "to" integer 
+  "total" integer 
+  "abbrv_name" text 
+  "id" integer 
+  "name" text 
+  "parent_id" text 
+  "type" text 
+ }
+
+Table "hdfs_4_009_organization_score" {
+  Note: '4_009_organization_score'
+  "unnamed:_0" integer 
+  "cycle_id" integer 
+  "cycle_final_score_weighted" text 
+  "mainid" integer 
+  "is_approving" integer 
+  "org_id" integer 
+  "organization_level" text 
+  "organization_name" text 
+  "progressive_score" text 
+  "status" text 
+  "chart_name" text 
+  "year_no" integer 
+  "final_score" text 
+  "final_score_weighted" text 
+  "flag_basket" text 
+  "framework_id" text 
+  "detail_id" text 
+  "kpi_id" text 
+  "kpi_name" text 
+  "number" text 
+  "preview_score" text 
+  "preview_score_weighted" text 
+  "previous_id" text 
+  "score" text 
+  "score_weighted" text 
+  "weight" text 
+ }
+
+Ref: "hdfs_4_013_kpis"."type" > "hdfs_4_007_kpi_target"."kpi_type" 
+Ref: "hdfs_4_013_kpis"."weight" > "hdfs_4_007_kpi_target"."target_digit_decimal" 
+Ref: "hdfs_4_013_kpis"."type" > "hdfs_4_008_kpi_policy"."type" 
+Ref: "hdfs_4_013_kpis"."type" > "hdfs_4_006_kpi_assesment"."type" 
+Ref: "hdfs_4_013_kpis"."id" > "hdfs_4_010_organization_score_detail"."year" 
+Ref: "hdfs_4_013_kpis"."kpi_no" > "hdfs_4_010_organization_score_detail"."kpi_no" 
+Ref: "hdfs_4_013_kpis"."type" > "hdfs_4_010_organization_score_detail"."data_kpi_type" 
+Ref: "hdfs_4_013_kpis"."weight" > "hdfs_4_010_organization_score_detail"."average_score" 
+Ref: "hdfs_4_013_kpis"."weight" > "hdfs_4_010_organization_score_detail"."detail_describe_score" 
+Ref: "hdfs_4_013_kpis"."current_page" > "hdfs_4_011_organization"."current_page" 
+Ref: "hdfs_4_013_kpis"."current_page" > "hdfs_4_011_organization"."from" 
+Ref: "hdfs_4_013_kpis"."current_page" > "hdfs_4_011_organization"."last_page" 
+Ref: "hdfs_4_013_kpis"."from" > "hdfs_4_011_organization"."current_page" 
+Ref: "hdfs_4_013_kpis"."from" > "hdfs_4_011_organization"."from" 
+Ref: "hdfs_4_013_kpis"."from" > "hdfs_4_011_organization"."last_page" 
+Ref: "hdfs_4_013_kpis"."last_page" > "hdfs_4_011_organization"."current_page" 
+Ref: "hdfs_4_013_kpis"."last_page" > "hdfs_4_011_organization"."from" 
+Ref: "hdfs_4_013_kpis"."last_page" > "hdfs_4_011_organization"."last_page" 
+Ref: "hdfs_4_013_kpis"."per_page" > "hdfs_4_011_organization"."per_page" 
+Ref: "hdfs_4_013_kpis"."id" > "hdfs_4_011_organization"."to" 
+Ref: "hdfs_4_013_kpis"."id" > "hdfs_4_011_organization"."total" 
+Ref: "hdfs_4_013_kpis"."id" > "hdfs_4_009_organization_score"."year_no" 
+Ref: "hdfs_4_013_kpis"."weight" > "hdfs_4_009_organization_score"."flag_basket"  
+
+Ref: "hdfs_4_007_kpi_target"."kpi_type" > "hdfs_4_010_organization_score_detail"."data_kpi_type" 
+Ref: "hdfs_4_007_kpi_target"."type" > "hdfs_4_010_organization_score_detail"."target_type" 
+Ref: "hdfs_4_007_kpi_target"."type" > "hdfs_4_010_organization_score_detail"."type_target" 
+Ref: "hdfs_4_007_kpi_target"."detail_id" > "hdfs_4_010_organization_score_detail"."parent_id_kpi" 
+Ref: "hdfs_4_007_kpi_target"."target_type" > "hdfs_4_010_organization_score_detail"."type_target"  
+
+Ref: "hdfs_4_008_kpi_policy"."parent_id" > "hdfs_4_007_kpi_target"."parent_id" 
+Ref: "hdfs_4_008_kpi_policy"."code" > "hdfs_4_007_kpi_target"."code" 
+Ref: "hdfs_4_008_kpi_policy"."name" > "hdfs_4_007_kpi_target"."name" 
+Ref: "hdfs_4_008_kpi_policy"."description" > "hdfs_4_007_kpi_target"."kpi_description" 
+Ref: "hdfs_4_008_kpi_policy"."parent_id" > "hdfs_4_006_kpi_assesment"."parent_id" 
+Ref: "hdfs_4_008_kpi_policy"."code" > "hdfs_4_006_kpi_assesment"."code" 
+Ref: "hdfs_4_008_kpi_policy"."name" > "hdfs_4_006_kpi_assesment"."name" 
+Ref: "hdfs_4_008_kpi_policy"."parent_id" > "hdfs_4_010_organization_score_detail"."parent_id_kpi" 
+Ref: "hdfs_4_008_kpi_policy"."name" > "hdfs_4_010_organization_score_detail"."name"  
+
+Ref: "hdfs_4_006_kpi_assesment"."value" > "hdfs_4_007_kpi_target"."appeal_flag" 
+Ref: "hdfs_4_006_kpi_assesment"."value" > "hdfs_4_010_organization_score_detail"."detail_milestone_value"  
+
+Ref: "hdfs_4_010_organization_score_detail"."prorate" > "hdfs_4_007_kpi_target"."appeal_flag" 
+Ref: "hdfs_4_010_organization_score_detail"."prorate" > "hdfs_4_007_kpi_target"."assessment_flag" 
+Ref: "hdfs_4_010_organization_score_detail"."prorate" > "hdfs_4_007_kpi_target"."evaluation_flag" 
+Ref: "hdfs_4_010_organization_score_detail"."prorate" > "hdfs_4_007_kpi_target"."target_prorate" 
+Ref: "hdfs_4_010_organization_score_detail"."prorate" > "hdfs_4_007_kpi_target"."target_quantity_collect" 
+Ref: "hdfs_4_010_organization_score_detail"."quantity_method" > "hdfs_4_007_kpi_target"."target_quantity_method"  
+
+Ref: "hdfs_4_011_organization"."id" > "hdfs_4_013_kpis"."current_page" 
+Ref: "hdfs_4_011_organization"."id" > "hdfs_4_013_kpis"."from" 
+Ref: "hdfs_4_011_organization"."id" > "hdfs_4_013_kpis"."last_page" 
+Ref: "hdfs_4_011_organization"."name" > "hdfs_4_007_kpi_target"."organization_name" 
+Ref: "hdfs_4_011_organization"."name" > "hdfs_4_006_kpi_assesment"."organization_name" 
+Ref: "hdfs_4_011_organization"."abbrv_name" > "hdfs_4_010_organization_score_detail"."cycle_type" 
+Ref: "hdfs_4_011_organization"."abbrv_name" > "hdfs_4_010_organization_score_detail"."abbrv_name" 
+Ref: "hdfs_4_011_organization"."id" > "hdfs_4_010_organization_score_detail"."cycle_id" 
+Ref: "hdfs_4_011_organization"."id" > "hdfs_4_010_organization_score_detail"."id_ministry" 
+Ref: "hdfs_4_011_organization"."id" > "hdfs_4_010_organization_score_detail"."id_department" 
+Ref: "hdfs_4_011_organization"."name" > "hdfs_4_010_organization_score_detail"."name_ministry" 
+Ref: "hdfs_4_011_organization"."name" > "hdfs_4_010_organization_score_detail"."name_department" 
+Ref: "hdfs_4_011_organization"."type" > "hdfs_4_010_organization_score_detail"."cycle_type" 
+Ref: "hdfs_4_011_organization"."type" > "hdfs_4_010_organization_score_detail"."data_department_type" 
+Ref: "hdfs_4_011_organization"."id" > "hdfs_4_009_organization_score"."org_id" 
+Ref: "hdfs_4_011_organization"."name" > "hdfs_4_009_organization_score"."organization_name"  
+
+Ref: "hdfs_4_009_organization_score"."score" > "hdfs_4_010_organization_score_detail"."average_score" 
+Ref: "hdfs_4_009_organization_score"."score" > "hdfs_4_010_organization_score_detail"."detail_describe_score"  
+

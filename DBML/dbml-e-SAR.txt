@@ -1,0 +1,720 @@
+Table "hdfs_50_ข้อมูลผังองค์กร" {
+  Note: '50_ข้อมูลผังองค์กร'
+  "id" integer 
+  "year_id" integer 
+  "unique_code" text 
+  "name" text 
+  "abbrv_name" text 
+  "name_en" text 
+  "abbrv_name_en" text 
+  "state" text 
+  "type" text 
+  "weight" integer 
+  "deleted_at" text 
+  "created_at" text 
+  "updated_at" text 
+  "_lft" integer 
+  "_rgt" integer 
+  "parent_id" text 
+ }
+
+Table "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด" {
+  Note: '58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด'
+  "id" integer 
+  "detail_id" integer 
+  "organization_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน" {
+  Note: '7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน'
+  "id" integer 
+  "cycle_id" integer 
+  "question" text 
+  "type" text 
+  "state" text 
+  "weight" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล" {
+  Note: '71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล'
+  "id" integer 
+  "assessmentable_id" integer 
+  "assessmentable_type" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_20_ข้อมูลองค์ประกอบการประเมิน" {
+  Note: '20_ข้อมูลองค์ประกอบการประเมิน'
+  "id" integer 
+  "parent_id" text 
+  "year_id" integer 
+  "cycle_id" integer 
+  "workflow_status" text 
+  "name" text 
+  "description" text 
+  "order" text 
+  "status" text 
+  "exception" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "code" text 
+ }
+
+Table "hdfs_33_ข้อมูลระดับการประเมินของแต่ละตัวชี้วัด" {
+  Note: '33_ข้อมูลระดับการประเมินของแต่ละตัวชี้วัด'
+  "id" integer 
+  "kpi_id" integer 
+  "level_id" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_63_ข้อมูลปีงบประมาณ" {
+  Note: '63_ข้อมูลปีงบประมาณ'
+  "id" integer 
+  "year" integer 
+  "state" text 
+  "weight" integer 
+  "deleted_at" text 
+  "created_at" text 
+  "updated_at" text 
+ }
+
+Table "hdfs_48_ข้อมูลตำแหน่งงานในแต่ละองค์กร" {
+  Note: '48_ข้อมูลตำแหน่งงานในแต่ละองค์กร'
+  "id" integer 
+  "name" text 
+  "unique_code" text 
+  "organization_id" integer 
+  "_lft" integer 
+  "_rgt" integer 
+  "parent_id" text 
+  "manager_id" text 
+  "group_career" text 
+  "state" text 
+  "weight" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน" {
+  Note: '55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน'
+  "id" integer 
+  "cycle_id" integer 
+  "organization_id" integer 
+  "category_id" integer 
+  "data" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_80_เชื่อมโยงข้อมูลประเภทอื่นๆเข้าการทำTag" {
+  Note: '80_เชื่อมโยงข้อมูลประเภทอื่นๆเข้าการทำTag'
+  "tag_id" integer 
+  "taggable_type" text 
+  "taggable_id" integer 
+ }
+
+Table "hdfs_73_ข้อมูลการประเมินผลในระดับหน่วยงาน" {
+  Note: '73_ข้อมูลการประเมินผลในระดับหน่วยงาน'
+  "id" integer 
+  "framework_detail_id" integer 
+  "kpi_id" integer 
+  "deduct_flag" text 
+  "deduct_score" text 
+  "deduct_reason" text 
+  "adjust_flag" text 
+  "adjust_reason" text 
+  "final_score" text 
+  "final_score_weighted" text 
+  "remarks" text 
+  "workflow_status" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน" {
+  Note: '35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน'
+  "id" integer 
+  "target_detail_id" integer 
+  "target_level_id" integer 
+  "framework_id" integer 
+  "range" text 
+  "math_symbol" text 
+  "quantity_value" text 
+  "milestone" text 
+  "order" integer 
+  "appeal_datetime" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_60_ข้อมูลหัวข้อภายใต้กลุ่มตัวชี้วัด" {
+  Note: '60_ข้อมูลหัวข้อภายใต้กลุ่มตัวชี้วัด'
+  "id" integer 
+  "group_id" integer 
+  "name" text 
+  "order" integer 
+  "state" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน" {
+  Note: '23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน'
+  "id" integer 
+  "framework_id" integer 
+  "previous_id" text 
+  "kpi_id" integer 
+  "kpi_no" text 
+  "score" text 
+  "score_weighted" text 
+  "weight" text 
+  "flag_basket" integer 
+  "final_score" text 
+  "final_score_weighted" text 
+  "previous_kpi_id" text 
+  "target_level_id" text 
+  "is_failed" integer 
+  "appeal_id" text 
+  "revoked_at" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "is_host" integer 
+  "preview_score" text 
+  "preview_score_weighted" text 
+ }
+
+Table "hdfs_11_ข้อมูลลำดับขั้นตอนการดำเนินในแต่ละรอบการประเมิน" {
+  Note: '11_ข้อมูลลำดับขั้นตอนการดำเนินในแต่ละรอบการประเมิน'
+  "id" integer 
+  "cycle_id" integer 
+  "category_id" integer 
+  "started_at" text 
+  "ended_at" text 
+  "show_timeline" integer 
+  "status" text 
+  "created_at" text 
+  "updated_at" text 
+ }
+
+Table "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน" {
+  Note: '66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน'
+  "id" integer 
+  "framework_id" integer 
+  "officer_id" integer 
+  "org_assessment_id" integer 
+  "level_id" integer 
+  "workflow_status" text 
+  "remark" text 
+  "approved_at" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_3_ข้อมูลรอบการประเมิน" {
+  Note: '3_ข้อมูลรอบการประเมิน'
+  "id" integer 
+  "year_id" integer 
+  "chart_id" integer 
+  "name" text 
+  "status" text 
+  "order" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "enable_score" integer 
+  "enable_signature" integer 
+  "basket_status" text 
+  "started_at" text 
+  "ended_at" text 
+  "public_score" integer 
+  "enable_chart_dimension" integer 
+  "chart_kpi1" text 
+  "chart_kpi2" text 
+ }
+
+Table "hdfs_53_ข้อมูลเจ้าหน้าที่ผู้สามารถเข้าใช้งานระบบได้" {
+  Note: '53_ข้อมูลเจ้าหน้าที่ผู้สามารถเข้าใช้งานระบบได้'
+  "id" integer 
+  "career_id" integer 
+  "username" text 
+  "password" text 
+  "email" text 
+  "tel_no" text 
+  "permissions" text 
+  "last_login" text 
+  "first_name" text 
+  "last_name" text 
+  "position" text 
+  "department" text 
+  "remember_token" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "is_super_user" integer 
+  "chart_type" text 
+  "igpthai_permission" text 
+ }
+
+Table "hdfs_22_ข้อมูลหน่วยงานที่เข้าร่วมการประเมินในแต่ละรอบการประเมิน" {
+  Note: '22_ข้อมูลหน่วยงานที่เข้าร่วมการประเมินในแต่ละรอบการประเมิน'
+  "id" integer 
+  "org_id" integer 
+  "cycle_id" text 
+  "status" text 
+  "workflow_status" text 
+  "org_level_id" text 
+  "final_score_weighted" text 
+  "is_failed" integer 
+  "short_code" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "is_approving" integer 
+  "progressive_score" text 
+ }
+
+Table "hdfs_57_ข้อมูลกลุ่มตัวชี้วัด" {
+  Note: '57_ข้อมูลกลุ่มตัวชี้วัด'
+  "id" integer 
+  "name" text 
+  "icon" text 
+  "color" text 
+  "cycle_id" integer 
+  "state" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_65_ข้อมูลสรุปการประเมินในระดับผทำการสรุปการประเมิน" {
+  Note: '65_ข้อมูลสรุปการประเมินในระดับผทำการสรุปการประเมิน'
+  "id" integer 
+  "officer_id" integer 
+  "workflow_status" text 
+  "remark" text 
+  "agree_type" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "cycle_id" integer 
+ }
+
+Table "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน" {
+  Note: '70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน'
+  "id" integer 
+  "assessment_id" integer 
+  "target_detail_id" integer 
+  "quantity_value" text 
+  "describe_score" text 
+  "milestone_value" text 
+  "boolean_value" text 
+  "remarks" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน" {
+  Note: '56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน'
+  "id" integer 
+  "name" text 
+  "abbrv_name" text 
+  "name_en" text 
+  "abbrv_name_en" text 
+  "unique_code" text 
+  "type" text 
+  "map_code" text 
+  "_lft" integer 
+  "_rgt" integer 
+  "parent_id" text 
+  "symbol" text 
+  "color" text 
+  "state" text 
+  "order" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_54_หมวดข้อมูลพื้นฐานประกอบของแต่ละหน่วยงาน" {
+  Note: '54_หมวดข้อมูลพื้นฐานประกอบของแต่ละหน่วยงาน'
+  "id" integer 
+  "code" text 
+  "name" text 
+  "created_at" text 
+  "updated_at" text 
+ }
+
+Table "hdfs_29_การรายงานตัวชี้วัดติดตามความก้าวหน้า" {
+  Note: '29_การรายงานตัวชี้วัดติดตามความก้าวหน้า'
+  "id" integer 
+  "progressive_id" integer 
+  "score" text 
+  "is_pass" integer 
+  "percentage" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "comment" text 
+  "score_weighted" text 
+ }
+
+Table "hdfs_41_ข้อมูลtokenใช้สำหรับการเรียกapi" {
+  Note: '41_ข้อมูลtokenใช้สำหรับการเรียกapi'
+  "id" integer 
+  "name" text 
+  "token" text 
+  "state" text 
+  "end_date" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_39_ข้อมูลระดับการประเมินเช่นสูงกลางต้น" {
+  Note: '39_ข้อมูลระดับการประเมินเช่นสูงกลางต้น'
+  "id" integer 
+  "category_id" integer 
+  "cycle_id" text 
+  "name" text 
+  "score" text 
+  "remark" text 
+  "order" integer 
+  "state" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_28_ตัวชี้วัดติดตามความก้าวหน้า" {
+  Note: '28_ตัวชี้วัดติดตามความก้าวหน้า'
+  "id" integer 
+  "framework_detail_id" integer 
+  "target_name" text 
+  "total_score" text 
+  "round" integer 
+  "date_start" text 
+  "date_end" text 
+  "weight" integer 
+  "deleted_at" text 
+  "created_at" text 
+  "updated_at" text 
+ }
+
+Table "hdfs_40_เก็บข้อมูลการเปลยนแปลงโครงสร้างฐานข้อมูล" {
+  Note: '40_เก็บข้อมูลการเปลยนแปลงโครงสร้างฐานข้อมูล'
+  "id" integer 
+  "migration" text 
+  "batch" integer 
+ }
+
+Table "hdfs_69_ข้อมูลการรายงานผลในระดับหน่วยงาน" {
+  Note: '69_ข้อมูลการรายงานผลในระดับหน่วยงาน'
+  "id" integer 
+  "framework_detail_id" integer 
+  "kpi_id" integer 
+  "failed_reason" text 
+  "explanation" text 
+  "trouble" text 
+  "remarks" text 
+  "suggestion" text 
+  "status" text 
+  "workflow_status" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_8_ข้อมูลประเภทขั้นตอนในการดำเนินงาน" {
+  Note: '8_ข้อมูลประเภทขั้นตอนในการดำเนินงาน'
+  "id" integer 
+  "name" text 
+  "code" text 
+  "order" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_59_ข้อมูลรายละเอียดหัวข้อภายใต้กลมตัวชี้วัด" {
+  Note: '59_ข้อมูลรายละเอียดหัวข้อภายใต้กลมตัวชี้วัด'
+  "id" integer 
+  "topic_id" integer 
+  "kpi_id" integer 
+  "order" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_52_ข้อมูลข่าวประกาศสำหรับเจ้าหน้าที่ผู้ใช้งานระบบ" {
+  Note: '52_ข้อมูลข่าวประกาศสำหรับเจ้าหน้าที่ผู้ใช้งานระบบ'
+  "id" integer 
+  "topic" text 
+  "description" text 
+  "link" text 
+  "is_highlight" integer 
+  "state" text 
+  "weight" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_81_ข้อมูลTagสำหรับใช้เชื่อมโยงกับข้อมูลอื่นๆ" {
+  Note: '81_ข้อมูลTagสำหรับใช้เชื่อมโยงกับข้อมูลอื่นๆ'
+  "id" integer 
+  "name" text 
+  "slug" text 
+  "type" text 
+  "order_column" integer 
+  "created_at" text 
+  "updated_at" text 
+ }
+
+Table "hdfs_16_ข้อมูลไฟล์ต่างๆของหน่วยงานที่ทำการอุทธรณ์" {
+  Note: '16_ข้อมูลไฟล์ต่างๆของหน่วยงานที่ทำการอุทธรณ์'
+  "id" integer 
+  "appealable_id" integer 
+  "appealable_type" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_82_ความคิดเห็นประชาชน" {
+  Note: '82_ความคิดเห็นประชาชน'
+  "id" integer 
+  "name" text 
+  "tel" integer 
+  "email" text 
+  "message" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_32_ข้อมูลประเด็นการประเมินของแต่ละตัวชี้วัด" {
+  Note: '32_ข้อมูลประเด็นการประเมินของแต่ละตัวชี้วัด'
+  "id" integer 
+  "target_id" integer 
+  "type" text 
+  "sub_type" text 
+  "quantity_method" text 
+  "quantity_collect" text 
+  "description" text 
+  "measurement_value" text 
+  "digit_decimal" text 
+  "boolean_value" text 
+  "boolean_unit" text 
+  "order" text 
+  "prorate" text 
+  "note" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_51_ข้อมูลURLของemensrcใช้ในการเชื่อมโยงแผน" {
+  Note: '51_ข้อมูลURLของemensrcใช้ในการเชื่อมโยงแผน'
+  "id" integer 
+  "name" text 
+  "url" text 
+  "prefix" text 
+  "state" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Table "hdfs_37_ข้อมูลตัวชี้วัด" {
+  Note: '37_ข้อมูลตัวชี้วัด'
+  "id" integer 
+  "parent_id" text 
+  "name" text 
+  "code" text 
+  "type" text 
+  "description" text 
+  "remark" text 
+  "kpi_no" text 
+  "weight" text 
+  "flag_basket" integer 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+  "creator_id" text 
+  "reference_id" text 
+ }
+
+Table "hdfs_74_ข้อมูลการประเมินผลในระดับตัวชี้วัดของหน่วยงาน" {
+  Note: '74_ข้อมูลการประเมินผลในระดับตัวชี้วัดของหน่วยงาน'
+  "id" integer 
+  "evaluate_id" integer 
+  "target_detail_id" integer 
+  "quantity_value" text 
+  "describe_score" text 
+  "milestone_value" text 
+  "boolean_value" text 
+  "remarks" text 
+  "created_at" text 
+  "updated_at" text 
+  "deleted_at" text 
+ }
+
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน"."cycle_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน"."weight" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."state" > "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน"."state" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน"."cycle_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_7_ข้อมูลคำถามประกอบแบบสอบถามประกอบการประเมิน"."weight" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."year_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_63_ข้อมูลปีงบประมาณ"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_63_ข้อมูลปีงบประมาณ"."weight" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."state" > "hdfs_63_ข้อมูลปีงบประมาณ"."state" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."state" > "hdfs_48_ข้อมูลตำแหน่งงานในแต่ละองค์กร"."state" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน"."cycle_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน"."category_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน"."order" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_60_ข้อมูลหัวข้อภายใต้กลุ่มตัวชี้วัด"."group_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_60_ข้อมูลหัวข้อภายใต้กลุ่มตัวชี้วัด"."order" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."flag_basket" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."flag_basket" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."is_failed" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."is_host" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_11_ข้อมูลลำดับขั้นตอนการดำเนินในแต่ละรอบการประเมิน"."category_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."org_assessment_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."level_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_3_ข้อมูลรอบการประเมิน"."year_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_3_ข้อมูลรอบการประเมิน"."chart_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_22_ข้อมูลหน่วยงานที่เข้าร่วมการประเมินในแต่ละรอบการประเมิน"."is_failed" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_22_ข้อมูลหน่วยงานที่เข้าร่วมการประเมินในแต่ละรอบการประเมิน"."is_approving" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_57_ข้อมูลกลุ่มตัวชี้วัด"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_57_ข้อมูลกลุ่มตัวชี้วัด"."cycle_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."state" > "hdfs_57_ข้อมูลกลุ่มตัวชี้วัด"."state" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_65_ข้อมูลสรุปการประเมินในระดับผทำการสรุปการประเมิน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_65_ข้อมูลสรุปการประเมินในระดับผทำการสรุปการประเมิน"."cycle_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_54_หมวดข้อมูลพื้นฐานประกอบของแต่ละหน่วยงาน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_29_การรายงานตัวชี้วัดติดตามความก้าวหน้า"."is_pass" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_41_ข้อมูลtokenใช้สำหรับการเรียกapi"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."state" > "hdfs_41_ข้อมูลtokenใช้สำหรับการเรียกapi"."state" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_39_ข้อมูลระดับการประเมินเช่นสูงกลางต้น"."category_id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_28_ตัวชี้วัดติดตามความก้าวหน้า"."round" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_8_ข้อมูลประเภทขั้นตอนในการดำเนินงาน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_52_ข้อมูลข่าวประกาศสำหรับเจ้าหน้าที่ผู้ใช้งานระบบ"."is_highlight" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_16_ข้อมูลไฟล์ต่างๆของหน่วยงานที่ทำการอุทธรณ์"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_82_ความคิดเห็นประชาชน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_51_ข้อมูลURLของemensrcใช้ในการเชื่อมโยงแผน"."id" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."state" > "hdfs_51_ข้อมูลURLของemensrcใช้ในการเชื่อมโยงแผน"."state" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."id" > "hdfs_37_ข้อมูลตัวชี้วัด"."flag_basket" 
+Ref: "hdfs_50_ข้อมูลผังองค์กร"."weight" > "hdfs_37_ข้อมูลตัวชี้วัด"."flag_basket"  
+
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."id" > "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน"."organization_id" 
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."detail_id" > "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน"."order" 
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."framework_id" 
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."id" > "hdfs_29_การรายงานตัวชี้วัดติดตามความก้าวหน้า"."percentage" 
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."detail_id" > "hdfs_28_ตัวชี้วัดติดตามความก้าวหน้า"."round" 
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."id" > "hdfs_40_เก็บข้อมูลการเปลยนแปลงโครงสร้างฐานข้อมูล"."batch" 
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."id" > "hdfs_59_ข้อมูลรายละเอียดหัวข้อภายใต้กลมตัวชี้วัด"."topic_id" 
+Ref: "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."id" > "hdfs_16_ข้อมูลไฟล์ต่างๆของหน่วยงานที่ทำการอุทธรณ์"."appealable_id"  
+
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_58_ข้อมูลหน่วยงานของรายละเอียดหัวข้อภายใต้กลุ่มตัวชี้วัด"."detail_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_33_ข้อมูลระดับการประเมินของแต่ละตัวชี้วัด"."kpi_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_63_ข้อมูลปีงบประมาณ"."year" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_48_ข้อมูลตำแหน่งงานในแต่ละองค์กร"."_lft" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_48_ข้อมูลตำแหน่งงานในแต่ละองค์กร"."_rgt" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_80_เชื่อมโยงข้อมูลประเภทอื่นๆเข้าการทำTag"."tag_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_73_ข้อมูลการประเมินผลในระดับหน่วยงาน"."kpi_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."kpi_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."officer_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_53_ข้อมูลเจ้าหน้าที่ผู้สามารถเข้าใช้งานระบบได้"."career_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_22_ข้อมูลหน่วยงานที่เข้าร่วมการประเมินในแต่ละรอบการประเมิน"."org_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_65_ข้อมูลสรุปการประเมินในระดับผทำการสรุปการประเมิน"."officer_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."assessment_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."_lft" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."_rgt" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_29_การรายงานตัวชี้วัดติดตามความก้าวหน้า"."progressive_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_69_ข้อมูลการรายงานผลในระดับหน่วยงาน"."kpi_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_59_ข้อมูลรายละเอียดหัวข้อภายใต้กลมตัวชี้วัด"."kpi_id" 
+Ref: "hdfs_71_ข้อมูลไฟล์หลักฐานประกอบการรายงานผล"."id" > "hdfs_81_ข้อมูลTagสำหรับใช้เชื่อมโยงกับข้อมูลอื่นๆ"."order_column"  
+
+Ref: "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."cycle_id" > "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน"."category_id" 
+Ref: "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."cycle_id" > "hdfs_11_ข้อมูลลำดับขั้นตอนการดำเนินในแต่ละรอบการประเมิน"."category_id" 
+Ref: "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."cycle_id" > "hdfs_39_ข้อมูลระดับการประเมินเช่นสูงกลางต้น"."category_id"  
+
+Ref: "hdfs_33_ข้อมูลระดับการประเมินของแต่ละตัวชี้วัด"."kpi_id" > "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."flag_basket"  
+
+Ref: "hdfs_63_ข้อมูลปีงบประมาณ"."weight" > "hdfs_50_ข้อมูลผังองค์กร"."year_id"  
+
+Ref: "hdfs_48_ข้อมูลตำแหน่งงานในแต่ละองค์กร"."organization_id" > "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน"."cycle_id"  
+
+Ref: "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน"."created_at" > "hdfs_54_หมวดข้อมูลพื้นฐานประกอบของแต่ละหน่วยงาน"."created_at" 
+Ref: "hdfs_55_ข้อมูลพื้นฐานของแต่ละหน่วยงาน"."created_at" > "hdfs_54_หมวดข้อมูลพื้นฐานประกอบของแต่ละหน่วยงาน"."updated_at"  
+
+Ref: "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน"."target_level_id" > "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."flag_basket" 
+Ref: "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน"."framework_id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."level_id" 
+Ref: "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน"."quantity_value" > "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."describe_score" 
+Ref: "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน"."milestone" > "hdfs_74_ข้อมูลการประเมินผลในระดับตัวชี้วัดของหน่วยงาน"."milestone_value"  
+
+Ref: "hdfs_60_ข้อมูลหัวข้อภายใต้กลุ่มตัวชี้วัด"."order" > "hdfs_39_ข้อมูลระดับการประเมินเช่นสูงกลางต้น"."category_id"  
+
+Ref: "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."weight" > "hdfs_48_ข้อมูลตำแหน่งงานในแต่ละองค์กร"."group_career" 
+Ref: "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."score_weighted" > "hdfs_73_ข้อมูลการประเมินผลในระดับหน่วยงาน"."deduct_score" 
+Ref: "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."weight" > "hdfs_73_ข้อมูลการประเมินผลในระดับหน่วยงาน"."deduct_score" 
+Ref: "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."is_failed" > "hdfs_22_ข้อมูลหน่วยงานที่เข้าร่วมการประเมินในแต่ละรอบการประเมิน"."is_approving" 
+Ref: "hdfs_23_ข้อมูลตัวชี้วัดที่แต่ละหน่วยงานต้องทำการประเมิน"."score" > "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."describe_score"  
+
+Ref: "hdfs_11_ข้อมูลลำดับขั้นตอนการดำเนินในแต่ละรอบการประเมิน"."status" > "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."status" 
+Ref: "hdfs_11_ข้อมูลลำดับขั้นตอนการดำเนินในแต่ละรอบการประเมิน"."status" > "hdfs_3_ข้อมูลรอบการประเมิน"."status"  
+
+Ref: "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."workflow_status" > "hdfs_65_ข้อมูลสรุปการประเมินในระดับผทำการสรุปการประเมิน"."workflow_status"  
+
+Ref: "hdfs_3_ข้อมูลรอบการประเมิน"."order" > "hdfs_32_ข้อมูลประเด็นการประเมินของแต่ละตัวชี้วัด"."digit_decimal"  
+
+Ref: "hdfs_22_ข้อมูลหน่วยงานที่เข้าร่วมการประเมินในแต่ละรอบการประเมิน"."cycle_id" > "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."order"  
+
+Ref: "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."target_detail_id" > "hdfs_35_ข้อมูลค่าเป้าหมายของแต่ละตัวชี้วัดของแต่ละหน่วยงาน"."order" 
+Ref: "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."assessment_id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."framework_id" 
+Ref: "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."assessment_id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."org_assessment_id" 
+Ref: "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."assessment_id" > "hdfs_66_ข้อมูลสรุปการประเมินในระดับหน่วยงาน"."level_id" 
+Ref: "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."boolean_value" > "hdfs_32_ข้อมูลประเด็นการประเมินของแต่ละตัวชี้วัด"."quantity_collect" 
+Ref: "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."boolean_value" > "hdfs_74_ข้อมูลการประเมินผลในระดับตัวชี้วัดของหน่วยงาน"."boolean_value"  
+
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."parent_id" > "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."order" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_20_ข้อมูลองค์ประกอบการประเมิน"."year_id" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."parent_id" > "hdfs_48_ข้อมูลตำแหน่งงานในแต่ละองค์กร"."group_career" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_60_ข้อมูลหัวข้อภายใต้กลุ่มตัวชี้วัด"."group_id" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_3_ข้อมูลรอบการประเมิน"."year_id" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_3_ข้อมูลรอบการประเมิน"."chart_id" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_3_ข้อมูลรอบการประเมิน"."enable_score" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_3_ข้อมูลรอบการประเมิน"."enable_signature" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_3_ข้อมูลรอบการประเมิน"."public_score" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_3_ข้อมูลรอบการประเมิน"."enable_chart_dimension" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."color" > "hdfs_57_ข้อมูลกลุ่มตัวชี้วัด"."color" 
+Ref: "hdfs_56_ข้อมูลหน่วยงานและองค์กรที่เกี่ยวข้องกับการประเมิน"."order" > "hdfs_59_ข้อมูลรายละเอียดหัวข้อภายใต้กลมตัวชี้วัด"."topic_id"  
+
+Ref: "hdfs_29_การรายงานตัวชี้วัดติดตามความก้าวหน้า"."score" > "hdfs_73_ข้อมูลการประเมินผลในระดับหน่วยงาน"."deduct_score" 
+Ref: "hdfs_29_การรายงานตัวชี้วัดติดตามความก้าวหน้า"."score" > "hdfs_3_ข้อมูลรอบการประเมิน"."order"  
+
+Ref: "hdfs_32_ข้อมูลประเด็นการประเมินของแต่ละตัวชี้วัด"."id" > "hdfs_70_ข้อมูลการรายงานผลในระดับตัวชี้วัดของหน่วยงาน"."target_detail_id"  
+

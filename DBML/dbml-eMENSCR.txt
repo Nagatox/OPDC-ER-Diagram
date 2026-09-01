@@ -1,0 +1,444 @@
+Table "hdfs_eMENSCR_documents_progressprogress_gantt_chart" {
+  Note: 'eMENSCR_documents_progressprogress_gantt_chart'
+  "idx_" integer 
+  "progress.progress_gantt_chart" text 
+  "activity" text 
+  "progress_report" text 
+  "type" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progressfiscal_year_2561Q4budget" {
+  Note: 'eMENSCR_documents_progressfiscal_year_2561Q4budget'
+  "idx_" integer 
+  "progress.fiscal_year_2561.q4.budget" text 
+  "pass" text 
+  "plan" text 
+  "report" text 
+  "used" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progress_gantt_chart" {
+  Note: 'eMENSCR_documents_progress_gantt_chart'
+  "idx_" integer 
+  "progress_gantt_chart" text 
+  "activity" text 
+  "progress_report" text 
+  "type" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progressprogress_plan12" {
+  Note: 'eMENSCR_documents_progressprogress_plan12'
+  "idx_" integer 
+  "progress.progress_plan12" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progressprogress_strategies" {
+  Note: 'eMENSCR_documents_progressprogress_strategies'
+  "idx_" integer 
+  "progress.progress_strategies" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progressprogress_reform" {
+  Note: 'eMENSCR_documents_progressprogress_reform'
+  "idx_" integer 
+  "progress.progress_reform" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_documents-m1" {
+  Note: 'eMENSCR_documents-m1'
+  "idx_" integer 
+  "_id" text 
+  "code_th" text 
+  "code_en" text 
+  "type" text 
+  "name" text 
+  "over" text 
+  "expenditure" text 
+  "method" text 
+  "gfmis_id" text 
+  "rationale" text 
+  "objective" text 
+  "output" text 
+  "outcome" text 
+  "expected_results" text 
+  "success_indicators" text 
+  "target_group" text 
+  "area_description" text 
+  "start_date" text 
+  "end_date" text 
+  "project_gantt_chart" text 
+  "budget_government_direct" text 
+  "budget_government_other_amount" text 
+  "budget_government_other_source" text 
+  "budget_department" text 
+  "budget_loan_domestic" text 
+  "budget_loan_foreign" text 
+  "budget_sum" text 
+  "budget_sum_plan" text 
+  "progress_output" text 
+  "progress_outcome" text 
+  "progress_indicators" text 
+  "result" text 
+  "problem" text 
+  "suggestion" text 
+  "status" text 
+  "created_at" text 
+  "created_by" text 
+  "modified_at" text 
+  "modified_by" text 
+  "org_l1" text 
+  "org_l2" text 
+  "org_l3" text 
+  "ts" text 
+  "fiscal_year" integer 
+  "fiscal_quarter" text 
+  "big_project_code" text 
+  "group" text 
+  "level3_id_thai" text 
+  "budget_government_province" text 
+  "budget_government_province_group" text 
+  "draft_complete" text 
+  "step" text 
+  "approver" text 
+  "progress.progress_output" text 
+  "progress.progress_outcome" text 
+  "progress.progress_indicators" text 
+  "progress.result" text 
+  "progress.problem" text 
+  "progress.suggestion" text 
+  "progress.fiscal_year_2561.q4.progress_output" text 
+  "progress.fiscal_year_2561.q4.progress_outcome" text 
+  "progress.fiscal_year_2561.q4.progress_indicators" text 
+  "progress.fiscal_year_2561.q4.result" text 
+  "progress.fiscal_year_2561.q4.problem" text 
+  "progress.fiscal_year_2561.q4.suggestion" text 
+  "masterplan_direct.masterplan" text 
+  "masterplan_direct.y1_direction" text 
+  "masterplan_direct.y1_goal" text 
+  "masterplan_direct.y2_goal" text 
+  "masterplan_direct.z_goal" text 
+  "masterplan_direct.z_3digits" text 
+  "masterplan_direct.report_z_consistent" text 
+  "masterplan_direct.report_y1_goal.consistent" text 
+  "masterplan_direct.report_y2_goal.consistent" text 
+  "masterplan_direct.id" text 
+  "fiscal_change" text 
+  "project_fiscal_year" text 
+  "project_idea" text 
+  "value_chain_flag" text 
+  "masterplan_direct.y1_goal_v2" text 
+  "masterplan_direct.value_chain" text 
+  "masterplan_direct.factor" text 
+  "bigrock" text 
+  "bigrock_execution_year" text 
+  "bigrock_project_id" text 
+  "bigrock_project_uid" text 
+  "execution_year_old" text 
+  "masterplan_direct.sdg_goal" text 
+  "0.project_idea" text 
+  "source_project65_id" text 
+  "source_project65_code_en" text 
+  "bigrock_fiscal_year" text 
+  "ms_id" text 
+  "project_idea_fy" text 
+  "late" text 
+  "investment_project" text 
+  "project_area.area_level" text 
+  "project_area.bb_area_code" text 
+  "editable" text 
+  "eplanid" text 
+  "org_l4" text 
+  "org_l5" text 
+  "pelcd" text 
+  "source_project_id" text 
+  "source_project_code_en" text 
+  "achievement" text 
+  "transfer_from_docid" text 
+  "national_reform_direct_str" text 
+ }
+
+Table "hdfs_eMENSCR_documents_budget_other" {
+  Note: 'eMENSCR_documents_budget_other'
+  "idx_" integer 
+  "budget_other" text 
+  "amount" text 
+  "source" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progress_reform" {
+  Note: 'eMENSCR_documents_progress_reform'
+  "idx_" integer 
+  "progress_reform" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_documents_plan12" {
+  Note: 'eMENSCR_documents_plan12'
+  "idx_" integer 
+  "plan12" text 
+ }
+
+Table "hdfs_eMENSCR_documents_masterplan_secondary" {
+  Note: 'eMENSCR_documents_masterplan_secondary'
+  "idx_" integer 
+  "masterplan_secondary" text 
+  "factor" text 
+  "id" text 
+  "masterplan" text 
+  "report_y1_goal" text 
+  "report_y2_goal" text 
+  "report_z_consistent" text 
+  "sdg_goal" text 
+  "sdg_target" text 
+  "value_chain" text 
+  "y1_direction" text 
+  "y1_goal" text 
+  "y1_goal_v2" text 
+  "y2_goal" text 
+  "z_3digits" text 
+  "z_goal" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progress_strategies" {
+  Note: 'eMENSCR_documents_progress_strategies'
+  "idx_" integer 
+  "progress_strategies" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_documents_budget_plan_list" {
+  Note: 'eMENSCR_documents_budget_plan_list'
+  "idx_" integer 
+  "budget_plan_list" text 
+  "q1" text 
+  "q2" text 
+  "q3" text 
+  "q4" text 
+  "fiscal_year" text 
+ }
+
+Table "hdfs_eMENSCR_documents_budget" {
+  Note: 'eMENSCR_documents_budget'
+  "idx_" integer 
+  "budget" text 
+  "pass" text 
+  "plan" text 
+  "report" text 
+  "used" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progressbudget" {
+  Note: 'eMENSCR_documents_progressbudget'
+  "idx_" integer 
+  "progress.budget" text 
+  "pass" text 
+  "plan" text 
+  "report" text 
+  "used" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progress_plan12" {
+  Note: 'eMENSCR_documents_progress_plan12'
+  "idx_" integer 
+  "progress_plan12" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progress_security" {
+  Note: 'eMENSCR_documents_progress_security'
+  "idx_" integer 
+  "progress_security" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progress_reports" {
+  Note: 'eMENSCR_documents_progress_reports'
+  "idx_" integer 
+  "progress_reports" text 
+  "_id" text 
+  "budget" text 
+  "code_en" text 
+  "code_th" text 
+  "created_at" text 
+  "docid" text 
+  "fiscal_quarter" text 
+  "fiscal_year" text 
+  "modified_at" text 
+  "problem" text 
+  "progress_gantt_chart" text 
+  "progress_indicators" text 
+  "progress_masterplan_direct" text 
+  "progress_masterplan_secondary" text 
+  "progress_outcome" text 
+  "progress_output" text 
+  "progress_plan12" text 
+  "progress_reform" text 
+  "progress_security" text 
+  "progress_strategies" text 
+  "result" text 
+  "suggestion" text 
+ }
+
+Table "hdfs_eMENSCR_documents_progressprogress_security" {
+  Note: 'eMENSCR_documents_progressprogress_security'
+  "idx_" integer 
+  "progress.progress_security" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_progress-m1" {
+  Note: 'eMENSCR_progress-m1'
+  "idx_" integer 
+  "_id" text 
+  "fiscal_year" integer 
+  "fiscal_quarter" integer 
+  "progress_output" text 
+  "progress_outcome" text 
+  "progress_indicators" text 
+  "result" text 
+  "problem" text 
+  "suggestion" text 
+  "docid" text 
+  "code_th" text 
+  "code_en" text 
+  "created_at" text 
+  "modified_at" text 
+  "status" text 
+  "step" integer 
+  "approver" text 
+  "timeidx" text 
+  "progress_masterplan_direct.node_id" text 
+  "progress_masterplan_direct.node_type" text 
+  "progress_masterplan_direct.z_goal" text 
+  "progress_masterplan_direct.y2_goal" text 
+  "progress_masterplan_direct.y1_goal" text 
+  "budget.plan" text 
+  "budget.used" text 
+  "budget.pass" text 
+  "budget.report" text 
+  "project_progress_cumulative" text 
+  "reporter_cyear" text 
+  "calendar_year" text 
+  "calendar_quarter" text 
+ }
+
+Table "hdfs_eMENSCR_progress_progress_plan13" {
+  Note: 'eMENSCR_progress_progress_plan13'
+  "idx_" integer 
+  "progress_plan13" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_progress_progress_gantt_chart" {
+  Note: 'eMENSCR_progress_progress_gantt_chart'
+  "idx_" integer 
+  "progress_gantt_chart" text 
+  "activity" text 
+  "progress_report" text 
+  "type" text 
+ }
+
+Table "hdfs_eMENSCR_progress_progress_plan12" {
+  Note: 'eMENSCR_progress_progress_plan12'
+  "idx_" integer 
+  "progress_plan12" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_progress_progress_reform" {
+  Note: 'eMENSCR_progress_progress_reform'
+  "idx_" integer 
+  "progress_reform" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Table "hdfs_eMENSCR_progress_progress_strategies" {
+  Note: 'eMENSCR_progress_progress_strategies'
+  "idx_" integer 
+  "progress_strategies" text 
+  "kpi" text 
+  "node_id" text 
+  "node_type" text 
+  "progress_report" text 
+ }
+
+Ref: "hdfs_eMENSCR_documents_progressprogress_gantt_chart"."type" > "hdfs_eMENSCR_documents_progress_gantt_chart"."type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_gantt_chart"."type" > "hdfs_eMENSCR_progress_progress_gantt_chart"."type"  
+
+Ref: "hdfs_eMENSCR_documents_progressfiscal_year_2561Q4budget"."pass" > "hdfs_eMENSCR_documents_budget"."pass" 
+Ref: "hdfs_eMENSCR_documents_progressfiscal_year_2561Q4budget"."pass" > "hdfs_eMENSCR_documents_progressbudget"."pass" 
+Ref: "hdfs_eMENSCR_documents_progressfiscal_year_2561Q4budget"."pass" > "hdfs_eMENSCR_progress-m1"."reporter_cyear"  
+
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_documents_progressprogress_strategies"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_documents_progressprogress_reform"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_documents_progress_reform"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_documents_progress_strategies"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_id" > "hdfs_eMENSCR_documents_progress_plan12"."node_id" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_documents_progress_plan12"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_documents_progress_security"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_documents_progressprogress_security"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_progress-m1"."progress_masterplan_direct.node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_progress_progress_plan12"."node_type" 
+Ref: "hdfs_eMENSCR_documents_progressprogress_plan12"."node_type" > "hdfs_eMENSCR_progress_progress_strategies"."node_type"  
+
+Ref: "hdfs_eMENSCR_documents-m1"."fiscal_quarter" > "hdfs_eMENSCR_documents_progress_reports"."fiscal_quarter" 
+Ref: "hdfs_eMENSCR_documents-m1"."status" > "hdfs_eMENSCR_progress-m1"."status" 
+Ref: "hdfs_eMENSCR_documents-m1"."fiscal_quarter" > "hdfs_eMENSCR_progress-m1"."reporter_cyear" 
+Ref: "hdfs_eMENSCR_documents-m1"."fiscal_quarter" > "hdfs_eMENSCR_progress-m1"."calendar_quarter"  
+
+Ref: "hdfs_eMENSCR_documents_budget_other"."amount" > "hdfs_eMENSCR_documents-m1"."budget_loan_foreign" 
+Ref: "hdfs_eMENSCR_documents_budget_other"."amount" > "hdfs_eMENSCR_documents-m1"."project_area.bb_area_code" 
+Ref: "hdfs_eMENSCR_documents_budget_other"."amount" > "hdfs_eMENSCR_documents-m1"."editable" 
+Ref: "hdfs_eMENSCR_documents_budget_other"."source" > "hdfs_eMENSCR_documents-m1"."budget_loan_foreign" 
+Ref: "hdfs_eMENSCR_documents_budget_other"."source" > "hdfs_eMENSCR_documents-m1"."editable"  
+
+Ref: "hdfs_eMENSCR_documents_plan12"."plan12" > "hdfs_eMENSCR_documents_progressprogress_plan12"."node_id" 
+Ref: "hdfs_eMENSCR_documents_plan12"."plan12" > "hdfs_eMENSCR_documents_progress_plan12"."node_id"  
+
+Ref: "hdfs_eMENSCR_documents_masterplan_secondary"."z_goal" > "hdfs_eMENSCR_documents-m1"."masterplan_direct.z_goal"  
+
+Ref: "hdfs_eMENSCR_documents_budget_plan_list"."q4" > "hdfs_eMENSCR_documents-m1"."budget_loan_foreign" 
+Ref: "hdfs_eMENSCR_documents_budget_plan_list"."q4" > "hdfs_eMENSCR_documents-m1"."project_area.bb_area_code" 
+Ref: "hdfs_eMENSCR_documents_budget_plan_list"."q4" > "hdfs_eMENSCR_documents-m1"."editable"  
+
+Ref: "hdfs_eMENSCR_progress-m1"."code_th" > "hdfs_eMENSCR_documents-m1"."transfer_from_docid"  
+
+Ref: "hdfs_eMENSCR_progress_progress_plan13"."kpi" > "hdfs_eMENSCR_progress_progress_plan12"."kpi" 
+Ref: "hdfs_eMENSCR_progress_progress_plan13"."kpi" > "hdfs_eMENSCR_progress_progress_reform"."kpi"  
+

@@ -1,0 +1,232 @@
+Table "hdfs_gsdtools_dashboard_by_agency_link_2026_08" {
+  Note: 'gsdtools_dashboard_by_agency_link_2026_08'
+  "ministry" text 
+  "agency" text 
+  "group" text 
+  "count" text 
+  "yyyymm" text 
+ }
+
+Table "hdfs_gsdtools_dashboard_by_ministry_2026_08" {
+  Note: 'gsdtools_dashboard_by_ministry_2026_08'
+  "ministry" text 
+  "total" text 
+  "e_service" text 
+  "no_e_service" text 
+  "yyyymm" text 
+ }
+
+Table "hdfs_gsdtools_dashboard_by_ministry_link_2026_08" {
+  Note: 'gsdtools_dashboard_by_ministry_link_2026_08'
+  "ministry" text 
+  "group" text 
+  "count" text 
+  "yyyymm" text 
+ }
+
+Table "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08" {
+  Note: 'gsdtools_dashboard_summary_by_link_status_2026_08'
+  "status" text 
+  "count" text 
+  "updated_at" text 
+  "group" text 
+  "yyyymm" text 
+ }
+
+Table "hdfs_gsdtools_dashboard_summary_by_ministry_2026_08" {
+  Note: 'gsdtools_dashboard_summary_by_ministry_2026_08'
+  "ministry" text 
+  "count" text 
+  "updated_at" text 
+  "yyyymm" text 
+ }
+
+Table "hdfs_gsdtools_metadata_dashboard_summary_2026_08" {
+  Note: 'gsdtools_metadata_dashboard_summary_2026_08'
+  "total_services" text 
+  "e_service_count" text 
+  "no_e_service_count" text 
+  "updated_at" text 
+  "yyyymm" text 
+ }
+
+Table "hdfs_gsdtools_services_2026_07" {
+  Note: 'gsdtools_services_2026_07'
+  "seq" text 
+  "url" text 
+  "steps" text 
+  "agency" text 
+  "manual" text 
+  "kprnote" text 
+  "prevseq" text 
+  "version" text 
+  "eservice" text 
+  "linktype" text 
+  "ministry" text 
+  "dataentry" text 
+  "legalrefs" text 
+  "postsplit" text 
+  "recipient" text 
+  "techstack" text 
+  "updatedat" text 
+  "versionno" text 
+  "agencynote" text 
+  "agencytype" text 
+  "datastatus" text 
+  "fiscalyear" text 
+  "linkstatus" text 
+  "systemname" text 
+  "coordinator" text 
+  "miniappname" text 
+  "processname" text 
+  "projectname" text 
+  "publishedat" text 
+  "publishedby" text 
+  "servicename" text 
+  "thaidstatus" text 
+  "budgetsource" text 
+  "techdatabase" text 
+  "channelonline" text 
+  "linksubstatus" text 
+  "pendingchange" text 
+  "channeloffline" text 
+  "dataentryphone" text 
+  "dataentryuserid" text 
+  "channelonlineapp" text 
+  "coordinatorphone" text 
+  "noeservicedetail" text 
+  "noeservicereason" text 
+  "techapiavailable" text 
+  "coordinatoruserid" text 
+  "channelonlineeservice" text 
+  "channelonlineplatform" text 
+  "channelonlinebizportal" text 
+  "version_no" text 
+  "updated_at" text 
+  "published_at" text 
+  "yyyymm" text 
+ }
+
+Table "hdfs_gsdtools_services_2026_08" {
+  Note: 'gsdtools_services_2026_08'
+  "seq" text 
+  "url" text 
+  "steps" text 
+  "agency" text 
+  "manual" text 
+  "kprnote" text 
+  "prevseq" text 
+  "version" text 
+  "eservice" text 
+  "linktype" text 
+  "ministry" text 
+  "dataentry" text 
+  "legalrefs" text 
+  "postsplit" text 
+  "recipient" text 
+  "techstack" text 
+  "updatedat" text 
+  "versionno" text 
+  "agencynote" text 
+  "agencytype" text 
+  "datastatus" text 
+  "fiscalyear" text 
+  "linkstatus" text 
+  "systemname" text 
+  "coordinator" text 
+  "miniappname" text 
+  "processname" text 
+  "projectname" text 
+  "publishedat" text 
+  "publishedby" text 
+  "servicename" text 
+  "thaidstatus" text 
+  "budgetsource" text 
+  "techdatabase" text 
+  "channelonline" text 
+  "linksubstatus" text 
+  "pendingchange" text 
+  "channeloffline" text 
+  "dataentryphone" text 
+  "dataentryuserid" text 
+  "channelonlineapp" text 
+  "coordinatorphone" text 
+  "noeservicedetail" text 
+  "noeservicereason" text 
+  "techapiavailable" text 
+  "coordinatoruserid" text 
+  "channelonlineeservice" text 
+  "channelonlineplatform" text 
+  "channelonlinebizportal" text 
+  "version_no" text 
+  "updated_at" text 
+  "published_at" text 
+  "yyyymm" text 
+ }
+
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."ministry" > "hdfs_gsdtools_dashboard_by_ministry_2026_08"."ministry" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."yyyymm" > "hdfs_gsdtools_dashboard_by_ministry_2026_08"."yyyymm" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."ministry" > "hdfs_gsdtools_dashboard_by_ministry_link_2026_08"."ministry" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."group" > "hdfs_gsdtools_dashboard_by_ministry_link_2026_08"."group" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."count" > "hdfs_gsdtools_dashboard_by_ministry_link_2026_08"."group" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."yyyymm" > "hdfs_gsdtools_dashboard_by_ministry_link_2026_08"."yyyymm" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."group" > "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08"."group" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."count" > "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08"."group" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."yyyymm" > "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08"."yyyymm" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."ministry" > "hdfs_gsdtools_dashboard_summary_by_ministry_2026_08"."ministry" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."yyyymm" > "hdfs_gsdtools_dashboard_summary_by_ministry_2026_08"."yyyymm" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."yyyymm" > "hdfs_gsdtools_metadata_dashboard_summary_2026_08"."yyyymm" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."ministry" > "hdfs_gsdtools_services_2026_07"."ministry" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."agency" > "hdfs_gsdtools_services_2026_07"."agency" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."ministry" > "hdfs_gsdtools_services_2026_08"."ministry" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."agency" > "hdfs_gsdtools_services_2026_08"."agency" 
+Ref: "hdfs_gsdtools_dashboard_by_agency_link_2026_08"."yyyymm" > "hdfs_gsdtools_services_2026_08"."yyyymm"  
+
+Ref: "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08"."updated_at" > "hdfs_gsdtools_dashboard_summary_by_ministry_2026_08"."updated_at" 
+Ref: "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08"."updated_at" > "hdfs_gsdtools_metadata_dashboard_summary_2026_08"."updated_at" 
+Ref: "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08"."status" > "hdfs_gsdtools_services_2026_07"."linkstatus" 
+Ref: "hdfs_gsdtools_dashboard_summary_by_link_status_2026_08"."status" > "hdfs_gsdtools_services_2026_08"."linkstatus"  
+
+Ref: "hdfs_gsdtools_services_2026_07"."seq" > "hdfs_gsdtools_services_2026_08"."seq" 
+Ref: "hdfs_gsdtools_services_2026_07"."seq" > "hdfs_gsdtools_services_2026_08"."version_no" 
+Ref: "hdfs_gsdtools_services_2026_07"."url" > "hdfs_gsdtools_services_2026_08"."url" 
+Ref: "hdfs_gsdtools_services_2026_07"."steps" > "hdfs_gsdtools_services_2026_08"."steps" 
+Ref: "hdfs_gsdtools_services_2026_07"."manual" > "hdfs_gsdtools_services_2026_08"."manual" 
+Ref: "hdfs_gsdtools_services_2026_07"."kprnote" > "hdfs_gsdtools_services_2026_08"."kprnote" 
+Ref: "hdfs_gsdtools_services_2026_07"."prevseq" > "hdfs_gsdtools_services_2026_08"."prevseq" 
+Ref: "hdfs_gsdtools_services_2026_07"."prevseq" > "hdfs_gsdtools_services_2026_08"."version_no" 
+Ref: "hdfs_gsdtools_services_2026_07"."version" > "hdfs_gsdtools_services_2026_08"."version" 
+Ref: "hdfs_gsdtools_services_2026_07"."eservice" > "hdfs_gsdtools_services_2026_08"."eservice" 
+Ref: "hdfs_gsdtools_services_2026_07"."linktype" > "hdfs_gsdtools_services_2026_08"."linktype" 
+Ref: "hdfs_gsdtools_services_2026_07"."dataentry" > "hdfs_gsdtools_services_2026_08"."dataentry" 
+Ref: "hdfs_gsdtools_services_2026_07"."postsplit" > "hdfs_gsdtools_services_2026_08"."postsplit" 
+Ref: "hdfs_gsdtools_services_2026_07"."recipient" > "hdfs_gsdtools_services_2026_08"."recipient" 
+Ref: "hdfs_gsdtools_services_2026_07"."versionno" > "hdfs_gsdtools_services_2026_08"."versionno" 
+Ref: "hdfs_gsdtools_services_2026_07"."agencynote" > "hdfs_gsdtools_services_2026_08"."agencynote" 
+Ref: "hdfs_gsdtools_services_2026_07"."agencytype" > "hdfs_gsdtools_services_2026_08"."agencytype" 
+Ref: "hdfs_gsdtools_services_2026_07"."datastatus" > "hdfs_gsdtools_services_2026_08"."datastatus" 
+Ref: "hdfs_gsdtools_services_2026_07"."fiscalyear" > "hdfs_gsdtools_services_2026_08"."fiscalyear" 
+Ref: "hdfs_gsdtools_services_2026_07"."systemname" > "hdfs_gsdtools_services_2026_08"."systemname" 
+Ref: "hdfs_gsdtools_services_2026_07"."coordinator" > "hdfs_gsdtools_services_2026_08"."coordinator" 
+Ref: "hdfs_gsdtools_services_2026_07"."miniappname" > "hdfs_gsdtools_services_2026_08"."miniappname" 
+Ref: "hdfs_gsdtools_services_2026_07"."processname" > "hdfs_gsdtools_services_2026_08"."processname" 
+Ref: "hdfs_gsdtools_services_2026_07"."projectname" > "hdfs_gsdtools_services_2026_08"."projectname" 
+Ref: "hdfs_gsdtools_services_2026_07"."publishedat" > "hdfs_gsdtools_services_2026_08"."publishedat" 
+Ref: "hdfs_gsdtools_services_2026_07"."publishedby" > "hdfs_gsdtools_services_2026_08"."publishedby" 
+Ref: "hdfs_gsdtools_services_2026_07"."servicename" > "hdfs_gsdtools_services_2026_08"."servicename" 
+Ref: "hdfs_gsdtools_services_2026_07"."thaidstatus" > "hdfs_gsdtools_services_2026_08"."thaidstatus" 
+Ref: "hdfs_gsdtools_services_2026_07"."budgetsource" > "hdfs_gsdtools_services_2026_08"."budgetsource" 
+Ref: "hdfs_gsdtools_services_2026_07"."linksubstatus" > "hdfs_gsdtools_services_2026_08"."linksubstatus" 
+Ref: "hdfs_gsdtools_services_2026_07"."pendingchange" > "hdfs_gsdtools_services_2026_08"."pendingchange" 
+Ref: "hdfs_gsdtools_services_2026_07"."dataentryphone" > "hdfs_gsdtools_services_2026_08"."dataentryphone" 
+Ref: "hdfs_gsdtools_services_2026_07"."dataentryuserid" > "hdfs_gsdtools_services_2026_08"."dataentryuserid" 
+Ref: "hdfs_gsdtools_services_2026_07"."coordinatorphone" > "hdfs_gsdtools_services_2026_08"."coordinatorphone" 
+Ref: "hdfs_gsdtools_services_2026_07"."noeservicedetail" > "hdfs_gsdtools_services_2026_08"."noeservicedetail" 
+Ref: "hdfs_gsdtools_services_2026_07"."noeservicedetail" > "hdfs_gsdtools_services_2026_08"."version_no" 
+Ref: "hdfs_gsdtools_services_2026_07"."noeservicereason" > "hdfs_gsdtools_services_2026_08"."noeservicereason" 
+Ref: "hdfs_gsdtools_services_2026_07"."coordinatoruserid" > "hdfs_gsdtools_services_2026_08"."coordinatoruserid" 
+Ref: "hdfs_gsdtools_services_2026_07"."version_no" > "hdfs_gsdtools_services_2026_08"."version_no" 
+Ref: "hdfs_gsdtools_services_2026_07"."updated_at" > "hdfs_gsdtools_services_2026_08"."published_at" 
+Ref: "hdfs_gsdtools_services_2026_07"."published_at" > "hdfs_gsdtools_services_2026_08"."updated_at" 
+Ref: "hdfs_gsdtools_services_2026_07"."published_at" > "hdfs_gsdtools_services_2026_08"."published_at"  
+

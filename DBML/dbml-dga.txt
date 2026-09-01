@@ -1,0 +1,64 @@
+Table "hdfs_inno_001" {
+  Note: 'inno_001'
+  "id" text 
+  "สถานะ" text 
+  "กระทรวง" text 
+  "หน่วยงาน" text 
+  "กระบวนงาน" text 
+  "procedure_type_name" text 
+  "procedure_category_name" text 
+  "impact_type_name" text 
+  "procedure_id" text 
+  "ระยะเวลา_(วัน)" text 
+  "ค่าธรรมเนียม" text 
+  "จำนวนเอกสารหลักฐาน" text 
+  "criteria" text 
+  "แก้ไขล่าสุด" text 
+ }
+
+Table "hdfs_inno_002" {
+  Note: 'inno_002'
+  "id" text 
+  "กระทรวง" text 
+  "หน่วยงาน" text 
+  "procedure_id" text 
+  "กระบวนงาน" text 
+  "ขั้นตอนหลัก" text 
+  "ขั้นตอนย่อย" text 
+  "รายละเอียดขั้นตอน" text 
+  "เวลาดำเนินการ" text 
+  "หน่วยของเวลา" text 
+ }
+
+Table "hdfs_inno_003" {
+  Note: 'inno_003'
+  "กระทรวง" text 
+  "หน่วยงาน" text 
+  "procedure_id" text 
+  "กระบวนงาน" text 
+  "ชื่อเอกสาร" text 
+  "ประเภทเอกสาร" text 
+  "รายละเอียด" text 
+  "กรณีใช้เอกสาร" text 
+  "หมายเหตุ" text 
+ }
+
+Table "hdfs_inno_005" {
+  Note: 'inno_005'
+  "ปีงบประมาณ" text 
+  "กระทรวง" text 
+  "หน่วยงาน" text 
+  "procedure_id" text 
+  "กระบวนงาน" text 
+  "จำนวนคำขอที่อนุมัติ" text 
+ }
+
+Ref: "hdfs_inno_001"."กระทรวง" > "hdfs_inno_002"."กระทรวง" 
+Ref: "hdfs_inno_001"."หน่วยงาน" > "hdfs_inno_002"."หน่วยงาน" 
+Ref: "hdfs_inno_001"."กระทรวง" > "hdfs_inno_003"."กระทรวง" 
+Ref: "hdfs_inno_001"."กระทรวง" > "hdfs_inno_005"."กระทรวง" 
+Ref: "hdfs_inno_001"."หน่วยงาน" > "hdfs_inno_005"."หน่วยงาน" 
+Ref: "hdfs_inno_001"."กระบวนงาน" > "hdfs_inno_005"."กระบวนงาน"  
+
+Ref: "hdfs_inno_002"."procedure_id" > "hdfs_inno_005"."procedure_id"  
+

@@ -1,0 +1,294 @@
+Table "hdfs_po_editor_info" {
+  Note: 'po_editor_info'
+  "year" integer 
+  "epo_id" integer 
+  "epo_poid" integer 
+  "epo_title" text 
+  "epo_ministry_id" integer 
+  "epo_group_id" integer 
+  "epo_minister" text 
+  "epo_start_date" text 
+  "epo_ca" text 
+  "epo_cb" text 
+  "epo_cc" text 
+  "epo_daa" text 
+  "epo_dab" text 
+  "epo_dba" text 
+  "epo_dbb" text 
+  "epo_dca" text 
+  "epo_dcb" text 
+  "epo_dda" text 
+  "epo_ddb" text 
+  "epo_dea" text 
+  "epo_deb" text 
+  "epo_dfa" text 
+  "epo_dfb" text 
+  "epo_dga" text 
+  "epo_dgb" text 
+  "epo_dha" text 
+  "epo_dhb" text 
+  "epo_dia" text 
+  "epo_dib" text 
+  "epo_dja" text 
+  "epo_djb" text 
+  "epo_dka" text 
+  "epo_dkb" text 
+  "epo_dla" text 
+  "epo_dlb" text 
+  "epo_dma" text 
+  "epo_dmb" text 
+  "epo_dna" text 
+  "epo_dnb" text 
+  "epo_doa" text 
+  "epo_dob" text 
+  "epo_dpa" text 
+  "epo_dpb" text 
+  "epo_dqa" text 
+  "epo_dqb" text 
+  "epo_dra" text 
+  "epo_drb" text 
+  "epo_dsa" text 
+  "epo_dsb" text 
+  "epo_dta" text 
+  "epo_dtb" text 
+  "epo_dua" text 
+  "epo_dub" text 
+  "epo_state_a" integer 
+  "epo_state_b" integer 
+  "epo_state_c" integer 
+  "epo_state_d" integer 
+  "epo_approve_a" integer 
+  "epo_approve_b" integer 
+  "epo_approve_c" integer 
+  "epo_approve_d" integer 
+  "epo_comment_a" text 
+  "epo_comment_b" text 
+  "epo_comment_c" text 
+ }
+
+Table "hdfs_po_archive_db" {
+  Note: 'po_archive_db'
+  "ac_id" integer 
+  "ac_poid" integer 
+  "ac_po_title" text 
+  "ac_po_mnst" text 
+  "ac_po_mnst_id" integer 
+  "ac_po_group_id" integer 
+  "ac_income" text 
+  "ac_cap_budget" text 
+  "ac_cap_fund" text 
+  "ac_total_expense" text 
+  "ac_people_expense" text 
+  "ac_a" integer 
+  "ac_b" integer 
+  "ac_c" integer 
+  "ac_d" integer 
+  "ac_e" integer 
+  "ac_f" integer 
+  "ac_g" integer 
+  "ac_h" integer 
+  "ac_i" integer 
+  "ac_n1" integer 
+  "ac_n2" integer 
+  "ac_n3" integer 
+  "ac_fiscal_year" integer 
+  "ac_created" text 
+ }
+
+Table "hdfs_po_db" {
+  Note: 'po_db'
+  "po_id" integer 
+  "po_title_th" text 
+  "po_title_en" text 
+  "po_stitle_th" text 
+  "po_stitle_en" text 
+  "po_ministry_id" integer 
+  "po_group_id" integer 
+  "po_minister" text 
+  "po_start_date" text 
+  "po_logo" text 
+  "po_data_created" text 
+  "po_created_byid" integer 
+  "po_state" integer 
+ }
+
+Table "hdfs_arc_editor_info" {
+  Note: 'arc_editor_info'
+  "aepo_id" integer 
+  "aepo_poid" text 
+  "aepo_title" text 
+  "aepo_ministry_id" text 
+  "aepo_group_id" text 
+  "aepo_minister" text 
+  "aepo_start_date" text 
+  "aepo_ca" text 
+  "aepo_cb" text 
+  "aepo_cc" text 
+  "aepo_daa" text 
+  "aepo_dab" text 
+  "aepo_dba" text 
+  "aepo_dbb" text 
+  "aepo_dca" text 
+  "aepo_dcb" text 
+  "aepo_dda" text 
+  "aepo_ddb" text 
+  "aepo_dea" text 
+  "aepo_deb" text 
+  "aepo_dfa" text 
+  "aepo_dfb" text 
+  "aepo_dga" text 
+  "aepo_dgb" text 
+  "aepo_dha" text 
+  "aepo_dhb" text 
+  "aepo_dia" text 
+  "aepo_dib" text 
+  "aepo_dja" text 
+  "aepo_djb" text 
+  "aepo_dka" text 
+  "aepo_dkb" text 
+  "aepo_dla" text 
+  "aepo_dlb" text 
+  "aepo_dma" text 
+  "aepo_dmb" text 
+  "aepo_dna" text 
+  "aepo_dnb" text 
+  "aepo_doa" text 
+  "aepo_dob" text 
+  "aepo_dpa" text 
+  "aepo_dpb" text 
+  "aepo_dqa" text 
+  "aepo_dqb" text 
+  "aepo_dra" text 
+  "aepo_drb" text 
+  "aepo_dsa" text 
+  "aepo_dsb" text 
+  "aepo_dta" text 
+  "aepo_dtb" text 
+  "aepo_dua" text 
+  "aepo_dub" text 
+  "aepo_fiscal_year" integer 
+ }
+
+Ref: "hdfs_po_editor_info"."year" > "hdfs_arc_editor_info"."aepo_fiscal_year" 
+Ref: "hdfs_po_editor_info"."epo_title" > "hdfs_arc_editor_info"."aepo_title" 
+Ref: "hdfs_po_editor_info"."epo_minister" > "hdfs_arc_editor_info"."aepo_minister" 
+Ref: "hdfs_po_editor_info"."epo_start_date" > "hdfs_arc_editor_info"."aepo_start_date" 
+Ref: "hdfs_po_editor_info"."epo_ca" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_ca" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_ca" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_cb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_cb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_cb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_cc" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_cc" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_cc" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_daa" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_daa" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_daa" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_daa" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_daa" > "hdfs_arc_editor_info"."aepo_daa" 
+Ref: "hdfs_po_editor_info"."epo_daa" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dab" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dab" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dab" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dab" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dab" > "hdfs_arc_editor_info"."aepo_dab" 
+Ref: "hdfs_po_editor_info"."epo_dab" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dba" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dba" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dba" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dba" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dba" > "hdfs_arc_editor_info"."aepo_dba" 
+Ref: "hdfs_po_editor_info"."epo_dbb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dbb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dbb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dbb" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dca" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dca" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dca" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dca" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dca" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dca" > "hdfs_arc_editor_info"."aepo_dca" 
+Ref: "hdfs_po_editor_info"."epo_dcb" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dcb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dcb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dcb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dcb" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dcb" > "hdfs_arc_editor_info"."aepo_dcb" 
+Ref: "hdfs_po_editor_info"."epo_dda" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dda" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dda" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dda" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dda" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dda" > "hdfs_arc_editor_info"."aepo_dda" 
+Ref: "hdfs_po_editor_info"."epo_ddb" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_ddb" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_ddb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_ddb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_ddb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_ddb" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_ddb" > "hdfs_arc_editor_info"."aepo_ddb" 
+Ref: "hdfs_po_editor_info"."epo_dea" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dea" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dea" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dea" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dea" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dea" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_deb" 
+Ref: "hdfs_po_editor_info"."epo_deb" > "hdfs_arc_editor_info"."aepo_dfa" 
+Ref: "hdfs_po_editor_info"."epo_dfa" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dfa" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dfa" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dfa" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dfa" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dfa" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dfb" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dfb" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dfb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dfb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dfb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dfb" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dga" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dga" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dga" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dga" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dga" > "hdfs_arc_editor_info"."aepo_dga" 
+Ref: "hdfs_po_editor_info"."epo_dgb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dgb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dgb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dha" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dha" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dha" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dha" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dhb" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dhb" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dhb" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dhb" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dhb" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dhb" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dia" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dia" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dia" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dia" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dia" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dib" > "hdfs_arc_editor_info"."aepo_ministry_id" 
+Ref: "hdfs_po_editor_info"."epo_dib" > "hdfs_arc_editor_info"."aepo_group_id" 
+Ref: "hdfs_po_editor_info"."epo_dib" > "hdfs_arc_editor_info"."aepo_ca" 
+Ref: "hdfs_po_editor_info"."epo_dib" > "hdfs_arc_editor_info"."aepo_cb" 
+Ref: "hdfs_po_editor_info"."epo_dib" > "hdfs_arc_editor_info"."aepo_cc" 
+Ref: "hdfs_po_editor_info"."epo_dib" > "hdfs_arc_editor_info"."aepo_dbb" 
+Ref: "hdfs_po_editor_info"."epo_dib" > "hdfs_arc_editor_info"."aepo_dib" 
+Ref: "hdfs_po_editor_info"."epo_dsa" > "hdfs_arc_editor_info"."aepo_dsa" 
+Ref: "hdfs_po_editor_info"."epo_dta" > "hdfs_arc_editor_info"."aepo_dta" 
+Ref: "hdfs_po_editor_info"."epo_dtb" > "hdfs_arc_editor_info"."aepo_dtb" 
+Ref: "hdfs_po_editor_info"."epo_dua" > "hdfs_arc_editor_info"."aepo_dua" 
+Ref: "hdfs_po_editor_info"."epo_dub" > "hdfs_arc_editor_info"."aepo_dub"  
+
+Ref: "hdfs_po_db"."po_group_id" > "hdfs_po_archive_db"."ac_po_group_id"  
+

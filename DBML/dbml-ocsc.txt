@@ -1,0 +1,904 @@
+Table "hdfs_ocsc_02_public_workforce_civilian_overview_2567" {
+  Note: 'ocsc_02_public_workforce_civilian_overview_2567'
+  "ประเภทกำลังคน" text 
+  "จำนวน" text 
+  "ร้อยละ" text 
+  "ประเภท" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_03_personnel_types_by_agency_2567" {
+  Note: 'ocsc_03_personnel_types_by_agency_2567'
+  "ส่วนราชการ" text 
+  "ข้าราชการ" text 
+  "ลจประจำ_ในงบ_บุคลากร" text 
+  "ลจประจำ_นอกงบ" text 
+  "ลจชั่วคราว_ในงบ_บุคลาก" text 
+  "ลจชั่วคราว_ในงบ_อื่นๆ" text 
+  "ลจชั่วคราว_นอกงบ" text 
+  "พนักงานราชการ" text 
+  "พนักงานจ้าง" text 
+  "ประเภท" text 
+  "หมวดหมู่" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_04_civilian_by_civil_type_2567" {
+  Note: 'ocsc_04_civilian_by_civil_type_2567'
+  "ประเภทข้าราชการ" text 
+  "ตำแหน่ง_จำนวน" text 
+  "ตำแหน่ง_ร้อยละ" text 
+  "คน_จำนวน" text 
+  "คน_ร้อยละ" text 
+  "ส่วน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_05_civilian_by_agency_2567" {
+  Note: 'ocsc_05_civilian_by_agency_2567'
+  "ส่วนราชการ" text 
+  "ตำแหน่ง_จำนวน" text 
+  "ตำแหน่ง_ร้อยละ" text 
+  "คน_จำนวน" text 
+  "คน_ร้อยละ" text 
+  "ส่วน" text 
+  "สังกัด" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_06_civilian_gender_by_civil_type_2567" {
+  Note: 'ocsc_06_civilian_gender_by_civil_type_2567'
+  "ประเภทข้าราชการ" text 
+  "รวม" text 
+  "ชาย" text 
+  "หญิง" text 
+  "ร้อยละ_หญิง" text 
+  "ส่วน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_07_civilian_gender_by_agency_2567" {
+  Note: 'ocsc_07_civilian_gender_by_agency_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ชาย" text 
+  "หญิง" text 
+  "ร้อยละ_หญิง" text 
+  "ส่วน" text 
+  "สังกัด" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_08_civilian_edu_by_civil_type_2567" {
+  Note: 'ocsc_08_civilian_edu_by_civil_type_2567'
+  "ประเภทข้าราชการ" text 
+  "รวม_ทั้งหมด" text 
+  "ต่ำกว่า_ป_ตรี" text 
+  "ปริญญาตรีขึ้นไป_รวม" text 
+  "ปริญญาตรีขึ้นไป_ป_ตรี" text 
+  "ปริญญาตรีขึ้นไป_ป_โท" text 
+  "ปริญญาตรีขึ้นไป_ป_เอก" text 
+  "ร้อยละ_ป_ตรี_ขึ้นไป" text 
+  "ประเภท" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_09_civilian_edu_by_agency_2567" {
+  Note: 'ocsc_09_civilian_edu_by_agency_2567'
+  "ส่วนราชการ" text 
+  "รวม_ทั้งหมด" text 
+  "ต่ำกว่า_ป_ตรี" text 
+  "ปริญญาตรีขึ้นไป_รวม" text 
+  "ปริญญาตรีขึ้นไป_ป_ตรี" text 
+  "ปริญญาตรีขึ้นไป_ป_โท" text 
+  "ปริญญาตรีขึ้นไป_ป_เอก" text 
+  "ร้อยละ_ป_ตรี_ขึ้นไป" text 
+  "ส่วน" text 
+  "สังกัด" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_10_civilian_by_civil_type_order_2567" {
+  Note: 'ocsc_10_civilian_by_civil_type_order_2567'
+  "ประเภทข้าราชการ" text 
+  "รวม" text 
+  "ส่วนกลาง" text 
+  "ส่วนภูมิภาค" text 
+  "ส่วนท้องถิ่น" text 
+  "ส่วน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_11_civilian_by_agency_order_2567" {
+  Note: 'ocsc_11_civilian_by_agency_order_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ส่วนกลาง" text 
+  "ส่วนภูมิภาค" text 
+  "ส่วนท้องถิ่น" text 
+  "ส่วน" text 
+  "สังกัด" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_12_civilian_by_agency_op_zone_2567" {
+  Note: 'ocsc_12_civilian_by_agency_op_zone_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "พื้นที่_ต่างประเทศ" text 
+  "พื้นที่_กรุงเทพฯ" text 
+  "พื้นที่_ภาคเหนือ" text 
+  "พื้นที่_ภาคกลาง" text 
+  "พื้นที่_ภาคตอ" text 
+  "พื้นที่_ภาคอีสาน" text 
+  "พื้นที่_ภาคใต้" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567" {
+  Note: 'ocsc_14_civilian_by_agency_op_zone_prov_2567'
+  "พื้นที่ปฏิบัติงาน" text 
+  "รวม" text 
+  "นร" text 
+  "กค" text 
+  "กต" text 
+  "กก" text 
+  "พม" text 
+  "อว" text 
+  "กษ" text 
+  "คค" text 
+  "ดศ" text 
+  "ทส" text 
+  "พน" text 
+  "พณ" text 
+  "มท" text 
+  "ยธ" text 
+  "รง" text 
+  "วธ" text 
+  "ศธ" text 
+  "สธ" text 
+  "อก" text 
+  "ไม่สังกัด" text 
+  "อิสระ" text 
+  "ท้องถิ่น" text 
+  "พื้นที่" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_15_civil_high_grade_2567" {
+  Note: 'ocsc_15_civil_high_grade_2567'
+  "ตำแหน่ง" text 
+  "รวม" text 
+  "ชาย" text 
+  "หญิง" text 
+  "ร้อยละ_ชาย" text 
+  "ร้อยละ_หญิง" text 
+  "ชั้น" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_16_ocs_by_agency_type_grade_2567" {
+  Note: 'ocsc_16_ocs_by_agency_type_grade_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ทั่วไป_ปง" text 
+  "ทั่วไป_ชง" text 
+  "ทั่วไป_อว" text 
+  "ทั่วไป_ทพ" text 
+  "วิชาการ_ปก" text 
+  "วิชาการ_ชก" text 
+  "วิชาการ_ชพ" text 
+  "วิชาการ_ชช" text 
+  "วิชาการ_ทว" text 
+  "อำนวยการ_อต" text 
+  "อำนวยการ_อส" text 
+  "บริหาร_บต" text 
+  "บริหาร_บส" text 
+  "ส่วน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567" {
+  Note: 'ocsc_18_univ_civil_by_agency_type_grade_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ทั่วไป_ปง" text 
+  "ทั่วไป_ชง" text 
+  "ทั่วไป_ชงพ" text 
+  "วิชาชีพเฉพาะ_ปก" text 
+  "วิชาชีพเฉพาะ_ชก" text 
+  "วิชาชีพเฉพาะ_ชพ" text 
+  "วิชาชีพเฉพาะ_ชช" text 
+  "วิชาชีพเฉพาะ_ชชพ" text 
+  "บริหาร_ผอกอง" text 
+  "บริหาร_ผอสนงอธิการฯ" text 
+  "วิชาการ_อ_ผศ_รศ_ศ" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_19_civil_police_2567" {
+  Note: 'ocsc_19_civil_police_2567'
+  "รวม" text 
+  "ชั้นยศ_พลสำรอง" text 
+  "ชั้นยศ_ส_ต_ต" text 
+  "ชั้นยศ_ส_ต_ท" text 
+  "ชั้นยศ_ส_ต_อ" text 
+  "ชั้นยศ_จ_ส_ต" text 
+  "ชั้นยศ_ด_ต" text 
+  "ชั้นยศ_ร_ต_ต" text 
+  "ชั้นยศ_ร_ต_ท" text 
+  "ชั้นยศ_ร_ต_อ" text 
+  "ชั้นยศ_พ_ต_ต" text 
+  "ชั้นยศ_พ_ต_ท" text 
+  "ชั้นยศ_พ_ต_อ" text 
+  "ชั้นยศ_พล_ต_ต" text 
+  "ชั้นยศ_พล_ต_ท" text 
+  "ชั้นยศ_พล_ต_อ" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_20_civil_attorney_2567" {
+  Note: 'ocsc_20_civil_attorney_2567'
+  "รวม" text 
+  "ชั้น_อัยการอาวุโส" text 
+  "ชั้น_1" text 
+  "ชั้น_2" text 
+  "ชั้น_3" text 
+  "ชั้น_4" text 
+  "ชั้น_5" text 
+  "ชั้น_6" text 
+  "ชั้น_7" text 
+  "ชั้น_8" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_21_civil_judiciary_2567" {
+  Note: 'ocsc_21_civil_judiciary_2567'
+  "รวม" text 
+  "ชั้น_ดะโต๊ะ" text 
+  "ชั้น_ผู้พิพากษาอาวุโส" text 
+  "ชั้น_ผู้ช่วยผู้พิพากษ" text 
+  "ชั้น_1" text 
+  "ชั้น_2" text 
+  "ชั้น_3" text 
+  "ชั้น_4" text 
+  "ชั้น_5" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_22_administrative_court_judge_2567" {
+  Note: 'ocsc_22_administrative_court_judge_2567'
+  "รวม" text 
+  "ชั้น_1" text 
+  "ชั้น_2" text 
+  "ชั้น_3" text 
+  "ชั้น_4" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_23_constitutional_court_judges_2567" {
+  Note: 'ocsc_23_constitutional_court_judges_2567'
+  "รวม" text 
+  "ตุลาการ" text 
+  "ประธาน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_24_civil_ordinary_parliamentary_2567" {
+  Note: 'ocsc_24_civil_ordinary_parliamentary_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ทั่วไป_ปง" text 
+  "ทั่วไป_ชง" text 
+  "ทั่วไป_อว" text 
+  "ทั่วไป_ทพ" text 
+  "วิชาการ_ปก" text 
+  "วิชาการ_ชก" text 
+  "วิชาการ_ชพ" text 
+  "วิชาการ_ชช" text 
+  "วิชาการ_ทว" text 
+  "อำนวยการ_อต" text 
+  "อำนวยการ_อส" text 
+  "บริหาร_บต" text 
+  "บริหาร_บส" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_25_indep_const_civil_by_agency_grade_2567" {
+  Note: 'ocsc_25_indep_const_civil_by_agency_grade_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ระดับ_ปง" text 
+  "ระดับ_ชง" text 
+  "ระดับ_อว" text 
+  "ระดับ_ทพ" text 
+  "ระดับ_ปก" text 
+  "ระดับ_ชก" text 
+  "ระดับ_ชพ" text 
+  "ระดับ_ชช" text 
+  "ระดับ_ทว" text 
+  "ระดับ_อต" text 
+  "ระดับ_อส" text 
+  "ระดับ_บต" text 
+  "ระดับ_บส" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_27_ocs_by_agency_2567" {
+  Note: 'ocsc_27_ocs_by_agency_2567'
+  "ส่วนราชการ" text 
+  "ตำแหน่ง_จำนวน" text 
+  "ตำแหน่ง_ร้อยละ" text 
+  "คน_จำนวน" text 
+  "คน_ร้อยละ" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_28_ocs_ratio_by_agency_gender_2567" {
+  Note: 'ocsc_28_ocs_ratio_by_agency_gender_2567'
+  "ส่วนราชการ" text 
+  "ร้อยละ_ชาย" text 
+  "ร้อยละ_หญิง" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_29_ocs_edu_by_agency_2567" {
+  Note: 'ocsc_29_ocs_edu_by_agency_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ป_เอก" text 
+  "ป_โท" text 
+  "ป_ตรี" text 
+  "รวม_ป_ตรี_ขึ้นไป" text 
+  "ต่ำกว่า_ป_ตรี" text 
+  "ร้อยละ_ป_ตรี_ขึ้นไป" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_30_ocs_by_pos_type_grade_2567" {
+  Note: 'ocsc_30_ocs_by_pos_type_grade_2567'
+  "ระดับตำแหน่ง" text 
+  "จำนวนตำแหน่ง" text 
+  "จำนวนคนครอง" text 
+  "ร้อยละ" text 
+  "ประเภทตำแหน่ง" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567" {
+  Note: 'ocsc_31_ocs_by_agency_pos_type_grade_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ร้อยละ" text 
+  "ทั่วไป_ปง" text 
+  "ทั่วไป_ชง" text 
+  "ทั่วไป_อว" text 
+  "ทั่วไป_ทพ" text 
+  "ทั่วไป_รวม" text 
+  "วิชาการ_ปก" text 
+  "วิชาการ_ชก" text 
+  "วิชาการ_ชพ" text 
+  "วิชาการ_ชช" text 
+  "วิชาการ_ทว" text 
+  "วิชาการ_รวม" text 
+  "อำนวยการ_อต" text 
+  "อำนวยการ_อส" text 
+  "อำนวยการ_รวม" text 
+  "บริหาร_บต" text 
+  "บริหาร_บส" text 
+  "บริหาร_รวม" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_32_ocs_by_pos_type_grade_gender_2567" {
+  Note: 'ocsc_32_ocs_by_pos_type_grade_gender_2567'
+  "ประเภทตำแหน่ง_ระดับตำ" text 
+  "จำนวนตำแหน่ง" text 
+  "จำนวนคน_รวม" text 
+  "จำนวนคน_ชาย" text 
+  "จำนวนคน_หญิง" text 
+  "จำนวนคน_ร้อยละ_หญิง" text 
+  "ประเภท" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_33_ocs_by_agency_age_2567" {
+  Note: 'ocsc_33_ocs_by_agency_age_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ช่วงอายุ_ปี_lt21" text 
+  "ช่วงอายุ_ปี_21_25" text 
+  "ช่วงอายุ_ปี_26_30" text 
+  "ช่วงอายุ_ปี_31_35" text 
+  "ช่วงอายุ_ปี_36_40" text 
+  "ช่วงอายุ_ปี_41_45" text 
+  "ช่วงอายุ_ปี_46_50" text 
+  "ช่วงอายุ_ปี_51_55" text 
+  "ช่วงอายุ_ปี_56_60" text 
+  "ช่วงอายุ_ปี_gt60" text 
+  "อายุเฉลี่ย_ปี" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_34_ocs_by_agency_age_gender_edu_2567" {
+  Note: 'ocsc_34_ocs_by_agency_age_gender_edu_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ช่วงอายุปี_lt21" text 
+  "ช่วงอายุปี_21_25" text 
+  "ช่วงอายุปี_26_30" text 
+  "ช่วงอายุปี_31_35" text 
+  "ช่วงอายุปี_36_40" text 
+  "ช่วงอายุปี_41_45" text 
+  "ช่วงอายุปี_46_50" text 
+  "ช่วงอายุปี_51_55" text 
+  "ช่วงอายุปี_56_60" text 
+  "ช่วงอายุปี_gt60" text 
+  "อายุเฉลี่ย" text 
+  "เพศ_ชาย" text 
+  "เพศ_หญิง" text 
+  "เพศ_ร้อยละ_หญิง" text 
+  "ระดับการศึกษา_ต่ำกว่า_" text 
+  "ระดับการศึกษา_ป_ตรี" text 
+  "ระดับการศึกษา_ป_โท" text 
+  "ระดับการศึกษา_ป_เอก" text 
+  "ระดับการศึกษา_ร้อยละ_ป_" text 
+  "ส่วน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567" {
+  Note: 'ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567'
+  "ชื่อตำแหน่งในสายงาน" text 
+  "จำนวนตำแหน่ง" text 
+  "จำนวนคน" text 
+  "ทั่วไป_ปง" text 
+  "ทั่วไป_ชง" text 
+  "ทั่วไป_อว" text 
+  "ทั่วไป_ทพ" text 
+  "วิชาการ_ปก" text 
+  "วิชาการ_ชก" text 
+  "วิชาการ_ชพ" text 
+  "วิชาการ_ชช" text 
+  "วิชาการ_ทว" text 
+  "อำนวยการ_อต" text 
+  "อำนวยการ_อส" text 
+  "บริหาร_บต" text 
+  "บริหาร_บส" text 
+  "กลุ่มสายงาน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_36_ocs_by_agency_order_2567" {
+  Note: 'ocsc_36_ocs_by_agency_order_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ส่วนกลาง" text 
+  "ส่วนภูมิภาค" text 
+  "ร้อยละ_ส่วนภูมิภาค" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_37_ocs_by_central_region_order_2567" {
+  Note: 'ocsc_37_ocs_by_central_region_order_2567'
+  "ส่วนราชการ" text 
+  "จำนวนตำแหน่ง_รวม" text 
+  "จำนวนตำแหน่ง_ส่วนกลาง" text 
+  "จำนวนตำแหน่ง_ภูมิภาค" text 
+  "จำนวนตำแหน่ง_ร้อยละ_ภู" text 
+  "จำนวนคน_รวม" text 
+  "จำนวนคน_ส่วนกลาง" text 
+  "จำนวนคน_ภูมิภาค" text 
+  "จำนวนคน_ร้อยละ_ภูมิภาค" text 
+  "ส่วน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_38_ocs_by_op_zone_agency_2567" {
+  Note: 'ocsc_38_ocs_by_op_zone_agency_2567'
+  "พื้นที่ปฏิบัติงาน" text 
+  "ส่วนราชการ_รวม" text 
+  "ส่วนราชการ_นร" text 
+  "ส่วนราชการ_กค" text 
+  "ส่วนราชการ_กต" text 
+  "ส่วนราชการ_กก" text 
+  "ส่วนราชการ_พม" text 
+  "ส่วนราชการ_อว" text 
+  "ส่วนราชการ_กษ" text 
+  "ส่วนราชการ_คค" text 
+  "ส่วนราชการ_ดศ" text 
+  "ส่วนราชการ_ทส" text 
+  "ส่วนราชการ_พน" text 
+  "ส่วนราชการ_พณ" text 
+  "ส่วนราชการ_มท" text 
+  "ส่วนราชการ_ยธ" text 
+  "ส่วนราชการ_รง" text 
+  "ส่วนราชการ_วธ" text 
+  "ส่วนราชการ_ศธ" text 
+  "ส่วนราชการ_สธ" text 
+  "ส่วนราชการ_อก" text 
+  "ส่วนราชการ_ไม่สังกัด" text 
+  "กลุ่มพื้นที่" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567" {
+  Note: 'ocsc_39_ocs_by_op_zone_pos_type_grade_2567'
+  "พื้นที่ปฏิบัติงาน" text 
+  "รวม" text 
+  "ทั่วไป_ปง" text 
+  "ทั่วไป_ชง" text 
+  "ทั่วไป_อว" text 
+  "ทั่วไป_ทพ" text 
+  "ทั่วไป_รวม" text 
+  "วิชาการ_ปก" text 
+  "วิชาการ_ชก" text 
+  "วิชาการ_ชพ" text 
+  "วิชาการ_ชช" text 
+  "วิชาการ_ทว" text 
+  "วิชาการ_รวม" text 
+  "อำนวยการ_อต" text 
+  "อำนวยการ_อส" text 
+  "อำนวยการ_รวม" text 
+  "บริหาร_บต" text 
+  "บริหาร_บส" text 
+  "บริหาร_รวม" text 
+  "กลุ่มพื้นที่" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_41_ocs_high_grade_gender_pos_grade_2567" {
+  Note: 'ocsc_41_ocs_high_grade_gender_pos_grade_2567'
+  "ตำแหน่ง" text 
+  "ประเภทและระดับตำแหน่ง" text 
+  "รวม" text 
+  "ชาย" text 
+  "หญิง" text 
+  "ร้อยละ_ชาย" text 
+  "ร้อยละ_หญิง" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_42_exec_by_pos_grade_2567" {
+  Note: 'ocsc_42_exec_by_pos_grade_2567'
+  "ตำแหน่ง" text 
+  "จำนวน_รวม" text 
+  "จำนวน_ชาย" text 
+  "จำนวน_หญิง" text 
+  "ร้อยละ_ชาย" text 
+  "ร้อยละ_หญิง" text 
+  "ระดับตำแหน่ง" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_43_exec_by_agency_grade_gender_2567" {
+  Note: 'ocsc_43_exec_by_agency_grade_gender_2567'
+  "ส่วนราชการ" text 
+  "ระดับต้น_ชาย" text 
+  "ระดับต้น_หญิง" text 
+  "ระดับสูง_ชาย" text 
+  "ระดับสูง_หญิง" text 
+  "รวมทั้งหมด_รวม" text 
+  "รวมทั้งหมด_ชาย" text 
+  "รวมทั้งหมด_หญิง" text 
+  "รวมทั้งหมด_ร้อยละ_หญิง" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_45_ocs_vacancy_by_agency_2567" {
+  Note: 'ocsc_45_ocs_vacancy_by_agency_2567'
+  "ส่วนราชการ" text 
+  "จำนวน_ตำแหน่ง" text 
+  "จำนวน_คน" text 
+  "จำนวน_ตำแหน่งว่าง" text 
+  "จำนวน_ร้อยละ_ตำแหน่งว่" text 
+  "ส่วน" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_46_ocs_new_recruit_by_agency_edu_2567" {
+  Note: 'ocsc_46_ocs_new_recruit_by_agency_edu_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ระดับการศึกษา_ป_เอก" text 
+  "ระดับการศึกษา_ป_โท" text 
+  "ระดับการศึกษา_ป_ตรี" text 
+  "ระดับการศึกษา_ต่ำกว่า_" text 
+  "ระดับการศึกษา_ร้อยละ_ป_" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_47_ocs_recruit_acad_gen_age_2567" {
+  Note: 'ocsc_47_ocs_recruit_acad_gen_age_2567'
+  "ช่วงอายุ_บรรจุ" text 
+  "ประเภทตำแหน่ง_ทั่วไป" text 
+  "ประเภทตำแหน่ง_วิชาการ" text 
+  "รวม" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_48_ocs_avg_recruit_age_by_ministry_2567" {
+  Note: 'ocsc_48_ocs_avg_recruit_age_by_ministry_2567'
+  "กระทรวง" text 
+  "อายุบรรจุเฉลี่ย" text 
+  "อายุน้อยที่สุด" text 
+  "อายุมากที่สุด" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_49_ocs_loss_by_agency_loss_type_2567" {
+  Note: 'ocsc_49_ocs_loss_by_agency_loss_type_2567'
+  "ส่วนราชการ" text 
+  "รวม" text 
+  "ประเภทการสูญเสีย_เกษี" text 
+  "ประเภทการสูญเสีย_ลาออ" text 
+  "ประเภทการสูญเสีย_ออกด" text 
+  "ประเภทการสูญเสีย_เสีย" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_50_compare_recruit_loss_by_ministry_2567" {
+  Note: 'ocsc_50_compare_recruit_loss_by_ministry_2567'
+  "ส่วนราชการ" text 
+  "บรรจุ" text 
+  "สูญเสีย" text 
+  "ร้อยละ_สูญเสียต่อจำนว" text 
+  "ปีรายงาน" text 
+ }
+
+Table "hdfs_ocsc_51_ocs_retire_next_10yrs_2567" {
+  Note: 'ocsc_51_ocs_retire_next_10yrs_2567'
+  "ปีงบประมาณ_พ_ศ" text 
+  "รวม_คน" text 
+  "ปีรายงาน" text 
+  "ปีงบประมาณ" text 
+  "จำนวน" text 
+ }
+
+Table "hdfs_ocsc_52_ocs_predict_retire_next_10yrs_2567" {
+  Note: 'ocsc_52_ocs_predict_retire_next_10yrs_2567'
+  "ประเภท_ตำแหน่ง" text 
+  "รวม_คน" text 
+  "ปีรายงาน" text 
+  "ปีงบประมาณ" text 
+  "จำนวน" text 
+ }
+
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_03_personnel_types_by_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ประเภท" > "hdfs_ocsc_04_civilian_by_civil_type_2567"."ส่วน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_04_civilian_by_civil_type_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_05_civilian_by_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ประเภท" > "hdfs_ocsc_06_civilian_gender_by_civil_type_2567"."ส่วน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_06_civilian_gender_by_civil_type_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_07_civilian_gender_by_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ประเภท" > "hdfs_ocsc_08_civilian_edu_by_civil_type_2567"."ประเภท" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_08_civilian_edu_by_civil_type_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_09_civilian_edu_by_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ประเภท" > "hdfs_ocsc_10_civilian_by_civil_type_order_2567"."ส่วน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_10_civilian_by_civil_type_order_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_11_civilian_by_agency_order_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_12_civilian_by_agency_op_zone_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_15_civil_high_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_19_civil_police_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_20_civil_attorney_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_21_civil_judiciary_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_22_administrative_court_judge_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_23_constitutional_court_judges_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_25_indep_const_civil_by_agency_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_27_ocs_by_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_28_ocs_ratio_by_agency_gender_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_29_ocs_edu_by_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_30_ocs_by_pos_type_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_32_ocs_by_pos_type_grade_gender_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_33_ocs_by_agency_age_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_34_ocs_by_agency_age_gender_edu_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_36_ocs_by_agency_order_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_37_ocs_by_central_region_order_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_41_ocs_high_grade_gender_pos_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_42_exec_by_pos_grade_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_43_exec_by_agency_grade_gender_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_45_ocs_vacancy_by_agency_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_46_ocs_new_recruit_by_agency_edu_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_47_ocs_recruit_acad_gen_age_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_48_ocs_avg_recruit_age_by_ministry_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_49_ocs_loss_by_agency_loss_type_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_50_compare_recruit_loss_by_ministry_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_51_ocs_retire_next_10yrs_2567"."ปีรายงาน" 
+Ref: "hdfs_ocsc_02_public_workforce_civilian_overview_2567"."ปีรายงาน" > "hdfs_ocsc_52_ocs_predict_retire_next_10yrs_2567"."ปีรายงาน"  
+
+Ref: "hdfs_ocsc_03_personnel_types_by_agency_2567"."ส่วนราชการ" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_03_personnel_types_by_agency_2567"."ส่วนราชการ" > "hdfs_ocsc_25_indep_const_civil_by_agency_grade_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_03_personnel_types_by_agency_2567"."ประเภท" > "hdfs_ocsc_49_ocs_loss_by_agency_loss_type_2567"."ส่วนราชการ"  
+
+Ref: "hdfs_ocsc_04_civilian_by_civil_type_2567"."ประเภทข้าราชการ" > "hdfs_ocsc_06_civilian_gender_by_civil_type_2567"."ประเภทข้าราชการ" 
+Ref: "hdfs_ocsc_04_civilian_by_civil_type_2567"."ประเภทข้าราชการ" > "hdfs_ocsc_10_civilian_by_civil_type_order_2567"."ประเภทข้าราชการ"  
+
+Ref: "hdfs_ocsc_05_civilian_by_agency_2567"."สังกัด" > "hdfs_ocsc_07_civilian_gender_by_agency_2567"."สังกัด" 
+Ref: "hdfs_ocsc_05_civilian_by_agency_2567"."สังกัด" > "hdfs_ocsc_11_civilian_by_agency_order_2567"."สังกัด"  
+
+Ref: "hdfs_ocsc_06_civilian_gender_by_civil_type_2567"."รวม" > "hdfs_ocsc_10_civilian_by_civil_type_order_2567"."รวม" 
+Ref: "hdfs_ocsc_06_civilian_gender_by_civil_type_2567"."รวม" > "hdfs_ocsc_19_civil_police_2567"."รวม" 
+Ref: "hdfs_ocsc_06_civilian_gender_by_civil_type_2567"."รวม" > "hdfs_ocsc_20_civil_attorney_2567"."รวม" 
+Ref: "hdfs_ocsc_06_civilian_gender_by_civil_type_2567"."รวม" > "hdfs_ocsc_21_civil_judiciary_2567"."รวม"  
+
+Ref: "hdfs_ocsc_10_civilian_by_civil_type_order_2567"."ส่วนท้องถิ่น" > "hdfs_ocsc_11_civilian_by_agency_order_2567"."ส่วนท้องถิ่น"  
+
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."อว" > "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."อว" > "hdfs_ocsc_25_indep_const_civil_by_agency_grade_2567"."ระดับ_ทพ" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."อว" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."พื้นที่ปฏิบัติงาน" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."พื้นที่ปฏิบัติงาน" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."นร" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_นร" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."กค" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_กค" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."กต" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_กต" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."ดศ" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_ดศ" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."ทส" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_ทส" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."พน" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_พน" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."พณ" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_พณ" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."มท" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_มท" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."ยธ" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_ยธ" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."รง" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_รง" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."อก" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_อก" 
+Ref: "hdfs_ocsc_14_civilian_by_agency_op_zone_prov_2567"."พื้นที่ปฏิบัติงาน" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."พื้นที่ปฏิบัติงาน"  
+
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."รวม" > "hdfs_ocsc_20_civil_attorney_2567"."ชั้น_8" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."รวม" > "hdfs_ocsc_21_civil_judiciary_2567"."ชั้น_ดะโต๊ะ" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."รวม" > "hdfs_ocsc_21_civil_judiciary_2567"."ชั้น_5" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."รวม" > "hdfs_ocsc_22_administrative_court_judge_2567"."ชั้น_2" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."รวม" > "hdfs_ocsc_22_administrative_court_judge_2567"."ชั้น_4" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."รวม" > "hdfs_ocsc_23_constitutional_court_judges_2567"."ตุลาการ" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."ตำแหน่ง" > "hdfs_ocsc_41_ocs_high_grade_gender_pos_grade_2567"."ตำแหน่ง" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."ชาย" > "hdfs_ocsc_41_ocs_high_grade_gender_pos_grade_2567"."ชาย" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."ร้อยละ_ชาย" > "hdfs_ocsc_41_ocs_high_grade_gender_pos_grade_2567"."ร้อยละ_ชาย" 
+Ref: "hdfs_ocsc_15_civil_high_grade_2567"."ร้อยละ_หญิง" > "hdfs_ocsc_41_ocs_high_grade_gender_pos_grade_2567"."ร้อยละ_หญิง"  
+
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."ทั่วไป_ชงพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."วิชาชีพเฉพาะ_ปก" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."วิชาชีพเฉพาะ_ชชพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."บริหาร_ผอสนงอธิการฯ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."ทั่วไป_ปง" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."ทั่วไป_ชงพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."วิชาชีพเฉพาะ_ปก" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."วิชาชีพเฉพาะ_ชชพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."บริหาร_ผอกอง" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."บริหาร_ผอสนงอธิการฯ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."รวม" > "hdfs_ocsc_22_administrative_court_judge_2567"."ชั้น_1" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ทพ" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ทพ" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ปก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ปก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ปก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชพ" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ปง" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชพ" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชพ" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชพ" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ทว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ทว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ทว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อต" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อต" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อต" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อต" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บต" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บต" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ส่วน" > "hdfs_ocsc_27_ocs_by_agency_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ส่วน" > "hdfs_ocsc_28_ocs_ratio_by_agency_gender_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ส่วน" > "hdfs_ocsc_29_ocs_edu_by_agency_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชพ" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อต" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ปก" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชพ" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ทว" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อต" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บต" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ส่วน" > "hdfs_ocsc_36_ocs_by_agency_order_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."รวม" > "hdfs_ocsc_37_ocs_by_central_region_order_2567"."จำนวนคน_รวม" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ปง" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ชง" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ปก" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ชพ" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."วิชาการ_ทว" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อต" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."อำนวยการ_อส" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บต" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."บริหาร_บส" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ส่วน" > "hdfs_ocsc_43_exec_by_agency_grade_gender_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ส่วน" > "hdfs_ocsc_46_ocs_new_recruit_by_agency_edu_2567"."ส่วนราชการ" 
+Ref: "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ส่วน" > "hdfs_ocsc_50_compare_recruit_loss_by_ministry_2567"."ส่วนราชการ"  
+
+Ref: "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."รวม" > "hdfs_ocsc_19_civil_police_2567"."ชั้นยศ_พล_ต_ท" 
+Ref: "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."รวม" > "hdfs_ocsc_20_civil_attorney_2567"."ชั้น_7" 
+Ref: "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."รวม" > "hdfs_ocsc_21_civil_judiciary_2567"."ชั้น_ผู้ช่วยผู้พิพากษ"  
+
+Ref: "hdfs_ocsc_21_civil_judiciary_2567"."ชั้น_5" > "hdfs_ocsc_20_civil_attorney_2567"."ชั้น_8"  
+
+Ref: "hdfs_ocsc_22_administrative_court_judge_2567"."ชั้น_4" > "hdfs_ocsc_20_civil_attorney_2567"."ชั้น_8" 
+Ref: "hdfs_ocsc_22_administrative_court_judge_2567"."ชั้น_4" > "hdfs_ocsc_21_civil_judiciary_2567"."ชั้น_5"  
+
+Ref: "hdfs_ocsc_30_ocs_by_pos_type_grade_2567"."จำนวนตำแหน่ง" > "hdfs_ocsc_32_ocs_by_pos_type_grade_gender_2567"."จำนวนตำแหน่ง"  
+
+Ref: "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_อว" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ปง" 
+Ref: "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ร้อยละ" > "hdfs_ocsc_27_ocs_by_agency_2567"."คน_ร้อยละ"  
+
+Ref: "hdfs_ocsc_32_ocs_by_pos_type_grade_gender_2567"."ประเภท" > "hdfs_ocsc_52_ocs_predict_retire_next_10yrs_2567"."ประเภท_ตำแหน่ง"  
+
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_16_ocs_by_agency_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."วิชาการ_ทว" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บส" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_31_ocs_by_agency_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชก" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_35_ocs_pos_by_job_line_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."ทั่วไป_ทพ"  
+
+Ref: "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."กลุ่มพื้นที่" > "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."กลุ่มพื้นที่"  
+
+Ref: "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."วิชาการ_ชช" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อส" 
+Ref: "hdfs_ocsc_39_ocs_by_op_zone_pos_type_grade_2567"."รวม" > "hdfs_ocsc_38_ocs_by_op_zone_agency_2567"."ส่วนราชการ_รวม"  
+
+Ref: "hdfs_ocsc_47_ocs_recruit_acad_gen_age_2567"."รวม" > "hdfs_ocsc_18_univ_civil_by_agency_type_grade_2567"."วิชาชีพเฉพาะ_ชชพ" 
+Ref: "hdfs_ocsc_47_ocs_recruit_acad_gen_age_2567"."รวม" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."ทั่วไป_ทพ" 
+Ref: "hdfs_ocsc_47_ocs_recruit_acad_gen_age_2567"."รวม" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."อำนวยการ_อต" 
+Ref: "hdfs_ocsc_47_ocs_recruit_acad_gen_age_2567"."รวม" > "hdfs_ocsc_24_civil_ordinary_parliamentary_2567"."บริหาร_บต" 
+Ref: "hdfs_ocsc_47_ocs_recruit_acad_gen_age_2567"."รวม" > "hdfs_ocsc_25_indep_const_civil_by_agency_grade_2567"."ระดับ_ทพ"  
+
+Ref: "hdfs_ocsc_50_compare_recruit_loss_by_ministry_2567"."สูญเสีย" > "hdfs_ocsc_49_ocs_loss_by_agency_loss_type_2567"."รวม"  
+
+Ref: "hdfs_ocsc_51_ocs_retire_next_10yrs_2567"."ปีงบประมาณ" > "hdfs_ocsc_52_ocs_predict_retire_next_10yrs_2567"."ปีงบประมาณ"  
+

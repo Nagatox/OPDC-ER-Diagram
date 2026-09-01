@@ -1,0 +1,95 @@
+Table "00f5f3d0-597a-4c7b-a11f-368e5623df7a" {
+  Note: 'รายชื่อจังหวัดและกลุ่มจังหวัด'
+  "ลำดับ" numeric 
+  "ชื่อกลุ่ม" text 
+  "ประเภท" text 
+  "จังหวัด" text 
+ }
+
+Table "d3cec797-6871-4947-9002-1eeb82f30c26" {
+  Note: 'รายชื่อตัวชี้วัดของจังหวัด'
+  "year" text 
+  "cycle_name" text 
+  "name_ministry" text 
+  "name_department" text 
+  "name_composition" text 
+  "data_department_type" text 
+  "kpi_no" text 
+  "name" text 
+  "data_kpi_type" text 
+  "target_type" text 
+  "weight_x" numeric 
+  "level" text 
+  "target_level_score" numeric 
+  "detail" text 
+  "measurement_value" text 
+ }
+
+Table "c0a456ef-2a33-4784-b739-cb9f403234c6" {
+  Note: 'รายชื่อตัวชี้วัดของจังหวัด'
+  "year" numeric 
+  "cycle_name" text 
+  "name_ministry" text 
+  "name_department" text 
+  "name_composition" text 
+  "data_department_type" text 
+  "kpi_no" text 
+  "name" text 
+  "data_kpi_type" text 
+  "target_type" text 
+  "weight_x" numeric 
+  "level" text 
+  "target_level_score" numeric 
+  "detail" numeric 
+  "measurement_value" text 
+ }
+
+Table "76546fb5-4b23-467a-9bef-a24f14985609" {
+  Note: 'ผลการประเมินของจังหวัด'
+  "ปีงบประมาณ" numeric 
+  "ชื่อกลุ่มจังหวัด" text 
+  "จังหวัด" text 
+  "ประเภทของหน่วยงาน" text 
+  "คะแนน" numeric 
+  "สรุปผลการประเมิน" text 
+ }
+
+Table "3066720f-c50f-4d1d-997a-8d59a584ac01" {
+  Note: 'ประเด็นนโยบายสำคัญเพื่อเพิ่มประสิทธิภาพการบริหารงานเชิงพื้นที่แบบบูรณาการ'
+  "ปี" numeric 
+  "จังหวัด" text 
+  "ที่มา" text 
+  "การดำเนินการ" text 
+  "ประเด็นนโยบายสำคัญ" text 
+  "ประเด็นย่อย" text 
+ }
+
+Table "d1a30029-739b-4a49-87b1-9989de38757d" {
+  Note: 'ข้อมูลสำคัญของจังหวัด ในรูปแบบ One Page'
+  "ปี" numeric 
+  "ชื่อ" text 
+  "ช่องทางเข้าถึง" text 
+ }
+
+Ref: "00f5f3d0-597a-4c7b-a11f-368e5623df7a"."ชื่อกลุ่ม" > "76546fb5-4b23-467a-9bef-a24f14985609"."ชื่อกลุ่มจังหวัด" 
+Ref: "00f5f3d0-597a-4c7b-a11f-368e5623df7a"."ประเภท" > "76546fb5-4b23-467a-9bef-a24f14985609"."ประเภทของหน่วยงาน" 
+Ref: "00f5f3d0-597a-4c7b-a11f-368e5623df7a"."จังหวัด" > "76546fb5-4b23-467a-9bef-a24f14985609"."จังหวัด"  
+
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."name_ministry" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."name_ministry" 
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."name_department" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."name_department" 
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."data_department_type" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."data_department_type" 
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."kpi_no" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."kpi_no" 
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."name" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."name" 
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."level" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."level" 
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."target_level_score" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."target_level_score" 
+Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."measurement_value" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."measurement_value"  
+
+Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."cycle_name" > "d3cec797-6871-4947-9002-1eeb82f30c26"."cycle_name" 
+Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."name_composition" > "d3cec797-6871-4947-9002-1eeb82f30c26"."name_composition" 
+Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."data_kpi_type" > "d3cec797-6871-4947-9002-1eeb82f30c26"."data_kpi_type" 
+Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."target_type" > "d3cec797-6871-4947-9002-1eeb82f30c26"."target_type" 
+Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."weight_x" > "d3cec797-6871-4947-9002-1eeb82f30c26"."weight_x" 
+Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."detail" > "d3cec797-6871-4947-9002-1eeb82f30c26"."target_level_score"  
+
+Ref: "3066720f-c50f-4d1d-997a-8d59a584ac01"."ปี" > "d1a30029-739b-4a49-87b1-9989de38757d"."ปี"  
+
