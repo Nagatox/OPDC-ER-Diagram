@@ -211,11 +211,12 @@ if __name__ == "__main__":
     start_time = time.perf_counter()
 
     worksheet, spreadsheet = openGSheet(filename="OPDC-Database", worksheet_number=5)
-    scan_primary_key (worksheet, 'psdg')
-    #fill_column_tosheet (worksheet, 'gence-lab')
+    #scan_primary_key (worksheet, 'psf')
 
-    scan_similar(worksheet, 'psdg')
-    process_group(worksheet, 'psdg')
+    fill_column_tosheet (worksheet, 'fs')
+
+    scan_similar(worksheet, 'fs')
+    process_group(worksheet, 'fs')
 
     #column_list, data_type_list = get_column_list('3841669f-8398-4e92-b485-0293a9930ecc')
     #print("รายชื่อ column ใน List:", column_list)

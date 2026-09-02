@@ -1,0 +1,43 @@
+// สำนักงานเลขาธิการ - OSG
+// osg
+// version 5
+
+Table "ทะเบียนคำสั่ง" {
+  Note: '779a407a-7c9f-4b68-8108-3ab8337a2919'
+  "เลขที่คำสั่ง" numeric 
+  "ลงวันที่" text 
+  "เรื่อง" text 
+ }
+
+Table "ข้อมูลสารบรรณส่วนราชการ" {
+  Note: '3ee88723-ee3a-4dff-b64e-428133be0050'
+  "Ministry Name" text 
+  "Department Name" text 
+  "Email Address" text 
+  "Tel" text 
+  "Head of Government" text 
+  "Address" text 
+  "Contact Person" text 
+  "Tel Contact Person" text 
+  "FAX" text 
+ }
+
+Table "ข้อมูลผู้บริหาร" {
+  Note: '62d67849-75cd-40de-b7bc-6f0a3351b51a'
+  "ปีงบประมาณ" numeric 
+  "คำนำหน้า" text 
+  "ชื่อ" text 
+  "สกุล" text 
+  "ตำแหน่ง" text 
+  "อีเมล" text 
+  "URL รูปถ่าย" text 
+ }
+
+Table " รายงานผลการดำเนินงานประจำปี" {
+  Note: '86972431-deaf-4267-b272-0e84098e8d78'
+  "ชื่อเรื่อง" text 
+  "รายละเอียด" text 
+  "ปีที่เผยแพร่" numeric 
+  "URL เล่มรายงาน" text 
+ }
+

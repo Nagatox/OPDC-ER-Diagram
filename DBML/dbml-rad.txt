@@ -1,13 +1,19 @@
-Table "00f5f3d0-597a-4c7b-a11f-368e5623df7a" {
-  Note: 'รายชื่อจังหวัดและกลุ่มจังหวัด'
-  "ลำดับ" numeric 
-  "ชื่อกลุ่ม" text 
-  "ประเภท" text 
-  "จังหวัด" text 
+// กองพัฒนาระบบบริหารงานส่วนภูมิภาคและส่วนท้องถิ่น - RAD
+// rad
+// version 5
+
+Table "คู่มือการประเมินผลการปฏิบัติราชการของจังหวัด" {
+  Note: 'e8681bbd-042e-4c57-ba8d-16a60ed9334a'
+  "ปีประเมิน" numeric 
+  "ชื่อกรอบการประเมิน" text 
+  "องค์ประกอบ" text 
+  "ชื่อองค์ประกอบ" text 
+  "น้ำหนัก (ร้อยละ)" text 
+  "ประเด็นการวัด" text 
  }
 
-Table "d3cec797-6871-4947-9002-1eeb82f30c26" {
-  Note: 'รายชื่อตัวชี้วัดของจังหวัด'
+Table "รายชื่อตัวชี้วัดของจังหวัด" {
+  Note: 'd3cec797-6871-4947-9002-1eeb82f30c26'
   "year" text 
   "cycle_name" text 
   "name_ministry" text 
@@ -25,27 +31,8 @@ Table "d3cec797-6871-4947-9002-1eeb82f30c26" {
   "measurement_value" text 
  }
 
-Table "c0a456ef-2a33-4784-b739-cb9f403234c6" {
-  Note: 'รายชื่อตัวชี้วัดของจังหวัด'
-  "year" numeric 
-  "cycle_name" text 
-  "name_ministry" text 
-  "name_department" text 
-  "name_composition" text 
-  "data_department_type" text 
-  "kpi_no" text 
-  "name" text 
-  "data_kpi_type" text 
-  "target_type" text 
-  "weight_x" numeric 
-  "level" text 
-  "target_level_score" numeric 
-  "detail" numeric 
-  "measurement_value" text 
- }
-
-Table "76546fb5-4b23-467a-9bef-a24f14985609" {
-  Note: 'ผลการประเมินของจังหวัด'
+Table "ผลการประเมินของจังหวัด" {
+  Note: '76546fb5-4b23-467a-9bef-a24f14985609'
   "ปีงบประมาณ" numeric 
   "ชื่อกลุ่มจังหวัด" text 
   "จังหวัด" text 
@@ -54,8 +41,8 @@ Table "76546fb5-4b23-467a-9bef-a24f14985609" {
   "สรุปผลการประเมิน" text 
  }
 
-Table "3066720f-c50f-4d1d-997a-8d59a584ac01" {
-  Note: 'ประเด็นนโยบายสำคัญเพื่อเพิ่มประสิทธิภาพการบริหารงานเชิงพื้นที่แบบบูรณาการ'
+Table "ประเด็นนโยบายสำคัญเพื่อเพิ่มประสิทธิภาพการบริหารงานเชิงพื้นที่แบบบูรณาการ" {
+  Note: '3066720f-c50f-4d1d-997a-8d59a584ac01'
   "ปี" numeric 
   "จังหวัด" text 
   "ที่มา" text 
@@ -64,32 +51,47 @@ Table "3066720f-c50f-4d1d-997a-8d59a584ac01" {
   "ประเด็นย่อย" text 
  }
 
-Table "d1a30029-739b-4a49-87b1-9989de38757d" {
-  Note: 'ข้อมูลสำคัญของจังหวัด ในรูปแบบ One Page'
+Table "ข้อมูลสำคัญของจังหวัด ในรูปแบบ One Page" {
+  Note: 'd1a30029-739b-4a49-87b1-9989de38757d'
   "ปี" numeric 
   "ชื่อ" text 
   "ช่องทางเข้าถึง" text 
  }
 
-Ref: "00f5f3d0-597a-4c7b-a11f-368e5623df7a"."ชื่อกลุ่ม" > "76546fb5-4b23-467a-9bef-a24f14985609"."ชื่อกลุ่มจังหวัด" 
-Ref: "00f5f3d0-597a-4c7b-a11f-368e5623df7a"."ประเภท" > "76546fb5-4b23-467a-9bef-a24f14985609"."ประเภทของหน่วยงาน" 
-Ref: "00f5f3d0-597a-4c7b-a11f-368e5623df7a"."จังหวัด" > "76546fb5-4b23-467a-9bef-a24f14985609"."จังหวัด"  
+Table "หน่วยงานที่เข้ามามีส่วนร่วมภายใต้แนวคิดภาครัฐระบบเปิด" {
+  Note: '9ddb33e5-c4f2-4bb2-812d-296ce29192a4'
+  "ปี" numeric 
+  "การขับเคลื่อน" text 
+  "ประเด็นที่ขับเคลื่อน" text 
+  "พื้นที่ปฏิบัติการ" text 
+  "ประเภทหน่วยงาน" text 
+  "ชื่อหน่วยงาน" text 
+  "การดำเนินการ" text 
+ }
 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."name_ministry" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."name_ministry" 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."name_department" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."name_department" 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."data_department_type" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."data_department_type" 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."kpi_no" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."kpi_no" 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."name" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."name" 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."level" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."level" 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."target_level_score" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."target_level_score" 
-Ref: "d3cec797-6871-4947-9002-1eeb82f30c26"."measurement_value" > "c0a456ef-2a33-4784-b739-cb9f403234c6"."measurement_value"  
+Table "รายชื่อจังหวัดและกลุ่มจังหวัด" {
+  Note: '67b20c74-8993-44b6-a6d1-564144562538'
+  "ลำดับ" numeric 
+  "ชื่อกลุ่ม" text 
+  "ประเภท" text 
+  "จังหวัด" text 
+ }
 
-Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."cycle_name" > "d3cec797-6871-4947-9002-1eeb82f30c26"."cycle_name" 
-Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."name_composition" > "d3cec797-6871-4947-9002-1eeb82f30c26"."name_composition" 
-Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."data_kpi_type" > "d3cec797-6871-4947-9002-1eeb82f30c26"."data_kpi_type" 
-Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."target_type" > "d3cec797-6871-4947-9002-1eeb82f30c26"."target_type" 
-Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."weight_x" > "d3cec797-6871-4947-9002-1eeb82f30c26"."weight_x" 
-Ref: "c0a456ef-2a33-4784-b739-cb9f403234c6"."detail" > "d3cec797-6871-4947-9002-1eeb82f30c26"."target_level_score"  
+Table "รายชื่อและช่องทางการเข้าถึงแพลตฟอร์มส่งเสริมการบริหารงานภาครัฐแบบมีส่วนร่วม" {
+  Note: '4048d020-3342-49d6-ab92-6ed6bcced3ed'
+  "รายชื่อแพลตฟอร์ม" text 
+  "ประเภทช่องทางเข้าถึง" text 
+  "ช่องทางเข้าถึง" text 
+  "วัตถุประสงค์แพลตฟอร์ม" text 
+  "หน่วยงานที่เกี่ยวข้อง" text 
+ }
 
-Ref: "3066720f-c50f-4d1d-997a-8d59a584ac01"."ปี" > "d1a30029-739b-4a49-87b1-9989de38757d"."ปี"  
+Ref: "รายชื่อจังหวัดและกลุ่มจังหวัด"."จังหวัด" < "ผลการประเมินของจังหวัด"."จังหวัด"  
+Ref: "รายชื่อจังหวัดและกลุ่มจังหวัด"."จังหวัด" < "รายชื่อตัวชี้วัดของจังหวัด".name_department
+
+Ref: "รายชื่อตัวชี้วัดของจังหวัด".year < "ผลการประเมินของจังหวัด".ปีงบประมาณ
+
+Ref: "รายชื่อจังหวัดและกลุ่มจังหวัด"."จังหวัด" < "ประเด็นนโยบายสำคัญเพื่อเพิ่มประสิทธิภาพการบริหารงานเชิงพื้นที่แบบบูรณาการ"."จังหวัด"  
+
+
 

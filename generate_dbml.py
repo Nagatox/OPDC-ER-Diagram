@@ -36,7 +36,7 @@ df_all_values = ""
 
 if __name__ == "__main__":
 
-    group_name = 'psdg'
+    group_name = 'fs'
 
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"Current Time: {current_time}")

@@ -1,613 +1,53 @@
-Table "d98e5ce6-8dd3-4fd3-887b-5de0b1b69627" {
-  Note: 'สถานะการจัดส่ง BCP ของส่วนราชการ จังหวัด และอปท.'
+// กองยุทธศาสตร์การพัฒนาระบบราชการ - Foresight
+// fs
+// version 5
+
+Table "ความเชื่อมโยงยุทธศาสตร์ชาติ แผนแม่บท แผนการปฎิรูปประเทศ และแผนการพัฒนาเศรษฐกิจและสังคมแห่งชาติที่เกี่ยวข้องกับสำนักงาน ก.พ.ร." {
+  Note: '585dae05-4a84-4cfc-868c-36b022418a55'
+  "ภารกิจที่สำคัญ" text 
+  "ยุทธฯพัฒนาระบบ 64-65" text 
+  "แผนพัฒนาฯ ฉบับที่ 13" text 
+  "กลยุทธ์หมุดหมายที่ 13" text 
+  "แผนการปฏิรูปประเทศ" text 
+  "กิจกรรมปฏิรูป" text 
+  "แผนแม่บทฯ" text 
+  "แผนย่อยของแผนแม่บท" text 
+  "ตัวชี้วัดแผนย่อยฯ" text 
+  "ยุทธศาสตร์ชาติ" text 
+  "ประเด็นยุทธศาสตร์ชาติ" text 
+ }
+
+Table "ข้อสั่งการจากการประชุมหัวหน้าส่วนราชการที่เกี่ยวข้องกับ สำนักงาน ก.พ.ร." {
+  Note: 'a7a0f066-d5fd-4da3-9e2b-5b6ed057ce66'
+  "การประชุมฯ ครั้งที่" text 
+  "วันที่ประชุม" timestamp  
+  "ประเด็นข้อสั่งการฯ" text 
+  "ข้อสั่งการ ลธ.ก.พ.ร." text 
+  "ลิงก์ข้อสั่งการฯ" text 
+ }
+
+Table "สถานะการจัดส่ง BCP ของส่วนราชการ จังหวัด และอปท." {
+  Note: 'd98e5ce6-8dd3-4fd3-887b-5de0b1b69627'
   "ชื่อหน่วยงาน" text 
   "ประเภทหน่วยงาน" text 
   "ปีที่จัดส่ง" numeric 
   "สถานะการจัดส่ง" text 
  }
 
-Table "c0d1c653-97a6-4666-a5c0-d42977f63632" {
-  Note: 'ข้อมูลการศึกษาของผู้สมัคร นปร.'
-  "PSED_CODE" numeric 
-  "sex" text 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "candidate_group" text 
-  "DOB" timestamp  
-  "professional_experiences" numeric 
-  "region" text 
-  "address_house_no" text 
-  "address_moo" text 
-  "address_soi" text 
-  "address_road" text 
-  "address_subdistrict" text 
-  "address_district" text 
-  "address_province" text 
-  "address_postcode" numeric 
-  "Telephone" text 
-  "mobilephone" text 
-  "mobilephone2" text 
+Table "ข้อมูลนามบัตร" {
+  Note: 'ee8c2682-1cb6-4c6e-b1c7-6cb94aaae6cc'
+  "งานที่พบ" text 
+  "ชื่อประเทศ" text 
+  "ชื่อ-สกุล" text 
+  "ตำแหน่ง" text 
+  "หน่วยงาน" text 
   "email" text 
-  "email2" text 
-  "note" text 
+  "เบอร์ติดต่อ" text 
+  "วันที่ได้รับข้อมูล" timestamp  
  }
 
-Table "f51e8141-f2aa-416a-8699-ae58b4fb975d" {
-  Note: 'ข้อมูลการศึกษาของผู้สมัคร นปร.'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "education_level" text 
-  "education_qualification" text 
-  "major" text 
-  "specific course" text 
-  "degree" text 
-  "university" text 
-  "campus" text 
-  "graduating_country" text 
-  "graduating_year" numeric 
-  "notes" text 
- }
-
-Table "a08a8421-2660-40a5-be78-1da75a268e8f" {
-  Note: 'ข้อมูลผลการทดสอบของผู้สมัคร นปร.'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "teasting_procedure" numeric 
-  "score_category" text 
-  "score_source" text 
-  "score" numeric 
-  "criteria" text 
-  "status" text 
-  "notes" text 
- }
-
-Table "6b2e12fd-b8bc-45d5-bdc9-dab9d5768797" {
-  Note: 'PSED_0100'
-  "PSED CODE" numeric 
-  "คำนำหน้าชื่อ" text 
-  "ชื่อ" text 
-  "นามสกุล" text 
-  "รุ่นของ นปร." numeric 
-  "ขั้นตอนการทดสอบ" numeric 
-  "ประเภทคะแนน" text 
-  "แหล่งที่มาของคะแนน" text 
-  "คะแนน/ระดับที่ได้" numeric 
-  "เกณฑ์ที่กำหนดให้ผ่าน" text 
-  "สถานะการสอบ" text 
-  "หมายเหตุเพิ่มเติม" text 
- }
-
-Table "a2edd052-8153-40bd-b7c1-d0d34444ca77" {
-  Note: 'ข้อมูล นปร.'
-  "PSED_CODE" numeric 
-  "sex" text 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "citizen_ID" numeric 
-  "Telephone" text 
-  "mobilephone" text 
-  "mobilephone2" text 
-  "email" text 
-  "email2" text 
-  "interesting_of_national_strategy" text 
-  "interested_department" text 
-  "notes" text 
- }
-
-Table "3db89035-9ac2-4cca-a24a-c5738770d049" {
-  Note: 'ข้อมูลการฝึกปฏิบัติราชการของ นปร.'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "training_type" text 
-  "times" text 
-  "ministry" text 
-  "department" text 
-  "title_mentor" text 
-  "mentor_name" text 
-  "mentor_position" text 
-  "start_year" numeric 
-  "start_month" text 
-  "start_date" text 
-  "end_year" numeric 
-  "end_month" text 
-  "end_date" text 
-  "notes" text 
- }
-
-Table "1c821184-97ad-4a11-bd65-7d103d74310f" {
-  Note: 'ข้อมูลการฝึกปฏิบัติราชการของ นปร.'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "training_type" text 
-  "times" numeric 
-  "ministry" text 
-  "department" text 
-  "title_mentor" text 
-  "mentor_name" text 
-  "mentor_position" text 
-  "start_year" numeric 
-  "start_month" text 
-  "start_date" text 
-  "end_year" numeric 
-  "end_month" text 
-  "end_date" timestamp  
-  "notes" text 
- }
-
-Table "dad36c05-6a61-4929-beeb-68b3bf798c94" {
-  Note: 'ข้อมูลทักษะความถนัดเฉพาะด้านของ นปร.'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "skill_type" text 
-  "detail_of_skill" text 
-  "level_of_skill" text 
-  "example" text 
-  "notes" text 
- }
-
-Table "096b9fd8-759e-4ce2-a540-c2a53d8edeaf" {
-  Note: 'ข้อมูลผู้บริหารและอาจารย์ผู้ดูแล นปร.'
-  "title_advisor" text 
-  "fullname" text 
-  "position" text 
-  "role" text 
-  "start_date" text 
-  "end_date" text 
-  "email" text 
-  "phone" text 
-  "address" text 
- }
-
-Table "492f9a84-063c-4efa-ac5f-e7f0e291aa8c" {
-  Note: 'PSED_0200_05'
-  "รหัสวิชา" numeric 
-  "ชื่อวิชา" text 
-  "วัตถุประสงค์" text 
-  "ประเด็นเรียนรู้" text 
-  "รุ่นของ นปร." numeric 
-  "ระยะวิชาการที่" text 
-  "วันที่สอน" timestamp  
-  "วันที่สิ้นสุด" timestamp  
-  "จำนวนวันในการสอน" numeric 
-  "ชื่อวิทยากร" text 
- }
-
-Table "2caada3b-03f9-4e74-8900-08dc05b08819" {
-  Note: 'ข้อมูลตารางการอบรม'
-  "subject_code" numeric 
-  "subject" text 
-  "objective" text 
-  "topic" text 
-  "generation" numeric 
-  "academic_term" text 
-  "teaching_start_date" timestamp  
-  "teaching_end_date" timestamp  
-  "teaching_hour" text 
-  "lecturer" text 
-  "notes" text 
- }
-
-Table "c1a2dc17-7749-4d67-a939-ef918cd10791" {
-  Note: 'PSED_0200_07'
-  "ลำดับ" numeric 
-  "คำนำหน้าชื่อ" text 
-  "ชื่อวิทยากร" text 
-  "นามสกุลวิทยากร" text 
-  "รหัสวิชา" numeric 
-  "ชื่อวิชา" text 
-  "รุ่นของ นปร." numeric 
-  "ผลประเมินความพึงพอใจ" text 
-  "ประเด็นความเห็น นปร." text 
- }
-
-Table "2727a181-2c08-4c79-9184-53e8956457f1" {
-  Note: 'ข้อมูลผลการประเมินวิทยากร'
-  "assessment_id" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "subject_code" text 
-  "subject" text 
-  "generation" numeric 
-  "assessment_result" text 
-  "issues" text 
- }
-
-Table "26a9789d-d9d5-4294-a638-ac75463284eb" {
-  Note: 'ข้อมูลคะแนนประเมินสมรรถนะ'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "evaluation_period" text 
-  "score_source" text 
-  "score_level" numeric 
-  "status" text 
-  "notes" text 
- }
-
-Table "ba7779c6-84e8-44dc-ac17-4759a2500f98" {
-  Note: 'ข้อมูลคะแนนประเมินสมรรถนะ'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "performance" text 
-  "performance_level" text 
-  "date" text 
-  "assessor" text 
-  "round_of_assess" numeric 
-  "fiscal_year" numeric 
-  "score" numeric 
-  "criteria" text 
-  "assess_date" timestamp  
-  "final_assess_date" timestamp  
- }
-
-Table "8c38254a-7c24-4d24-b567-d72158fdd56f" {
-  Note: 'ข้อมูลส่วนราชการที่ประสงค์รับ นปร.'
-  "department_code" numeric 
-  "generation" numeric 
-  "ministry" text 
-  "department" text 
-  "position_type" text 
-  "position" text 
-  "level" text 
-  "amount" numeric 
-  "condition" text 
-  "notes" text 
- }
-
-Table "def767cf-1661-47a4-81e4-794fb6bcb14d" {
-  Note: 'ข้อมูลส่วนราชการที่ประสงค์รับ นปร.'
-  "department_code" numeric 
-  "generation" numeric 
-  "ministry" text 
-  "department" text 
-  "position_type" text 
-  "position" text 
-  "level" text 
-  "amount" text 
-  "condition" text 
-  "notes" text 
- }
-
-Table "6af3e9c9-55e3-4c09-a464-62c18cf757db" {
-  Note: 'ข้อมูลส่วนราชการที่ นปร. เลือกไปปฏิบัติราชการ'
-  "PSED_CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "interest_ranking" numeric 
-  "interested_ministry" text 
-  "interested_department" text 
-  "interested_division" text 
-  "interested_group" text 
-  "notes" text 
- }
-
-Table "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a" {
-  Note: 'ข้อมูลผลการจัดสรร นปร. ไปยังส่วนราชการ'
-  "department_code" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "assigned_ministry" text 
-  "allocated_department" text 
-  "allocated_position" text 
-  "position_level" text 
-  "interested_division" text 
-  "interested_group" text 
-  "notes" text 
- }
-
-Table "8bce38a5-ec78-4156-951a-6771aff262a0" {
-  Note: 'ข้อมูลผลการจัดสรร นปร. ไปยังส่วนราชการ'
-  "department_code" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "assigned_ministry" text 
-  "allocated_department" text 
-  "allocated_position" text 
-  "position_level" text 
-  "interested_division" text 
-  "interested_group" text 
-  "notes" text 
- }
-
-Table "22794121-9823-42de-beac-36f1c6b2a234" {
-  Note: 'ข้อมูลการติดตาม นปร. สังกัดหลังจบโครงการใน 1 ปี'
-  "PSED CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "division" text 
-  "department" text 
-  "ministry" text 
-  "engagement" text 
-  "comment" text 
-  "notes" text 
- }
-
-Table "03106d3a-fa07-44f0-ba6d-42e566390286" {
-  Note: 'ข้อมูล นปร. ที่อยู่ในเครือข่าย'
-  "PSED CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "nickname" text 
-  "generation" numeric 
-  "status" text 
-  "reason" text 
-  "reason2" text 
-  "private sector" text 
-  "International Organization" text 
-  "Public Sector" text 
-  "State Enterprise" text 
-  "Academia" text 
-  "ministry" text 
-  "department" text 
-  "address_house_no" text 
-  "address_moo" numeric 
-  "address_soi" text 
-  "address_road" text 
-  "address_subdistrict" text 
-  "address_district" text 
-  "address_province" text 
-  "address_postcode" numeric 
-  "phone" text 
-  "phone2" text 
- }
-
-Table "3dd950e6-9d1b-467b-b7f1-50f0f288e94b" {
-  Note: 'ข้อมูลการดำรงตำแหน่งของ นปร. ที่อยู่ในเครือข่าย'
-  "PSED CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "ministry" text 
-  "department" text 
-  "position" text 
-  "position_level" text 
-  "position_type" text 
-  "start_date" timestamp  
-  "end_date" text 
-  "country" text 
-  "status" text 
-  "national_strategy" text 
-  "notes" text 
- }
-
-Table "c969ea40-f3ea-4161-a90b-34b24d06859a" {
-  Note: 'ข้อมูลการพัฒนาสมรรถนะ/ทักษะของ นปร. ที่อยู่ในเครือข่าย'
-  "PSED CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "course" text 
-  "course_version" numeric 
-  "start_year" numeric 
-  "end_year" numeric 
-  "duration_(month)" numeric 
-  "duration_(day)" numeric 
-  "fund_source" text 
-  "status" text 
-  "notes" text 
- }
-
-Table "d43a3cec-6807-43a3-b87b-0291998fa15c" {
-  Note: 'ข้อมูลผลงานสำคัญของ นปร. ที่อยู่ในเครือข่าย'
-  "PSED CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "project_category" text 
-  "project_name" text 
-  "advisor" text 
-  "publication_year" numeric 
-  "notes" text 
- }
-
-Table "66cfbeea-1140-443b-876f-1cde01a959e3" {
-  Note: 'ข้อมูลรางวัลที่ได้รับ'
-  "PSED CODE" numeric 
-  "title" text 
-  "firstname" text 
-  "lastname" text 
-  "generation" numeric 
-  "position" text 
-  "position_level" text 
-  "department" text 
-  "ministry" text 
-  "reward_name" text 
-  "reward_year" numeric 
-  "rewarder" text 
-  "notes" text 
- }
-
-Table "89552b78-7d39-493f-90cc-e88fdc883fa3" {
-  Note: 'ข้อมูลผลการประเมิน นปร. ประจำปีโดยผู้บังคับบัญชาระดับต้น'
-  "generation" numeric 
-  "comment 1" text 
-  "comment 2" text 
-  "Score" numeric 
-  "strength" text 
-  "assesor" text 
-  "Year of assessment" numeric 
- }
-
-Table "2826f497-a8ae-414c-a297-de6038ad87d4" {
-  Note: 'ข้อมูลหลักสูตรพัฒนาเครือข่าย นปร.'
-  "order" numeric 
-  "course_name" text 
-  "course_version" numeric 
-  "course_designer" text 
-  "objective" text 
-  "start_year" numeric 
-  "start_date" text 
-  "end_date" text 
-  "expected_attendee_amount" numeric 
-  "attendee_amount" numeric 
-  "attendee_passed" text 
-  "note" text 
- }
-
-Table "05bec85a-fc9b-4206-af2c-3d2f354e57db" {
-  Note: 'ข้อมูลตารางการอบรมเครือข่าย นปร.'
-  "order" numeric 
-  "course_name" text 
-  "course_version" numeric 
-  "subject_code" text 
-  "subject_name" text 
-  "objective" text 
-  "learning_topic" text 
-  "training_date" timestamp  
-  "notes" text 
- }
-
-Table "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98" {
-  Note: 'ข้อมูลวิทยากรในหลักสูตรพัฒนาเครือข่าย นปร.'
-  "title" text 
-  "firstname" text 
-  "position" text 
-  "department" text 
-  "education_level" text 
-  "education_qualification" text 
-  "graduated_department" text 
-  "graduated_university" text 
-  "graduated_country" text 
-  "graduated_year" numeric 
-  "experience" text 
-  "expertise" text 
-  "phone" numeric 
-  "E-mail" text 
-  "address" text 
-  "course_name" text 
-  "note" text 
- }
-
-Table "b05860a5-3543-4e99-969e-d52b4b0855a1" {
-  Note: 'ข้อมูลวิทยากรในหลักสูตรพัฒนาเครือข่าย นปร.'
-  "คำนำหน้าชื่อ" text 
-  "ชื่อวิทยากร" text 
-  "ตำแหน่งของวิทยากร" text 
-  "หน่วยงานของวิทยากร" text 
-  "ระดับการศึกษา" text 
-  "วุฒิการศึกษา" text 
-  "สาขาที่จบ" text 
-  "มหาวิทยาลัยที่จบ" text 
-  "ประเทศที่จบ" text 
-  "ปีที่จบ" numeric 
-  "ประสบการณ์วิทยากร" text 
-  "ความเชี่ยวชาญวิทยากร" text 
-  "เบอร์โทรวิทยากร" numeric 
-  "E-mail วิทยากร" text 
-  "ที่อยู่วิทยากร" text 
-  "ชื่อวิชาเครือข่าย นปร." text 
-  "หมายเหตุ" text 
- }
-
-Table "9ab3a7c9-9c0c-4b50-adc5-81fa062db8c4" {
-  Note: 'ข้อมูลการประเมินวิทยากรในหลักสูตรพัฒนาเครือข่าย นปร.'
-  "order" numeric 
-  "subject_name" text 
-  "subject_code" text 
-  "title" text 
-  "lecturer_firstname" text 
-  "lecturer_lastname" text 
-  "training_date" timestamp  
-  "assessment_result" numeric 
-  "comment" text 
- }
-
-Table "221ffa63-2e20-43e9-8960-1ec1607b8320" {
-  Note: 'ข้อมูลการประเมินวิทยากรในหลักสูตรพัฒนาเครือข่าย นปร.'
-  "ลำดับ" numeric 
-  "ชื่อวิชาเครือข่าย นปร." text 
-  "รหัสวิชาเครือข่าย นปร." text 
-  "คำนำหน้าวิทยากร" text 
-  "ชื่อวิทยากรเครือข่าย" text 
-  "สกุลวิทยากรเครือข่าย" text 
-  "วันที่อบรมเครือข่าย" timestamp  
-  "ผลประเมินความพึงพอใจ" numeric 
-  "ความเห็นจาก นปร." text 
- }
-
-Table "c797a5f2-0686-41ec-93dd-6e07350763e5" {
-  Note: 'รายละเอียดโครงการ'
-  "ID" text 
-  "งวดเงิน" text 
-  "ผลผลิต" text 
-  "จำนวนผลผลิต" text 
-  "ผลการตรวจรับ" text 
- }
-
-Table "0d19e581-bff8-4fd4-8ef5-d89994961579" {
-  Note: 'รายละเอียดโครงการวิเคราะห์สภาวการณ์การบริหารงานภาครัฐแบบองค์รวม ระยะที่ ๒ (Government at a Glance)'
-  "ID" text 
-  "งวดเงิน" text 
-  "ผลผลิต" text 
-  "จำนวนผลผลิต" text 
-  "ผลการตรวจรับ" text 
- }
-
-Table "b64890ce-2b51-4a52-b385-4bd96d50b41b" {
-  Note: 'รายละเอียดโครงการเสริมสร้างความซื่อตรงในการบริหารงานภาครัฐของประเทศไทย'
-  "ID" text 
-  "งวดเงิน" text 
-  "ผลผลิต" text 
-  "จำนวนผลผลิต" text 
-  "ผลการตรวจรับ" text 
- }
-
-Table "bf539091-856c-46ec-97bf-4473a5637dcf" {
-  Note: 'รายละเอียดโครงการเสริมสร้างธรรมาภิบาลภาครัฐในระดับภูมิภาคเอเชียตะวันออกเฉียงใต้ และอาเซียน +๙'
-  "ID" text 
-  "งวดเงิน" text 
-  "ผลผลิต" text 
-  "จำนวนผลผลิต" text 
-  "ผลการตรวจรับ" text 
- }
-
-Table "df5942e0-4c06-46a4-b4ab-a9345081cec7" {
-  Note: 'สัญญาการจ้างที่ปรึกษา'
-  "ID" text 
-  "งวดเงิน" text 
-  "ผลผลิต" text 
-  "จำนวนผลผลิต" text 
- }
-
-Table "3d0aa471-3175-4592-9b59-0c679b535398" {
-  Note: 'การจัดประชุม (ระดับประเทศและระดับนานาชาติ)'
+Table "การจัดประชุม (ระดับประเทศและระดับนานาชาติ)" {
+  Note: '3d0aa471-3175-4592-9b59-0c679b535398'
   "ปี" numeric 
   "ชื่อการประชุม" text 
   "วันที่เริ่มประชุม" timestamp  
@@ -624,49 +64,8 @@ Table "3d0aa471-3175-4592-9b59-0c679b535398" {
   "ผลที่เกิดขึ้น" text 
  }
 
-Table "29d986f7-4666-4fee-9d3b-1f1bd17658bb" {
-  Note: 'ข้อมูลกิจกรรมโครงการพัฒนานวัตกรรมภาครัฐ'
-  "ปี" numeric 
-  "ประเภทงบประมาณ" text 
-  "ID" text 
-  "แผนงาน" text 
-  "โครงการ" text 
-  "กิจกรรม" text 
-  "งบประมาณ" numeric 
-  "ระยะเวลาเริ่ม" text 
-  "ระยะเวลาสิ้นสุด" text 
-  "กอง" text 
-  "ขอบเขต" text 
-  "ผลลัพธ์" text 
-  "งวดงาน" text 
-  "Link TOR" text 
-  "เลขที่บันทึกอนุมัติ" text 
-  "วันที่บันทึกอนุมัติ" timestamp  
-  "เลขาธิการอนุมัติ" timestamp  
-  "เลขที่ข้อตกลง" text 
-  "วันที่ลงนามข้อตกลง" timestamp  
-  "แก้ไขสัญญา" timestamp  
-  "วงเงินที่มอบหมาย" numeric 
-  "link ข้อตกลง" text 
-  "ผลการตรวจรับ" text 
-  "link รายงานตรวจรับ" text 
-  "หมายเหตุ" text 
- }
-
-Table "3acf86fa-3feb-4e10-bd61-8b6fc7f8c0cb" {
-  Note: 'รายชื่อต้นแบบนวัตกรรมบริการภาครัฐอย่างมีส่วนร่วม'
-  "ปืที่พัฒนา" numeric 
-  "ลำดับ" numeric 
-  "ชื่องานบริการภาครัฐ" text 
-  "ความสำคัญ" text 
-  "โจทย์" text 
-  "รายละเอียดโดยสังเขป" text 
-  "หน่วยงานหลักที่พัฒนา" text 
-  "ภาคส่วนที่เกี่ยวข้อง" text 
- }
-
-Table "7c683efe-da2d-40b1-8f28-66208cf3070c" {
-  Note: 'รายชื่อต้นแบบนวัตกรรมงานบริการภาครัฐและการขยายผลต้นแบบไปสู่การปฏิบัติ'
+Table "รายชื่อต้นแบบนวัตกรรมงานบริการภาครัฐและการขยายผลต้นแบบไปสู่การปฏิบัติ" {
+  Note: '7c683efe-da2d-40b1-8f28-66208cf3070c'
   "ปืที่พัฒนา" text 
   "ลำดับในแต่ละปี" numeric 
   "ชื่องานบริการภาครัฐ" text 
@@ -675,241 +74,70 @@ Table "7c683efe-da2d-40b1-8f28-66208cf3070c" {
   "รายละเอียดโดยสังเขป" text 
   "หน่วยงานหลักที่พัฒนา" text 
   "ภาคส่วนที่เกี่ยวข้อง" text 
-  "ปีที่นำไปขยายผล" numeric 
+  "ปีที่นำไปขยายผล" text 
   "ชื่อต้นแบบนวัตกรรมฯ" text 
   "รายละเอียด" text 
   "หน่วยงานเจ้าภาพ" text 
   "ผลการดำเนินการ" text 
  }
 
-Table "f53796cb-e397-44e6-8978-37e3802d024f" {
-  Note: 'ข้อมูลการขยายผลต้นแบบนวัตกรรมงานบริการภาครัฐไปสู่การปฏิบัติ'
-  "ปีที่พัฒนา" text 
-  "ชื่อต้นแบบนวัตกรรมฯ" text 
+Table "แผนยุทธศาสตร์หรือแผนพัฒนาหน่วยงาน" {
+  Note: '7b4a5c72-d0d3-434f-ae2d-14999a8c954a'
+  "ชื่อเรื่อง" text 
   "รายละเอียด" text 
-  "หน่วยงานเจ้าภาพ" text 
-  "ความคืบหน้า" text 
-  "ผลการดำเนินงาน" text 
-  "ปัญหา/อุปสรรค" text 
+  "ปีที่เริ่มแผน" numeric 
+  "ปีที่สิ้นสุดแผน" numeric 
+  "URL ไฟล์เล่มแผน" text 
  }
 
-Table "94ad99a3-c549-4f4e-8a3b-456e3abf1dd9" {
-  Note: 'ข้อมูลประเภท หน้าที่และอำนาจของคณะกรรมการ'
-  "order" numeric 
-  "committee" text 
-  "committee_amount" numeric 
-  "responsibility" text 
-  "appointer" text 
-  "name ( appointer )" text 
-  "appoint_statement" text 
-  "effective_date" timestamp  
-  "terminate_date" timestamp  
-  "committee_status" text 
-  "committee_duration (year)" numeric 
-  "committee_duration_status" text 
-  "note" text 
+Table "รายการดัชนีสากลที่เกี่ยวข้องกับการพัฒนาระบบราชการ" {
+  Note: '5e2d2aa3-3588-4a86-8c53-e70e7fa05561'
+  "ลำดับ" numeric 
+  "ชื่อดัชนีหลัก" text 
+  "ตัวย่อดัชนีหลัก" text 
+  "คำอธิบายย่อ" text 
+  "องค์กรผู้สำรวจ" text 
+  "วิธีการวัด" text 
+  "ความถี่ในการวัด" text 
+  "ช่วงเวลาสำรวจข้อมูล" text 
+  "หมายเหตุการสำรวจ" text 
+  "ช่วงเวลาประกาศ" text 
+  "หมายเหตุการประกาศ" text 
+  "link เข้าถึงดัชนี" text 
  }
 
-Table "35b9a601-d496-431a-bca4-911f296c8305" {
-  Note: 'ข้อมูลกรอบงบประมาณที่ได้รับ'
-  "fiscal_year" numeric 
-  "agreement_no" text 
-  "activity" text 
-  "PSED_generation" numeric 
-  "budget" numeric 
-  "PSED_amount" numeric 
-  "note" text 
+Table "อันดับและคะแนนของดัชนีสากลที่เกี่ยวข้องกับการพัฒนาระบบราชการ" {
+  Note: 'aa18364d-e65e-47ea-a92e-c710710f6bec'
+  "ชื่อดัชนีหลัก" text 
+  "ตัวย่อดัชนีหลัก" text 
+  "แหล่งที่มา" text 
+  "ลิงก์ที่เกี่ยวข้อง" text 
+  "รายละเอียดดัชนีหลัก" text 
+  "ปี" numeric 
+  "Score" numeric 
+  "Rank" numeric 
+  "N_country" numeric 
+  "หมายเหตุ" text 
  }
 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "f51e8141-f2aa-416a-8699-ae58b4fb975d"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."note" > "f51e8141-f2aa-416a-8699-ae58b4fb975d"."notes" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "a08a8421-2660-40a5-be78-1da75a268e8f"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "a08a8421-2660-40a5-be78-1da75a268e8f"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "a08a8421-2660-40a5-be78-1da75a268e8f"."teasting_procedure" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "a2edd052-8153-40bd-b7c1-d0d34444ca77"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."sex" > "a2edd052-8153-40bd-b7c1-d0d34444ca77"."sex" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "a2edd052-8153-40bd-b7c1-d0d34444ca77"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."Telephone" > "a2edd052-8153-40bd-b7c1-d0d34444ca77"."Telephone" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."note" > "a2edd052-8153-40bd-b7c1-d0d34444ca77"."notes" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "3db89035-9ac2-4cca-a24a-c5738770d049"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "3db89035-9ac2-4cca-a24a-c5738770d049"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "1c821184-97ad-4a11-bd65-7d103d74310f"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "1c821184-97ad-4a11-bd65-7d103d74310f"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "1c821184-97ad-4a11-bd65-7d103d74310f"."times" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "dad36c05-6a61-4929-beeb-68b3bf798c94"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."firstname" > "dad36c05-6a61-4929-beeb-68b3bf798c94"."firstname" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."lastname" > "dad36c05-6a61-4929-beeb-68b3bf798c94"."lastname" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "dad36c05-6a61-4929-beeb-68b3bf798c94"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."title" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."title_advisor" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "2caada3b-03f9-4e74-8900-08dc05b08819"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "2727a181-2c08-4c79-9184-53e8956457f1"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "26a9789d-d9d5-4294-a638-ac75463284eb"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "26a9789d-d9d5-4294-a638-ac75463284eb"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."note" > "26a9789d-d9d5-4294-a638-ac75463284eb"."notes" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "ba7779c6-84e8-44dc-ac17-4759a2500f98"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."title" > "ba7779c6-84e8-44dc-ac17-4759a2500f98"."title" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."firstname" > "ba7779c6-84e8-44dc-ac17-4759a2500f98"."firstname" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."lastname" > "ba7779c6-84e8-44dc-ac17-4759a2500f98"."lastname" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "ba7779c6-84e8-44dc-ac17-4759a2500f98"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "ba7779c6-84e8-44dc-ac17-4759a2500f98"."round_of_assess" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "8c38254a-7c24-4d24-b567-d72158fdd56f"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "def767cf-1661-47a4-81e4-794fb6bcb14d"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."PSED_CODE" > "6af3e9c9-55e3-4c09-a464-62c18cf757db"."PSED_CODE" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."title" > "6af3e9c9-55e3-4c09-a464-62c18cf757db"."title" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "6af3e9c9-55e3-4c09-a464-62c18cf757db"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "6af3e9c9-55e3-4c09-a464-62c18cf757db"."interest_ranking" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "8bce38a5-ec78-4156-951a-6771aff262a0"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "22794121-9823-42de-beac-36f1c6b2a234"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."note" > "22794121-9823-42de-beac-36f1c6b2a234"."notes" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "03106d3a-fa07-44f0-ba6d-42e566390286"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "3dd950e6-9d1b-467b-b7f1-50f0f288e94b"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."duration_(month)" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."duration_(day)" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "d43a3cec-6807-43a3-b87b-0291998fa15c"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."title" > "66cfbeea-1140-443b-876f-1cde01a959e3"."title" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "66cfbeea-1140-443b-876f-1cde01a959e3"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."generation" > "89552b78-7d39-493f-90cc-e88fdc883fa3"."generation" 
-Ref: "c0d1c653-97a6-4666-a5c0-d42977f63632"."title" > "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."title"  
+Table "รายชื่อหน่วยงานภาครัฐที่จัดทำหรือปรับปรุงแผนดำเนินธุรกิจอย่างต่อเนื่อง BCP" {
+  Note: '645d34ad-5034-4e61-a1c9-fa49ce2247b8'
+  "timestamp" timestamp  
+  "Org" text 
+  "typeOrg" text 
+  "depend" text 
+  "1.1NewOrRevise" text 
+  "1.2Water" text 
+  "1.2Fire" text 
+  "1.2Protest" text 
+  "1.2Plague" text 
+  "1.2Earthquake" text 
+  "1.2Terrorist" text 
+  "1.2Blackout" text 
+  "1.2Cyber" text 
+  "NewTech" text 
+  "Whattechbecome" text 
+ }
 
-Ref: "a08a8421-2660-40a5-be78-1da75a268e8f"."notes" > "dad36c05-6a61-4929-beeb-68b3bf798c94"."example" 
-Ref: "a08a8421-2660-40a5-be78-1da75a268e8f"."notes" > "2caada3b-03f9-4e74-8900-08dc05b08819"."teaching_hour" 
-Ref: "a08a8421-2660-40a5-be78-1da75a268e8f"."status" > "26a9789d-d9d5-4294-a638-ac75463284eb"."status" 
-Ref: "a08a8421-2660-40a5-be78-1da75a268e8f"."status" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."status" 
-Ref: "a08a8421-2660-40a5-be78-1da75a268e8f"."notes" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."subject_code" 
-Ref: "a08a8421-2660-40a5-be78-1da75a268e8f"."notes" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."objective"  
-
-Ref: "6b2e12fd-b8bc-45d5-bdc9-dab9d5768797"."รุ่นของ นปร." > "492f9a84-063c-4efa-ac5f-e7f0e291aa8c"."จำนวนวันในการสอน" 
-Ref: "6b2e12fd-b8bc-45d5-bdc9-dab9d5768797"."คำนำหน้าชื่อ" > "b05860a5-3543-4e99-969e-d52b4b0855a1"."คำนำหน้าชื่อ"  
-
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."notes" > "a08a8421-2660-40a5-be78-1da75a268e8f"."criteria" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."training_type" > "1c821184-97ad-4a11-bd65-7d103d74310f"."training_type" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."ministry" > "1c821184-97ad-4a11-bd65-7d103d74310f"."ministry" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_month" > "1c821184-97ad-4a11-bd65-7d103d74310f"."start_month" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_month" > "1c821184-97ad-4a11-bd65-7d103d74310f"."start_month" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_month" > "1c821184-97ad-4a11-bd65-7d103d74310f"."end_month" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_date" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."role" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_date" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."start_date" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_date" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."end_date" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_date" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."role" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_date" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."start_date" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_date" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."end_date" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_date" > "2caada3b-03f9-4e74-8900-08dc05b08819"."teaching_hour" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_date" > "2caada3b-03f9-4e74-8900-08dc05b08819"."teaching_hour" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_year" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."start_year" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_year" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."end_year" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_year" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."start_year" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."end_year" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."end_year" 
-Ref: "3db89035-9ac2-4cca-a24a-c5738770d049"."start_year" > "2826f497-a8ae-414c-a297-de6038ad87d4"."start_year"  
-
-Ref: "492f9a84-063c-4efa-ac5f-e7f0e291aa8c"."รหัสวิชา" > "c1a2dc17-7749-4d67-a939-ef918cd10791"."รหัสวิชา" 
-Ref: "492f9a84-063c-4efa-ac5f-e7f0e291aa8c"."ชื่อวิทยากร" > "221ffa63-2e20-43e9-8960-1ec1607b8320"."รหัสวิชาเครือข่าย นปร."  
-
-Ref: "2caada3b-03f9-4e74-8900-08dc05b08819"."objective" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."subject_code" 
-Ref: "2caada3b-03f9-4e74-8900-08dc05b08819"."topic" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."subject_code" 
-Ref: "2caada3b-03f9-4e74-8900-08dc05b08819"."topic" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."objective" 
-Ref: "2caada3b-03f9-4e74-8900-08dc05b08819"."lecturer" > "9ab3a7c9-9c0c-4b50-adc5-81fa062db8c4"."subject_code"  
-
-Ref: "c1a2dc17-7749-4d67-a939-ef918cd10791"."คำนำหน้าชื่อ" > "6b2e12fd-b8bc-45d5-bdc9-dab9d5768797"."เกณฑ์ที่กำหนดให้ผ่าน" 
-Ref: "c1a2dc17-7749-4d67-a939-ef918cd10791"."ลำดับ" > "221ffa63-2e20-43e9-8960-1ec1607b8320"."ลำดับ" 
-Ref: "c1a2dc17-7749-4d67-a939-ef918cd10791"."ลำดับ" > "3acf86fa-3feb-4e10-bd61-8b6fc7f8c0cb"."ลำดับ" 
-Ref: "c1a2dc17-7749-4d67-a939-ef918cd10791"."ลำดับ" > "7c683efe-da2d-40b1-8f28-66208cf3070c"."ลำดับในแต่ละปี"  
-
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."department_code" > "def767cf-1661-47a4-81e4-794fb6bcb14d"."department_code" 
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."department" > "def767cf-1661-47a4-81e4-794fb6bcb14d"."department" 
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."position_type" > "def767cf-1661-47a4-81e4-794fb6bcb14d"."position_type" 
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."position" > "def767cf-1661-47a4-81e4-794fb6bcb14d"."position" 
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."department" > "66cfbeea-1140-443b-876f-1cde01a959e3"."rewarder" 
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."amount" > "2826f497-a8ae-414c-a297-de6038ad87d4"."order" 
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."amount" > "2826f497-a8ae-414c-a297-de6038ad87d4"."course_version" 
-Ref: "8c38254a-7c24-4d24-b567-d72158fdd56f"."amount" > "94ad99a3-c549-4f4e-8a3b-456e3abf1dd9"."committee_duration (year)"  
-
-Ref: "def767cf-1661-47a4-81e4-794fb6bcb14d"."level" > "dad36c05-6a61-4929-beeb-68b3bf798c94"."notes" 
-Ref: "def767cf-1661-47a4-81e4-794fb6bcb14d"."level" > "8c38254a-7c24-4d24-b567-d72158fdd56f"."level" 
-Ref: "def767cf-1661-47a4-81e4-794fb6bcb14d"."condition" > "8c38254a-7c24-4d24-b567-d72158fdd56f"."condition"  
-
-Ref: "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a"."assigned_ministry" > "8bce38a5-ec78-4156-951a-6771aff262a0"."assigned_ministry" 
-Ref: "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a"."allocated_department" > "8bce38a5-ec78-4156-951a-6771aff262a0"."allocated_department"  
-
-Ref: "8bce38a5-ec78-4156-951a-6771aff262a0"."allocated_position" > "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a"."allocated_position" 
-Ref: "8bce38a5-ec78-4156-951a-6771aff262a0"."position_level" > "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a"."position_level" 
-Ref: "8bce38a5-ec78-4156-951a-6771aff262a0"."interested_division" > "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a"."interested_division" 
-Ref: "8bce38a5-ec78-4156-951a-6771aff262a0"."interested_group" > "c8da3c7e-92fd-4161-bcbf-3f77b7ca0f9a"."interested_group" 
-Ref: "8bce38a5-ec78-4156-951a-6771aff262a0"."position_level" > "66cfbeea-1140-443b-876f-1cde01a959e3"."position_level"  
-
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."phone2" > "c0d1c653-97a6-4666-a5c0-d42977f63632"."mobilephone2" 
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."PSED CODE" > "6b2e12fd-b8bc-45d5-bdc9-dab9d5768797"."PSED CODE" 
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."status" > "26a9789d-d9d5-4294-a638-ac75463284eb"."notes" 
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."PSED CODE" > "22794121-9823-42de-beac-36f1c6b2a234"."PSED CODE" 
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."PSED CODE" > "3dd950e6-9d1b-467b-b7f1-50f0f288e94b"."PSED CODE" 
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."PSED CODE" > "c969ea40-f3ea-4161-a90b-34b24d06859a"."PSED CODE" 
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."PSED CODE" > "d43a3cec-6807-43a3-b87b-0291998fa15c"."PSED CODE" 
-Ref: "03106d3a-fa07-44f0-ba6d-42e566390286"."PSED CODE" > "66cfbeea-1140-443b-876f-1cde01a959e3"."PSED CODE"  
-
-Ref: "3dd950e6-9d1b-467b-b7f1-50f0f288e94b"."status" > "a08a8421-2660-40a5-be78-1da75a268e8f"."criteria" 
-Ref: "3dd950e6-9d1b-467b-b7f1-50f0f288e94b"."position" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."role" 
-Ref: "3dd950e6-9d1b-467b-b7f1-50f0f288e94b"."position" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."start_date" 
-Ref: "3dd950e6-9d1b-467b-b7f1-50f0f288e94b"."position" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."end_date"  
-
-Ref: "c969ea40-f3ea-4161-a90b-34b24d06859a"."course" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."course_name" 
-Ref: "c969ea40-f3ea-4161-a90b-34b24d06859a"."course" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."subject_code" 
-Ref: "c969ea40-f3ea-4161-a90b-34b24d06859a"."course" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."objective"  
-
-Ref: "d43a3cec-6807-43a3-b87b-0291998fa15c"."advisor" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."role" 
-Ref: "d43a3cec-6807-43a3-b87b-0291998fa15c"."advisor" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."start_date" 
-Ref: "d43a3cec-6807-43a3-b87b-0291998fa15c"."advisor" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."end_date"  
-
-Ref: "2826f497-a8ae-414c-a297-de6038ad87d4"."note" > "a08a8421-2660-40a5-be78-1da75a268e8f"."criteria" 
-Ref: "2826f497-a8ae-414c-a297-de6038ad87d4"."note" > "2caada3b-03f9-4e74-8900-08dc05b08819"."teaching_hour" 
-Ref: "2826f497-a8ae-414c-a297-de6038ad87d4"."order" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."course_version" 
-Ref: "2826f497-a8ae-414c-a297-de6038ad87d4"."note" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."subject_code" 
-Ref: "2826f497-a8ae-414c-a297-de6038ad87d4"."note" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."objective"  
-
-Ref: "05bec85a-fc9b-4206-af2c-3d2f354e57db"."subject_code" > "2caada3b-03f9-4e74-8900-08dc05b08819"."teaching_hour" 
-Ref: "05bec85a-fc9b-4206-af2c-3d2f354e57db"."objective" > "2caada3b-03f9-4e74-8900-08dc05b08819"."teaching_hour" 
-Ref: "05bec85a-fc9b-4206-af2c-3d2f354e57db"."order" > "94ad99a3-c549-4f4e-8a3b-456e3abf1dd9"."committee_duration (year)"  
-
-Ref: "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."education_level" > "f51e8141-f2aa-416a-8699-ae58b4fb975d"."education_level" 
-Ref: "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."address" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."role" 
-Ref: "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."address" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."start_date" 
-Ref: "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."address" > "096b9fd8-759e-4ce2-a540-c2a53d8edeaf"."end_date" 
-Ref: "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."course_name" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."subject_code" 
-Ref: "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."course_name" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."objective" 
-Ref: "0cdcc3f2-a55a-4ab0-95cd-b6e5c0edac98"."E-mail" > "b05860a5-3543-4e99-969e-d52b4b0855a1"."E-mail วิทยากร"  
-
-Ref: "b05860a5-3543-4e99-969e-d52b4b0855a1"."หมายเหตุ" > "6b2e12fd-b8bc-45d5-bdc9-dab9d5768797"."เกณฑ์ที่กำหนดให้ผ่าน" 
-Ref: "b05860a5-3543-4e99-969e-d52b4b0855a1"."ชื่อวิชาเครือข่าย นปร." > "221ffa63-2e20-43e9-8960-1ec1607b8320"."รหัสวิชาเครือข่าย นปร."  
-
-Ref: "9ab3a7c9-9c0c-4b50-adc5-81fa062db8c4"."subject_name" > "05bec85a-fc9b-4206-af2c-3d2f354e57db"."course_name"  
-
-Ref: "221ffa63-2e20-43e9-8960-1ec1607b8320"."ลำดับ" > "c1a2dc17-7749-4d67-a939-ef918cd10791"."รุ่นของ นปร."  
-
-Ref: "0d19e581-bff8-4fd4-8ef5-d89994961579"."งวดเงิน" > "c797a5f2-0686-41ec-93dd-6e07350763e5"."งวดเงิน" 
-Ref: "0d19e581-bff8-4fd4-8ef5-d89994961579"."งวดเงิน" > "b64890ce-2b51-4a52-b385-4bd96d50b41b"."งวดเงิน" 
-Ref: "0d19e581-bff8-4fd4-8ef5-d89994961579"."ผลการตรวจรับ" > "b64890ce-2b51-4a52-b385-4bd96d50b41b"."ผลการตรวจรับ" 
-Ref: "0d19e581-bff8-4fd4-8ef5-d89994961579"."งวดเงิน" > "bf539091-856c-46ec-97bf-4473a5637dcf"."งวดเงิน" 
-Ref: "0d19e581-bff8-4fd4-8ef5-d89994961579"."ผลการตรวจรับ" > "bf539091-856c-46ec-97bf-4473a5637dcf"."ผลการตรวจรับ" 
-Ref: "0d19e581-bff8-4fd4-8ef5-d89994961579"."งวดเงิน" > "df5942e0-4c06-46a4-b4ab-a9345081cec7"."งวดเงิน"  
-
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."ID" > "0d19e581-bff8-4fd4-8ef5-d89994961579"."ID" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."ผลผลิต" > "0d19e581-bff8-4fd4-8ef5-d89994961579"."ผลผลิต" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."จำนวนผลผลิต" > "0d19e581-bff8-4fd4-8ef5-d89994961579"."จำนวนผลผลิต" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."ID" > "b64890ce-2b51-4a52-b385-4bd96d50b41b"."ID" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."ผลผลิต" > "b64890ce-2b51-4a52-b385-4bd96d50b41b"."ผลผลิต" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."จำนวนผลผลิต" > "b64890ce-2b51-4a52-b385-4bd96d50b41b"."จำนวนผลผลิต" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."ID" > "bf539091-856c-46ec-97bf-4473a5637dcf"."ID" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."ผลผลิต" > "bf539091-856c-46ec-97bf-4473a5637dcf"."ผลผลิต" 
-Ref: "df5942e0-4c06-46a4-b4ab-a9345081cec7"."จำนวนผลผลิต" > "bf539091-856c-46ec-97bf-4473a5637dcf"."จำนวนผลผลิต"  
-
-Ref: "29d986f7-4666-4fee-9d3b-1f1bd17658bb"."ปี" > "d98e5ce6-8dd3-4fd3-887b-5de0b1b69627"."ปีที่จัดส่ง" 
-Ref: "29d986f7-4666-4fee-9d3b-1f1bd17658bb"."ปี" > "3d0aa471-3175-4592-9b59-0c679b535398"."ปี" 
-Ref: "29d986f7-4666-4fee-9d3b-1f1bd17658bb"."ปี" > "7c683efe-da2d-40b1-8f28-66208cf3070c"."ปีที่นำไปขยายผล"  
-
-Ref: "7c683efe-da2d-40b1-8f28-66208cf3070c"."ชื่องานบริการภาครัฐ" > "3acf86fa-3feb-4e10-bd61-8b6fc7f8c0cb"."ชื่องานบริการภาครัฐ" 
-Ref: "7c683efe-da2d-40b1-8f28-66208cf3070c"."ชื่อต้นแบบนวัตกรรมฯ" > "f53796cb-e397-44e6-8978-37e3802d024f"."ชื่อต้นแบบนวัตกรรมฯ" 
-Ref: "7c683efe-da2d-40b1-8f28-66208cf3070c"."รายละเอียด" > "f53796cb-e397-44e6-8978-37e3802d024f"."รายละเอียด" 
-Ref: "7c683efe-da2d-40b1-8f28-66208cf3070c"."หน่วยงานเจ้าภาพ" > "f53796cb-e397-44e6-8978-37e3802d024f"."หน่วยงานเจ้าภาพ"  
-
-Ref: "35b9a601-d496-431a-bca4-911f296c8305"."fiscal_year" > "ba7779c6-84e8-44dc-ac17-4759a2500f98"."fiscal_year"  
+Ref: "รายการดัชนีสากลที่เกี่ยวข้องกับการพัฒนาระบบราชการ"."ชื่อดัชนีหลัก" > "อันดับและคะแนนของดัชนีสากลที่เกี่ยวข้องกับการพัฒนาระบบราชการ"."ชื่อดัชนีหลัก"  
 
