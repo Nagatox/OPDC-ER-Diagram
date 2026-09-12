@@ -1,0 +1,177 @@
+// e-SAR_v3
+// e-SAR_v3
+// version 5
+
+Table "organizations-v3" {
+  Note: 'hdfs_organizations-v3'
+  "id" text 
+  "name" text 
+  "abbrv_name" text 
+  "type" text 
+  "parent_id" text 
+ }
+
+Table "cycles-v3" {
+  Note: 'hdfs_cycles-v3'
+  "id" text 
+  "year_no" text 
+  "chart_name" text 
+ }
+
+Table "kpi-assessment-v3" {
+  Note: 'hdfs_kpi-assessment-v3'
+  "id" text 
+  "parent_id" text 
+  "code" text 
+  "kpi_no" text 
+  "name" text 
+  "type" text 
+  "description" text 
+  "weight" text 
+  "assessments_id" text 
+  "assessments_framework_detail_id" text 
+  "assessments_kpi_id" text 
+  "assessments_failed_reason" text 
+  "assessments_explanation" text 
+  "assessments_trouble" text 
+  "assessments_remarks" text 
+  "assessments_suggestion" text 
+  "assessments_status" text 
+  "assessments_workflow_status" text 
+  "assessments_cycle_name" text 
+  "assessments_organization_name" text 
+  "assessments_details" text 
+ }
+
+Table "kpi-organization-score-v3" {
+  Note: 'hdfs_kpi-organization-score-v3'
+  "id" text 
+  "org_id" text 
+  "cycle_id" text 
+  "status" text 
+  "final_score_weighted" text 
+  "is_approving" text 
+  "progressive_score" text 
+  "organization_name" text 
+  "organization_level" text 
+  "cycle_year_no" text 
+  "cycle_chart_name" text 
+  "details_id" text 
+  "details_framework_id" text 
+  "details_previous_id" text 
+  "details_kpi_id" text 
+  "details_score" text 
+  "details_score_weighted" text 
+  "details_weight" text 
+  "details_flag_basket" text 
+  "details_final_score" text 
+  "details_final_score_weighted" text 
+  "details_preview_score" text 
+  "details_preview_score_weighted" text 
+  "details_kpi_name" text 
+  "details_number" text 
+ }
+
+Table "kpi-organization-v3" {
+  Note: 'hdfs_kpi-organization-v3'
+  "year" text 
+  "cycle_id" text 
+  "cycle_name" text 
+  "data_ministry_id_ministry" text 
+  "data_ministry_name_ministry" text 
+  "data_ministry_type" text 
+  "data_ministry_average_score" text 
+  "data_ministry_data_department_id_department" text 
+  "data_ministry_data_department_name_department" text 
+  "data_ministry_data_department_abbrv_name" text 
+  "data_ministry_data_department_type" text 
+  "data_ministry_data_department_data_kpis_id_kpi" text 
+  "data_ministry_data_department_data_kpis_parent_id_kpi" text 
+  "data_ministry_data_department_data_kpis_code" text 
+  "data_ministry_data_department_data_kpis_kpi_no" text 
+  "data_ministry_data_department_data_kpis_name" text 
+  "data_ministry_data_department_data_kpis_type" text 
+  "data_ministry_data_department_data_kpis_description" text 
+  "data_ministry_data_department_data_kpis_weight" text 
+  "data_ministry_data_department_data_kpis_score" text 
+  "data_ministry_data_department_data_kpis_target_type" text 
+  "data_ministry_data_department_data_kpis_assessment_id" text 
+  "data_ministry_data_department_data_kpis_assessment_kpi_id" text 
+  "data_ministry_data_department_data_kpis_assessment_failed_reaso" text 
+  "data_ministry_data_department_data_kpis_assessment_explanation" text 
+  "data_ministry_data_department_data_kpis_assessment_trouble" text 
+  "data_ministry_data_department_data_kpis_assessment_remarks" text 
+  "data_ministry_data_department_data_kpis_composition" text 
+  "data_ministry_data_department_data_kpis_target" text 
+  "data_ministry_data_department_data_kpis_connect_national_strate" text 
+  "data_ministry_data_department_data_kpis_assessment_details" text 
+  "data_ministry_data_department_data_kpis_assessment" text 
+ }
+
+Table "kpi-policy-v3" {
+  Note: 'hdfs_kpi-policy-v3'
+  "id" text 
+  "parent_id" text 
+  "code" text 
+  "kpi_no" text 
+  "name" text 
+  "type" text 
+  "description" text 
+  "weight" text 
+  "policies_policy_id" text 
+  "policies_label" text 
+ }
+
+Table "kpi-target-v3" {
+  Note: 'hdfs_kpi-target-v3'
+  "id" text 
+  "parent_id" text 
+  "code" text 
+  "kpi_no" text 
+  "name" text 
+  "type" text 
+  "description" text 
+  "weight" text 
+  "target" text 
+  "target_id" text 
+  "target_kpi_id" text 
+  "target_type" text 
+  "target_assessment_flag" text 
+  "target_evaluation_flag" text 
+  "target_appeal_flag" text 
+  "target_appeal_reason" text 
+  "target_details_id" text 
+  "target_details_target_id" text 
+  "target_details_type" text 
+  "target_details_sub_type" text 
+  "target_details_quantity_method" text 
+  "target_details_quantity_collect" text 
+  "target_details_description" text 
+  "target_details_measurement_value" text 
+  "target_details_digit_decimal" text 
+  "target_details_boolean_value" text 
+  "target_details_boolean_unit" text 
+  "target_details_order" text 
+  "target_details_prorate" text 
+  "target_details_note" text 
+  "target_details_descriptions" text 
+ }
+
+Table "kpi-v3" {
+  Note: 'hdfs_kpi-v3'
+  "id" text 
+  "parent_id" text 
+  "code" text 
+  "kpi_no" text 
+  "name" text 
+  "type" text 
+  "description" text 
+  "weight" text 
+ }
+
+
+Ref: "organizations-v3".id < "kpi-organization-score-v3".org_id
+Ref: "cycles-v3".id < "kpi-organization-score-v3".cycle_id
+
+
+Ref: "cycles-v3"."id" < "kpi-organization-v3"."cycle_id"

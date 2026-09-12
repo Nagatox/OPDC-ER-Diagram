@@ -1,0 +1,279 @@
+// ภาษีไปไหน
+// gov_spending
+// version 5
+
+Table "bb-agc-v2" {
+  Note: 'hdfs_bb-agc-v2'
+  "year" text 
+  "agc_code" text 
+  "agc_name" text 
+  "data_year" text 
+ }
+
+Table "bb-group-by-aspect-v2" {
+  Note: 'hdfs_bb-group-by-aspect-v2'
+  "name" text 
+  "name_en" text 
+  "amount" text 
+  "data_year" text 
+ }
+
+Table "bb-ministry-v2" {
+  Note: 'hdfs_bb-ministry-v2'
+  "year" text 
+  "min_code" text 
+  "min_name" text 
+  "data_year" text 
+ }
+
+Table "bb-province-v2" {
+  Note: 'hdfs_bb-province-v2'
+  "prov_code" text 
+  "prov_id" text 
+  "prov_name" text 
+  "prov_name_en" text 
+  "gf_prov_code" text 
+  "gf_prov_name" text 
+  "gf_prov_name_en" text 
+ }
+
+Table "bb-stg-v2" {
+  Note: 'hdfs_bb-stg-v2'
+  "year" text 
+  "min_code" text 
+  "min_name" text 
+  "agc_code" text 
+  "agc_name" text 
+  "amount" text 
+  "stg_name" text 
+  "percent" text 
+  "data_year" text 
+ }
+
+Table "bb-transaction-type-v2" {
+  Note: 'hdfs_bb-transaction-type-v2'
+  "year" text 
+  "min_code" text 
+  "min_name" text 
+  "agc_code" text 
+  "agc_name" text 
+  "items" text 
+  "total" text 
+  "data_year" text 
+ }
+
+Table "cost-contract-v2" {
+  Note: 'hdfs_cost-contract-v2'
+  "cost_id" text 
+  "project_id" text 
+  "project_name" text 
+  "status" text 
+  "stg_budget_name" text 
+  "stg_other_name" text 
+  "budget_money" text 
+  "off_budget_money" text 
+  "objective" text 
+  "detail" text 
+  "bidder" text 
+  "contract" text 
+  "data_year" text 
+ }
+
+Table "dla-allocate-income-v2" {
+  Note: 'hdfs_dla-allocate-income-v2'
+  "prov_name" text 
+  "amp_name" text 
+  "dla_type_name" text 
+  "dla_name" text 
+  "year" text 
+  "sum_amount" text 
+  "items" text 
+  "data_year" text 
+ }
+
+Table "dla-income-v2" {
+  Note: 'hdfs_dla-income-v2'
+  "year" text 
+  "dla_type_id" text 
+  "dla_type_name" text 
+  "dla_name" text 
+  "amp_id" text 
+  "amp_name" text 
+  "amp_name_en" text 
+  "prov_id" text 
+  "prov_name" text 
+  "prov_name_en" text 
+  "population_count" text 
+  "area" text 
+  "allocate_income" text 
+  "self_income" text 
+  "subsidy_income" text 
+  "total_income" text 
+  "data_year" text 
+ }
+
+Table "dla-self-income-v2" {
+  Note: 'hdfs_dla-self-income-v2'
+  "prov_name" text 
+  "amp_name" text 
+  "dla_type_name" text 
+  "dla_name" text 
+  "year" text 
+  "sum_amount" text 
+  "items" text 
+  "data_year" text 
+ }
+
+Table "dla-subsidy-income-v2" {
+  Note: 'hdfs_dla-subsidy-income-v2'
+  "prov_name" text 
+  "amp_name" text 
+  "dla_type_name" text 
+  "dla_name" text 
+  "year" text 
+  "sum_amount" text 
+  "items" text 
+  "data_year" text 
+ }
+
+Table "dla-type-v2" {
+  Note: 'hdfs_dla-type-v2'
+  "id" text 
+  "name" text 
+ }
+
+Table "egp-contract-submit-v2" {
+  Note: 'hdfs_egp-contract-submit-v2'
+  "seq_no" text 
+  "seq_no_desc" text 
+  "bidder" text 
+  "data_year" text 
+ }
+
+Table "egp-contract-v2" {
+  Note: 'hdfs_egp-contract-v2'
+  "project_id" text 
+  "project_name" text 
+  "project_type_name" text 
+  "dept_name" text 
+  "dept_sub_name" text 
+  "purchase_method_group_name" text 
+  "purchase_method_name" text 
+  "announce_date" text 
+  "project_money" text 
+  "price_build" text 
+  "sum_price_agree" text 
+  "year" text 
+  "transaction_date" text 
+  "province" text 
+  "district" text 
+  "subdistrict" text 
+  "project_status" text 
+  "project_location" text 
+  "geom" text 
+  "contract" text 
+  "data_year" text 
+ }
+
+Table "egp-dept-v2" {
+  Note: 'hdfs_egp-dept-v2'
+  "dept_name" text 
+  "org_unit_name" text 
+  "dept_code" text 
+ }
+
+Table "egp-subdept-v2" {
+  Note: 'hdfs_egp-subdept-v2'
+  "dept_code" text 
+  "dept_name" text 
+  "sub_dept_code" text 
+  "sub_dept_name" text 
+  "sub_dept_address" text 
+  "moi" text 
+  "prov_name" text 
+ }
+
+Table "egp-summarycontract-v2" {
+  Note: 'hdfs_egp-summarycontract-v2'
+  "total_project" text 
+  "total_price" text 
+  "data_year" text 
+ }
+
+Table "egp-winner-v2" {
+  Note: 'hdfs_egp-winner-v2'
+  "winner_tin" text 
+  "winner" text 
+ }
+
+Table "gf-per-month-v2" {
+  Note: 'hdfs_gf-per-month-v2'
+  "year" text 
+  "month" text 
+  "min_code" text 
+  "min_name" text 
+  "agc_code" text 
+  "agc_name" text 
+  "amount" text 
+  "data_year" text 
+ }
+
+Table "gf-stg-v2" {
+  Note: 'hdfs_gf-stg-v2'
+  "year" text 
+  "min_code" text 
+  "min_name" text 
+  "agc_code" text 
+  "agc_name" text 
+  "amount" text 
+  "stg_name" text 
+  "percent" text 
+  "data_year" text 
+ }
+
+Table "gf-summary-v2" {
+  Note: 'hdfs_gf-summary-v2'
+  "year" text 
+  "min_code" text 
+  "min_name" text 
+  "agc_code" text 
+  "agc_name" text 
+  "total_bb" text 
+  "total_gf" text 
+  "percent" text 
+  "data_year" text 
+ }
+
+Table "gf-transaction-type-v2" {
+  Note: 'hdfs_gf-transaction-type-v2'
+  "year" text 
+  "min_code" text 
+  "min_name" text 
+  "agc_code" text 
+  "agc_name" text 
+  "items" text 
+  "total" text 
+  "data_year" text 
+ }
+
+
+Ref: "bb-ministry-v2"."min_code" < "bb-stg-v2"."min_code" 
+Ref: "bb-ministry-v2"."min_code" < "bb-transaction-type-v2"."min_code" 
+Ref: "bb-ministry-v2"."min_code" < "gf-per-month-v2"."min_code" 
+Ref: "bb-ministry-v2"."min_code" < "gf-stg-v2"."min_code" 
+Ref: "bb-ministry-v2"."min_code" < "gf-summary-v2"."min_code" 
+Ref: "bb-ministry-v2"."min_code" < "gf-transaction-type-v2"."min_code" 
+
+Ref: "bb-agc-v2"."agc_code" < "bb-stg-v2"."agc_code" 
+Ref: "bb-agc-v2"."agc_code" < "bb-transaction-type-v2"."agc_code" 
+Ref: "bb-agc-v2"."agc_code" < "gf-stg-v2"."agc_code" 
+Ref: "bb-agc-v2"."agc_code" < "gf-per-month-v2"."agc_code"
+Ref: "bb-agc-v2"."agc_code" < "gf-summary-v2"."agc_code"
+Ref: "bb-agc-v2"."agc_code" < "gf-transaction-type-v2"."agc_code"
+
+Ref: "egp-dept-v2".dept_code <  "egp-subdept-v2".dept_code
+
+Ref: "bb-province-v2"."prov_id" < "dla-income-v2"."prov_id" 
+
+Ref: "dla-type-v2"."id" < "dla-income-v2"."dla_type_id" 
+

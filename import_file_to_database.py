@@ -108,14 +108,14 @@ if __name__ == "__main__":
 
     # 2. เรียกใช้งานฟังก์ชัน (ใส่พาธไฟล์ และ ชื่อตารางที่อยากได้ใน DB)
     #target_dir = "/media/nagato/NAS-SHARED-2/OPDC_2569/data/"
-    target_dir = "/media/nagato/NAS-SHARED-2/OPDC_2569/data/data-20260831/"
+    target_dir = "/media/nagato/NAS-SHARED-2/OPDC_2569/data_manual/"
 
     target_path = Path(target_dir)
 
     for path in target_path.iterdir():
-        #print(f"[Folder] {path} {path.name} {path.is_dir()}")
+        print(f"[Folder] {path} {path.name} {path.is_dir()}")
         if path.is_dir():
-            #print(f"[Folder] {path} {path.name}")
+            print(f"[Folder] {path} {path.name}")
             #new_sheet = spreadsheet.add_worksheet(title='HDFS_' + path.name, rows=1000, cols=20)
             row_no = 1
             for root, dirs, files in os.walk(path):

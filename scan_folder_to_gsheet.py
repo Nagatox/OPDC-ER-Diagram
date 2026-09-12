@@ -11,9 +11,9 @@ from google_sheet import getUpdateRowNumber
 from database import connection_string, is_Table_in_public
 
 if __name__ == "__main__":
-    worksheet, spreadsheet = openGSheet(filename="OPDC-Database", worksheet_number=6)
+    worksheet, spreadsheet = openGSheet(filename="OPDC-Database", worksheet_number=7)
 
-    target_dir = "/media/nagato/NAS-SHARED-2/OPDC_2569/data/data-20260831/"
+    target_dir = "/media/nagato/NAS-SHARED-2/OPDC_2569/data/ckan-link/"
 
     target_path = Path(target_dir)
 

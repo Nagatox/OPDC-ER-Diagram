@@ -87,7 +87,7 @@ def scan_similar(worksheet, group_name):
                 tablename1 = row['id']
                 tablename2 = row2['id']
                 no = str(row['No'])
-                print (f"{row_no} {tablename1} {row2_no} {tablename2} ", end="")
+                print (f"{no} {row_no} {tablename1} {row2_no} {tablename2} ", end="")
 
                 if is_Table_in_public(tablename1) and is_Table_in_public(tablename2):
                     query1 = f'SELECT * FROM PUBLIC."{tablename1}" LIMIT 10000'
@@ -213,10 +213,10 @@ if __name__ == "__main__":
     worksheet, spreadsheet = openGSheet(filename="OPDC-Database", worksheet_number=5)
     #scan_primary_key (worksheet, 'psf')
 
-    fill_column_tosheet (worksheet, 'fs')
+    fill_column_tosheet (worksheet, 'digi2')
 
-    scan_similar(worksheet, 'fs')
-    process_group(worksheet, 'fs')
+    #scan_similar(worksheet, 'digi2')
+    #process_group(worksheet, 'digi2')
 
     #column_list, data_type_list = get_column_list('3841669f-8398-4e92-b485-0293a9930ecc')
     #print("รายชื่อ column ใน List:", column_list)

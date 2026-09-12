@@ -1,5 +1,39 @@
-Table "hdfs_inno_001" {
-  Note: 'inno_001'
+// Info/Biz Portal/Citizen Portal
+// dga
+// version 5
+
+Table "biz_002" {
+  Note: 'hdfs_biz_002'
+  "ลำดับ" text 
+  "ชื่องานบริการ" text 
+  "ชื่อกระบวนงานรายกรณี" text 
+  "รายชื่อหน่วยงาน" text 
+  "เป็น_fully_digital" text 
+  "ปีที่เปิดให้บริการ" text 
+  "เปิดให้บริการครอบคลุม" text 
+ }
+
+Table "digi_005" {
+  Note: 'hdfs_digi_005'
+  "date" text 
+  "จำนวน_miniapps" text 
+  "จำนวนบริการ" text 
+  "จำนวนหน่วยงานที่ให้บร" text 
+  "user_สะสม" text 
+  "downloadsapps_สะสม" text 
+  "total_transaction" text 
+ }
+
+Table "digi_007" {
+  Note: 'hdfs_digi_007'
+  "ลำดับ" text 
+  "ชื่องานบริการ" text 
+  "รายชื่อหน่วยงาน" text 
+  "ปีที่เปิดให้บริการ" text 
+ }
+
+Table "inno_001" {
+  Note: 'hdfs_inno_001'
   "id" text 
   "สถานะ" text 
   "กระทรวง" text 
@@ -16,8 +50,8 @@ Table "hdfs_inno_001" {
   "แก้ไขล่าสุด" text 
  }
 
-Table "hdfs_inno_002" {
-  Note: 'inno_002'
+Table "inno_002" {
+  Note: 'hdfs_inno_002'
   "id" text 
   "กระทรวง" text 
   "หน่วยงาน" text 
@@ -30,8 +64,8 @@ Table "hdfs_inno_002" {
   "หน่วยของเวลา" text 
  }
 
-Table "hdfs_inno_003" {
-  Note: 'inno_003'
+Table "inno_003" {
+  Note: 'hdfs_inno_003'
   "กระทรวง" text 
   "หน่วยงาน" text 
   "procedure_id" text 
@@ -43,8 +77,8 @@ Table "hdfs_inno_003" {
   "หมายเหตุ" text 
  }
 
-Table "hdfs_inno_005" {
-  Note: 'inno_005'
+Table "inno_005" {
+  Note: 'hdfs_inno_005'
   "ปีงบประมาณ" text 
   "กระทรวง" text 
   "หน่วยงาน" text 
@@ -53,12 +87,30 @@ Table "hdfs_inno_005" {
   "จำนวนคำขอที่อนุมัติ" text 
  }
 
-Ref: "hdfs_inno_001"."กระทรวง" > "hdfs_inno_002"."กระทรวง" 
-Ref: "hdfs_inno_001"."หน่วยงาน" > "hdfs_inno_002"."หน่วยงาน" 
-Ref: "hdfs_inno_001"."กระทรวง" > "hdfs_inno_003"."กระทรวง" 
-Ref: "hdfs_inno_001"."กระทรวง" > "hdfs_inno_005"."กระทรวง" 
-Ref: "hdfs_inno_001"."หน่วยงาน" > "hdfs_inno_005"."หน่วยงาน" 
-Ref: "hdfs_inno_001"."กระบวนงาน" > "hdfs_inno_005"."กระบวนงาน"  
+Table "biz_001" {
+  Note: 'hdfs_biz_001'
+  "ปีงบประมาณ_พ.ศ." text 
+  "ชื่อหน่วยงาน" text 
+  "ชื่องานบริการ" text 
+  "จำนวนคำขอ" text 
+  "จำนวนคำขอ_นิติบุคคล" text 
+  "จำนวนคำขอ_บุคคลธรรมดา" text 
+  "จำนวนคำขอ__บุคคลธรรมดา" text 
+  "จำนวนผู้ใช้งาน" text 
+ }
 
-Ref: "hdfs_inno_002"."procedure_id" > "hdfs_inno_005"."procedure_id"  
+Ref: "digi_007"."ลำดับ" > "biz_002"."ลำดับ"  
+
+Ref: "inno_001"."หน่วยงาน" > "biz_002"."รายชื่อหน่วยงาน" 
+Ref: "inno_001"."กระทรวง" > "inno_002"."กระทรวง" 
+Ref: "inno_001"."หน่วยงาน" > "inno_002"."หน่วยงาน" 
+Ref: "inno_001"."กระทรวง" > "inno_003"."กระทรวง" 
+Ref: "inno_001"."หน่วยงาน" > "inno_003"."หน่วยงาน" 
+Ref: "inno_001"."กระทรวง" > "inno_005"."กระทรวง" 
+Ref: "inno_001"."หน่วยงาน" > "inno_005"."หน่วยงาน" 
+Ref: "inno_001"."กระบวนงาน" > "inno_005"."กระบวนงาน"  
+
+Ref: "inno_002"."procedure_id" > "inno_005"."procedure_id"  
+
+Ref: "biz_001"."ชื่อหน่วยงาน" > "biz_002"."รายชื่อหน่วยงาน"  
 

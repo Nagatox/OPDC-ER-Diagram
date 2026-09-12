@@ -239,25 +239,6 @@ Table "sp_tree_Security_Plan_v2" {
   "_checkenabled_3" text 
  }
 
-Table "security_plan_Security_Plan_v2" {
-  Note: 'hdfs_security_plan_Security_Plan_v2'
-  "name_1" text 
-  "id_1" text 
-  "localid_1" integer 
-  "depth_1" integer 
-  "name_2" text 
-  "id_2" text 
-  "parentid_2" text 
-  "localid_2" integer 
-  "depth_2" integer 
-  "name_3" text 
-  "id_3" text 
-  "parentid_3" text 
-  "localid_3" integer 
-  "depth_3" integer 
-  "_checkenabled_3" text 
- }
-
 Table "np_National_Plan_12" {
   Note: 'hdfs_np_National_Plan_12'
   "name_1" text 
@@ -358,4 +339,5 @@ Table "ns_National_Strategy" {
   "parentid_5" text 
   "shape_5" text 
  }
+
 

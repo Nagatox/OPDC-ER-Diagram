@@ -36,7 +36,7 @@ df_all_values = ""
 
 if __name__ == "__main__":
 
-    group_name = 'fs'
+    group_name = 'digi2'
 
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"Current Time: {current_time}")
